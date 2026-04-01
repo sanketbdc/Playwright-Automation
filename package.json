@@ -27,6 +27,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "nodemailer": "^8.0.4",
     "playwright-core": "^1.58.2",
     "undici-types": "^7.18.2",
     "winston": "^3.19.0"

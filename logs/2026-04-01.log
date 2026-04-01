@@ -1,0 +1,174 @@
+2026-04-01 17:54:52 [INFO] Test start: #1 Unregistered or wrong credentials: "testuser@example.com"
+2026-04-01 17:54:52 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:54:58 [INFO] Entering email: testuser@example.com
+2026-04-01 17:54:59 [INFO] Entering password: Password123!
+2026-04-01 17:54:59 [INFO] Clicking on login CTA
+2026-04-01 17:54:59 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:54:59 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:00 [INFO] Test start: #2 Invalid email format: "testgmailfd.com"
+2026-04-01 17:55:00 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:02 [INFO] Test start: #5 Unregistered or wrong credentials: "test@gmai"
+2026-04-01 17:55:02 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:03 [INFO] Entering email: testgmailfd.com
+2026-04-01 17:55:03 [INFO] Entering password: Password1@
+2026-04-01 17:55:04 [INFO] Clicking on login CTA
+2026-04-01 17:55:04 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:55:04 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:05 [INFO] Entering email: test@gmai
+2026-04-01 17:55:05 [INFO] Entering password: password
+2026-04-01 17:55:05 [INFO] Clicking on login CTA
+2026-04-01 17:55:06 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:55:06 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:06 [INFO] Test start: #3 Invalid password for valid email: "test@test.com"
+2026-04-01 17:55:06 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:06 [INFO] Test start: #6 Invalid email format: "123"
+2026-04-01 17:55:06 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:08 [INFO] Entering email: test@test.com
+2026-04-01 17:55:08 [INFO] Entering password: 123
+2026-04-01 17:55:08 [INFO] Clicking on login CTA
+2026-04-01 17:55:08 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:55:08 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:08 [INFO] Entering email: 123
+2026-04-01 17:55:08 [INFO] Entering password: Password@
+2026-04-01 17:55:09 [INFO] Clicking on login CTA
+2026-04-01 17:55:09 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:55:09 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:09 [INFO] Test start: #7 Unregistered or wrong credentials: "test.comgmail@"
+2026-04-01 17:55:09 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:09 [INFO] Test start: #4 Invalid email format: "@gmail.com"
+2026-04-01 17:55:09 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:11 [INFO] Entering email: test.comgmail@
+2026-04-01 17:55:11 [INFO] Entering email: @gmail.com
+2026-04-01 17:55:12 [INFO] Entering password: Password1@ '
+2026-04-01 17:55:12 [INFO] Entering password: Password1@
+2026-04-01 17:55:12 [INFO] Clicking on login CTA
+2026-04-01 17:55:12 [INFO] Clicking on login CTA
+2026-04-01 17:55:12 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:55:12 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:55:12 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:12 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:12 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-01.log
+2026-04-01 17:55:13 [INFO] Test start: #8 Invalid email format: "OR 1=1 --"
+2026-04-01 17:55:13 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:15 [INFO] Entering email: OR 1=1 --
+2026-04-01 17:55:15 [INFO] Entering password: Password1@
+2026-04-01 17:55:15 [INFO] Clicking on login CTA
+2026-04-01 17:55:15 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:55:15 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:16 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-01.log
+2026-04-01 17:55:28 [INFO] Test start: #1 Unregistered or wrong credentials: "testuser@example.com"
+2026-04-01 17:55:28 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:33 [INFO] Entering email: testuser@example.com
+2026-04-01 17:55:34 [INFO] Entering password: Password123!
+2026-04-01 17:55:34 [INFO] Clicking on login CTA
+2026-04-01 17:55:35 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:55:35 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:36 [INFO] Test start: #2 Invalid email format: "testgmailfd.com"
+2026-04-01 17:55:36 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:39 [INFO] Entering email: testgmailfd.com
+2026-04-01 17:55:40 [INFO] Entering password: Password1@
+2026-04-01 17:55:40 [INFO] Clicking on login CTA
+2026-04-01 17:55:40 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:55:40 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:41 [INFO] Test start: #3 Invalid password for valid email: "test@test.com"
+2026-04-01 17:55:41 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:44 [INFO] Entering email: test@test.com
+2026-04-01 17:55:44 [INFO] Entering password: 123
+2026-04-01 17:55:44 [INFO] Clicking on login CTA
+2026-04-01 17:55:44 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:55:44 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:45 [INFO] Test start: #4 Invalid email format: "@gmail.com"
+2026-04-01 17:55:45 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:48 [INFO] Entering email: @gmail.com
+2026-04-01 17:55:48 [INFO] Entering password: Password1@
+2026-04-01 17:55:48 [INFO] Clicking on login CTA
+2026-04-01 17:55:49 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:55:49 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:55:49 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-01.log
+2026-04-01 17:55:53 [INFO] Test start: #5 Unregistered or wrong credentials: "test@gmai"
+2026-04-01 17:55:53 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:55:57 [INFO] Entering email: test@gmai
+2026-04-01 17:55:58 [INFO] Entering password: password
+2026-04-01 17:55:58 [INFO] Clicking on login CTA
+2026-04-01 17:55:58 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:55:58 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:00 [INFO] Test start: #6 Invalid email format: "123"
+2026-04-01 17:56:00 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:01 [INFO] Entering email: 123
+2026-04-01 17:56:02 [INFO] Entering password: Password@
+2026-04-01 17:56:03 [INFO] Clicking on login CTA
+2026-04-01 17:56:03 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:56:03 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:04 [INFO] Test start: #7 Unregistered or wrong credentials: "test.comgmail@"
+2026-04-01 17:56:04 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:07 [INFO] Entering email: test.comgmail@
+2026-04-01 17:56:07 [INFO] Entering password: Password1@ '
+2026-04-01 17:56:07 [INFO] Clicking on login CTA
+2026-04-01 17:56:08 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:56:08 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:09 [INFO] Test start: #8 Invalid email format: "OR 1=1 --"
+2026-04-01 17:56:09 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:11 [INFO] Entering email: OR 1=1 --
+2026-04-01 17:56:12 [INFO] Entering password: Password1@
+2026-04-01 17:56:12 [INFO] Clicking on login CTA
+2026-04-01 17:56:12 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:56:12 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:12 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-01.log
+2026-04-01 17:56:19 [INFO] Test start: #5 Unregistered or wrong credentials: "test@gmai"
+2026-04-01 17:56:19 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:21 [INFO] Test start: #1 Unregistered or wrong credentials: "testuser@example.com"
+2026-04-01 17:56:21 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:22 [INFO] Entering email: test@gmai
+2026-04-01 17:56:23 [INFO] Entering password: password
+2026-04-01 17:56:23 [INFO] Clicking on login CTA
+2026-04-01 17:56:23 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:56:23 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:24 [INFO] Test start: #6 Invalid email format: "123"
+2026-04-01 17:56:24 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:25 [INFO] Entering email: testuser@example.com
+2026-04-01 17:56:26 [INFO] Entering password: Password123!
+2026-04-01 17:56:26 [INFO] Clicking on login CTA
+2026-04-01 17:56:27 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:56:27 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:28 [INFO] Test start: #2 Invalid email format: "testgmailfd.com"
+2026-04-01 17:56:28 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:28 [INFO] Entering email: 123
+2026-04-01 17:56:28 [INFO] Entering password: Password@
+2026-04-01 17:56:28 [INFO] Clicking on login CTA
+2026-04-01 17:56:29 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:56:29 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:29 [INFO] Test start: #7 Unregistered or wrong credentials: "test.comgmail@"
+2026-04-01 17:56:29 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:31 [INFO] Entering email: testgmailfd.com
+2026-04-01 17:56:32 [INFO] Entering password: Password1@
+2026-04-01 17:56:32 [INFO] Clicking on login CTA
+2026-04-01 17:56:32 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:56:32 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:33 [INFO] Test start: #3 Invalid password for valid email: "test@test.com"
+2026-04-01 17:56:33 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:33 [INFO] Entering email: test.comgmail@
+2026-04-01 17:56:33 [INFO] Entering password: Password1@ '
+2026-04-01 17:56:33 [INFO] Clicking on login CTA
+2026-04-01 17:56:34 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:56:34 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:35 [INFO] Test start: #8 Invalid email format: "OR 1=1 --"
+2026-04-01 17:56:35 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:36 [INFO] Entering email: test@test.com
+2026-04-01 17:56:36 [INFO] Entering password: 123
+2026-04-01 17:56:37 [INFO] Clicking on login CTA
+2026-04-01 17:56:37 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-01 17:56:37 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:38 [INFO] Test start: #4 Invalid email format: "@gmail.com"
+2026-04-01 17:56:38 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-01 17:56:38 [INFO] Entering email: OR 1=1 --
+2026-04-01 17:56:39 [INFO] Entering password: Password1@
+2026-04-01 17:56:39 [INFO] Clicking on login CTA
+2026-04-01 17:56:39 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:56:39 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:39 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-01.log
+2026-04-01 17:56:41 [INFO] Entering email: @gmail.com
+2026-04-01 17:56:41 [INFO] Entering password: Password1@
+2026-04-01 17:56:41 [INFO] Clicking on login CTA
+2026-04-01 17:56:42 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-01 17:56:42 [INFO] Test end: User is not logged in with invalid details
+2026-04-01 17:56:42 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-01.log

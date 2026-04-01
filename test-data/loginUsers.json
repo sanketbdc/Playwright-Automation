@@ -1,0 +1,38 @@
+[
+  {
+    "email": "sanketkumarghadmode@gmail.com",
+    "password": "Test@123"
+  },
+  {
+    "email": "testuser@example.com",
+    "password": "Password123!"
+  },
+  {
+    "email": "testgmailfd.com",
+    "password": "Password1@"
+  },
+  {
+    "email": "test@test.com",
+    "password": "123"
+  },
+  {
+    "email": "@gmail.com",
+    "password": "Password1@"
+  },
+  {
+    "email": "test@gmai",
+    "password": "password"
+  },
+  {
+    "email": "123",
+    "password": "Password@"
+  },
+  {
+    "email": "test.comgmail@",
+    "password": "Password1@ '"
+  },
+  {
+    "email": "OR 1=1 --",
+    "password": "Password1@"
+  }
+]

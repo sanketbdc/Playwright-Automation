@@ -1,0 +1,7 @@
+2026-03-27 15:22:50 [INFO] Test start: Unregistered or wrong credentials: "test@gmail.com"
+2026-03-27 15:22:50 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-03-27 15:22:52 [INFO] Entering email: test@gmail.com
+2026-03-27 15:22:53 [INFO] Entering password: password
+2026-03-27 15:22:54 [INFO] Clicking on login CTA
+2026-03-27 15:22:55 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-03-27 15:22:55 [INFO] Test end: User is not logged in with invalid details

@@ -1,0 +1,1207 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - link "Camlin logo" [ref=e6] [cursor=pointer]:
+          - /url: https://www.kokuyocamlin.com/camel/../camlin
+          - img "Camlin logo" [ref=e7]
+        - generic [ref=e9]:
+          - text: Create your gallery.
+          - link "Upload your artwork" [ref=e10] [cursor=pointer]:
+            - /url: https://www.kokuyocamlin.com/camel/upload-artwork
+            - paragraph [ref=e12]: Upload your artwork
+        - generic [ref=e13]:
+          - link "Find a store" [ref=e15] [cursor=pointer]:
+            - /url: /camel/store-locator/
+          - generic [ref=e18]:
+            - generic [ref=e19] [cursor=pointer]:
+              - img "Kokuyo Camlin" [ref=e20]
+              - img [ref=e21]
+            - generic:
+              - generic [ref=e23]:
+                - img "Kokuyo Camlin" [ref=e24]
+                - generic [ref=e25]:
+                  - paragraph [ref=e26]: Kumar
+                  - paragraph [ref=e27]: sanketkumarghadmode@gmail.com
+              - link "Kokuyo Camlin Your account" [ref=e28] [cursor=pointer]:
+                - /url: /camel/account/profile
+                - img "Kokuyo Camlin" [ref=e29]
+                - paragraph [ref=e30]: Your account
+              - link "Kokuyo Camlin Upload artwork" [ref=e31] [cursor=pointer]:
+                - /url: /camel/upload-artwork
+                - img "Kokuyo Camlin" [ref=e32]
+                - paragraph [ref=e33]: Upload artwork
+              - link "Kokuyo Camlin Log out" [ref=e34] [cursor=pointer]:
+                - /url: /camel/logout
+                - img "Kokuyo Camlin" [ref=e35]
+                - paragraph [ref=e36]: Log out
+      - generic [ref=e38]:
+        - link "Koyuko Camlin Website - Home Page" [ref=e826] [cursor=pointer]:
+          - /url: /camel/
+          - img [ref=e828]
+        - generic:
+          - generic [ref=e41] [cursor=pointer]:
+            - button "Paints" [ref=e42]:
+              - link "Paints" [ref=e43]:
+                - /url: paints
+            - generic:
+              - generic:
+                - link "Artist Gouache Colours" [ref=e44]:
+                  - /url: /camel/paints?section=artist-gouache-colours
+                - link "Artist Acrylic Colours" [ref=e45]:
+                  - /url: /camel/paints?section=artist-acrylic-colours
+                - link "Artist HD Acrylics" [ref=e46]:
+                  - /url: /camel/paints?section=artist-hd-acrylics
+                - link "Artist Water Colours" [ref=e47]:
+                  - /url: /camel/paints?section=artist-water-colours
+                - link "Artist Oil Colours" [ref=e48]:
+                  - /url: /camel/paints?section=artist-oil-colours
+                - link "Drawing Inks" [ref=e49]:
+                  - /url: /camel/paints?section=drawing-inks
+                - link "Transparent Photo Colours" [ref=e50]:
+                  - /url: /camel/paints?section=transparent-photo-colours
+                  - text: Transparent Photo
+                  - text: Colours
+              - generic:
+                - link "Student Oil Colours" [ref=e51]:
+                  - /url: /camel/paints?section=student-oil-colours
+                - link "Premium Poster Colours" [ref=e52]:
+                  - /url: /camel/paints?section=premium-poster-colours
+                - link "Art Powders" [ref=e53]:
+                  - /url: /camel/paints?section=art-powders
+                - link "Redimix Tempera Colours" [ref=e54]:
+                  - /url: /camel/paints?section=redimix-tempera-colours
+                - link "Acrylic Colours" [ref=e56]:
+                  - /url: /camel/paints?section=acrylic-colours
+                  - text: Acrylic Colours
+                  - img [ref=e57]
+            - img [ref=e59]
+          - generic [ref=e61] [cursor=pointer]:
+            - button "Drawing Materials" [ref=e62]:
+              - link "Drawing Materials" [ref=e63]:
+                - /url: drawing-materials
+            - generic:
+              - generic:
+                - link "Acrylic Markers" [ref=e64]:
+                  - /url: /camel/drawing-materials?section=acrylic-markers
+                - link "Fine Liner Pens" [ref=e65]:
+                  - /url: /camel/drawing-materials?section=fine-liner-pens
+                - link "Art Markers" [ref=e66]:
+                  - /url: /camel/drawing-materials?section=art-markers
+                - link "Artist Colour Pencils" [ref=e67]:
+                  - /url: /camel/drawing-materials?section=artist-colour-pencils
+                - link "Artist Soft Pastels" [ref=e68]:
+                  - /url: /camel/drawing-materials?section=artist-soft-pastels
+                - link "Artist Brush Pens" [ref=e69]:
+                  - /url: /camel/drawing-materials?section=artist-brush-pens
+                - link "Artist Oil Pastels" [ref=e70]:
+                  - /url: /camel/drawing-materials?section=artist-oil-pastels
+                - link "Sketch Books" [ref=e71]:
+                  - /url: /camel/drawing-materials?section=sketch-books
+              - generic:
+                - link "Drawing Pencils" [ref=e72]:
+                  - /url: /camel/drawing-materials?section=drawing-pencils
+                - link "Charcoals" [ref=e73]:
+                  - /url: /camel/drawing-materials?section=charcoals
+                - link "Drawing Inks" [ref=e74]:
+                  - /url: /camel/drawing-materials?section=drawing-inks
+            - img [ref=e75]
+          - generic [ref=e77] [cursor=pointer]:
+            - button "Mediums" [ref=e78]:
+              - link "Mediums" [ref=e79]:
+                - /url: mediums
+            - generic:
+              - generic:
+                - link "Acrylic Mediums" [ref=e80]:
+                  - /url: /camel/mediums?section=acrylic-mediums
+                - link "Oil Mediums" [ref=e81]:
+                  - /url: /camel/mediums?section=oil-mediums
+                - link "Dry Mediums" [ref=e82]:
+                  - /url: /camel/mediums?section=dry-mediums
+                - link "Hobby Mediums" [ref=e83]:
+                  - /url: /camel/mediums?section=hobby-mediums
+            - img [ref=e84]
+          - generic [ref=e86] [cursor=pointer]:
+            - button "Canvases" [ref=e87]:
+              - link "Canvases" [ref=e88]:
+                - /url: canvases
+            - generic:
+              - generic:
+                - link "Stretched Canvases" [ref=e89]:
+                  - /url: /camel/canvases?section=stretched-canvases
+                - link "Canvas Boards" [ref=e90]:
+                  - /url: /camel/canvases?section=canvas-boards
+                - link "Oil Sketching Papers" [ref=e91]:
+                  - /url: /camel/canvases?section=oil-sketching-papers
+                - link "Canvas Pads" [ref=e92]:
+                  - /url: /camel/canvases?section=canvas-pads
+                - link "Canvas Rolls" [ref=e93]:
+                  - /url: /camel/canvases?section=canvas-rolls
+            - img [ref=e94]
+          - generic [ref=e96] [cursor=pointer]:
+            - button "Brushes" [ref=e97]:
+              - link "Brushes" [ref=e98]:
+                - /url: brushes
+            - generic:
+              - generic:
+                - link "Artist Brushes" [ref=e99]:
+                  - /url: /camel/brushes?section=artist-brushes
+                - link "Synthetic Gold Brushes" [ref=e100]:
+                  - /url: /camel/brushes?section=synthetic-gold-brushes
+                - link "Specialty Brushes" [ref=e101]:
+                  - /url: /camel/brushes?section=specialty-brushes
+                - link "Champ Brushes" [ref=e102]:
+                  - /url: /camel/brushes?section=champ-brushes
+                - link "Champ Lite Brushes" [ref=e103]:
+                  - /url: brushes?section=champ-lite-brushes
+                - link "Artist Mop Brushes" [ref=e104]:
+                  - /url: /camel/brushes?section=artist-mop-brushes
+                - link "White Bristle Brushes" [ref=e105]:
+                  - /url: /camel/brushes?section=white-bristle-brushes
+                - link "Wash Brushes" [ref=e106]:
+                  - /url: /camel/brushes?section=wash-brushes
+              - generic:
+                - link "Interchangable Specialty Brush Set" [ref=e107]:
+                  - /url: /camel/brushes/hobby-brushes/speciality-brushes/assorted-pack-of-8-brushes
+                - link "Long Handle brushes" [ref=e108]:
+                  - /url: /camel/brushes/artist-brushes/assorted-packs/assorted-pack-of-10-brushes-round-series-70-flat-series-71-and-filbert-series-72
+            - img [ref=e109]
+          - generic [ref=e111] [cursor=pointer]:
+            - button "Painting Kits" [ref=e112]:
+              - link "Painting Kits" [ref=e113]:
+                - /url: painting-kits
+            - generic:
+              - generic:
+                - link "Art Safari kit" [ref=e114]:
+                  - /url: /camel/painting-kits?section=artsafarikit
+                - link "Art Studio Kit" [ref=e115]:
+                  - /url: /camel/painting-kits?section=artstudiokit
+                - link "Painting Kit" [ref=e116]:
+                  - /url: /camel/painting-kits?section=paintingkit
+                - link "Drawing Kit" [ref=e117]:
+                  - /url: /camel/painting-kits?section=drawingkit
+                - link "Art Kit" [ref=e118]:
+                  - /url: /camel/painting-kits?section=artkit
+                - link "Creative Kit" [ref=e119]:
+                  - /url: /camel/painting-kits?section=creativekit
+                - link "Writing Kit" [ref=e120]:
+                  - /url: /camel/painting-kits?section=writingkit
+                - link "Fluid Art Kit" [ref=e121]:
+                  - /url: /camel/painting-kits?section=fluidartkit
+                - link "Colouring Book Kit" [ref=e122]:
+                  - /url: /camel/painting-kits?section=colouringbookkit
+            - img [ref=e123]
+          - generic [ref=e125] [cursor=pointer]:
+            - button "Hobby" [ref=e126]:
+              - link "Hobby" [ref=e127]:
+                - /url: hobby
+            - generic:
+              - generic:
+                - link "Acrylic Colours" [ref=e128]:
+                  - /url: /camel/paints/acrylic-colours
+                - link "Glass Colours" [ref=e129]:
+                  - /url: /camel/hobby/glass-colours/assorted-packs
+                - link "Fluid Acrylic Colours Kits" [ref=e130]:
+                  - /url: /camel/painting-kits?section=fluidartkit
+                - link "DIY Colouring Kit for Grown Ups" [ref=e131]:
+                  - /url: /camel/painting-kits/colouring/kits/colouring
+                - link "Sparkle Colours" [ref=e132]:
+                  - /url: /camel/hobby/sparkle-colours/assorted-packs
+                - link "Specialty Brushes" [ref=e133]:
+                  - /url: /camel/brushes/hobby-brushes/speciality-brushes/assorted-pack-of-8-brushes
+                - link "Hobby Mediums" [ref=e134]:
+                  - /url: /camel/mediums?section=hobby-mediums
+              - link "Fabric Glue" [ref=e135]:
+                - /url: /camel/hobby/fabric-glue/individual/individual-bottle-of-50-ml
+            - img [ref=e136]
+          - generic [ref=e138] [cursor=pointer]:
+            - button "Kids" [ref=e139]:
+              - link "Kids" [ref=e140]:
+                - /url: kids
+            - generic:
+              - generic:
+                - link "ColorPad Watercolour Cake Set" [ref=e141]:
+                  - /url: /camel/kids/colorpad/assorted-packs
+                - link "Washable Colour Markers" [ref=e142]:
+                  - /url: /camel/kids/washable-colour-markers/assorted-packs/assorted-pack-of-12-shades-in-emerald-blue
+                - link "Oil Pastels" [ref=e143]:
+                  - /url: /camel/kids/oil-pastels/assorted-packs
+                - link "Sketch Pens" [ref=e144]:
+                  - /url: /camel/kids/sketch-pens/assorted-packs
+                - link "Poster Colours" [ref=e145]:
+                  - /url: /camel/kids/poster-colours/assorted-packs
+              - generic:
+                - link "Colour Pencils" [ref=e147]:
+                  - /url: /camel/kids/colour-pencils/assorted-packs
+                  - text: Colour Pencils
+                  - img [ref=e148]
+                - link "Water Colours" [ref=e151]:
+                  - /url: /camel/kids/water-colours/assorted-packs
+                  - text: Water Colours
+                  - img [ref=e152]
+                - link "Drawing Books" [ref=e154]:
+                  - /url: /camel/kids/drawing-books/assorted-packs/small/pack-of-12-drawing-books-32-pages
+                - link "Crayons" [ref=e156]:
+                  - /url: /camel/kids/crayons/assorted-packs
+                  - text: Crayons
+                  - img [ref=e157]
+                - link "Brush Pens" [ref=e159]:
+                  - /url: /camel/kids/brush-pens/assorted-packs
+            - img [ref=e160]
+          - generic [ref=e162] [cursor=pointer]:
+            - button "Techniques" [ref=e163]:
+              - link "Techniques" [ref=e164]:
+                - /url: techniques
+            - generic:
+              - generic:
+                - link "All mediums" [ref=e165]:
+                  - /url: /camel/techniques
+                - link "Acrylic Painting Tips" [ref=e166]:
+                  - /url: /camel/techniques?short=acrylic-colours
+                - link "Water Colours Tips" [ref=e167]:
+                  - /url: /camel/techniques?short=water-colours
+                - link "Oil Painting Tips" [ref=e168]:
+                  - /url: /camel/techniques?short=oil-colours
+                - link "Poster Colours Tips" [ref=e169]:
+                  - /url: /camel/techniques?short=poster-colours
+                - link "Charcoal Sketching Tips" [ref=e170]:
+                  - /url: /camel/techniques?short=charcoals
+                - link "Soft Pastels Tips" [ref=e171]:
+                  - /url: /camel/techniques?short=soft-pastels
+                - link "Drawing Pencils Tips" [ref=e172]:
+                  - /url: /camel/techniques?short=drawing-pencils
+              - generic:
+                - link "Ink Painting Tips" [ref=e173]:
+                  - /url: /camel/techniques?short=inks
+                - link "Others" [ref=e174]:
+                  - /url: /camel/techniques?short=others
+            - img [ref=e175]
+          - generic [ref=e177] [cursor=pointer]:
+            - button "Community" [ref=e178]:
+              - link "Community" [ref=e179]:
+                - /url: signup-artist-community
+            - generic [ref=e180]:
+              - link "Artist Gallery" [ref=e181]:
+                - /url: https://www.kokuyocamlin.com/camel/artist-gallery
+              - link "Art Workshops" [ref=e182]:
+                - /url: https://www.kokuyocamlin.com/camel/art-workshop
+              - link "Art Contests" [ref=e183]:
+                - /url: https://www.kokuyocamlin.com/camel/art-contests
+            - img [ref=e184]
+        - link [ref=e188] [cursor=pointer]:
+          - /url: /camel/global_search
+          - img [ref=e189]
+  - generic [ref=e190]:
+    - main [ref=e191]:
+      - generic [ref=e192]:
+        - generic [ref=e193]:
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - heading "Assorted Art Marker Sets" [level=4] [ref=e197]:
+                - generic [ref=e867]: Assorted
+                - generic [ref=e869]: Art
+                - generic [ref=e871]: Marker
+                - generic [ref=e873]: Sets
+              - heading "Curated colour ranges to blend & shade" [level=5] [ref=e198]:
+                - generic [ref=e875]: Curated
+                - generic [ref=e877]: colour
+                - generic [ref=e879]: ranges
+                - generic [ref=e881]: to
+                - generic [ref=e883]: blend
+                - generic [ref=e885]: "&"
+                - generic [ref=e887]: shade
+              - link "Shop now" [ref=e200] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/track?log_data=log->CTA->Home Page Banner Clicked-Assorted Art Marker Sets&url=https://www.kokuyocamlin.com/camel/drawing-materials?section=art-markers
+                - paragraph [ref=e201]: Shop now
+            - img "Kokuyo Camlin Website" [ref=e204]
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - heading "HD Colour Pencils" [level=4] [ref=e208]:
+                - generic [ref=e889]: HD
+                - generic [ref=e891]: Colour
+                - generic [ref=e893]: Pencils
+              - heading "Turn every colouring moment into bright, happy ones" [level=5] [ref=e209]:
+                - generic [ref=e895]: Turn
+                - generic [ref=e897]: every
+                - generic [ref=e899]: colouring
+                - generic [ref=e901]: moment
+                - generic [ref=e903]: into
+                - generic [ref=e905]: bright,
+                - generic [ref=e907]: happy
+                - generic [ref=e909]: ones
+              - link "Shop now" [ref=e211] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/colour-pencils/assorted-packs?variant=hd-colour-pencils
+                - paragraph [ref=e212]: Shop now
+            - img "Kokuyo Camlin Website" [ref=e215]
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - heading "Camel Acrylic Markers" [level=4] [ref=e219]:
+                - generic [ref=e911]: Camel
+                - generic [ref=e913]: Acrylic
+                - generic [ref=e915]: Markers
+              - heading "Every surface is your canvas!" [level=5] [ref=e220]:
+                - generic [ref=e917]: Every
+                - generic [ref=e919]: surface
+                - generic [ref=e921]: is
+                - generic [ref=e923]: your
+                - generic [ref=e925]: canvas!
+              - link "Shop now" [ref=e222] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/track?log_data=log->CTA->Home Page Banner Clicked-Camel Acrylic markers&url=https://www.kokuyocamlin.com/camel/drawing-materials/acrylic-markers/assorted-pack/assorted-pack-of-12-shades
+                - paragraph [ref=e223]: Shop now
+            - img "Koyuko Camlin Website" [ref=e226]
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - heading "Camel Art Safari Kit" [level=4] [ref=e230]:
+                - generic [ref=e927]: Camel
+                - generic [ref=e929]: Art
+                - generic [ref=e931]: Safari
+                - generic [ref=e933]: Kit
+              - heading "An art adventure made for kids" [level=5] [ref=e231]:
+                - generic [ref=e935]: An
+                - generic [ref=e937]: art
+                - generic [ref=e939]: adventure
+                - generic [ref=e941]: made
+                - generic [ref=e943]: for
+                - generic [ref=e945]: kids
+              - link "Shop now" [ref=e233] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/track?log_data=log->CTA->Home Page Banner Clicked-Camel Art Safari Kit&url=https://www.kokuyocamlin.com/camel/painting-kits/camel-art-safari-kit/kits/camel-art-safari-kit
+                - paragraph [ref=e234]: Shop now
+            - img "Koyuko Camlin Website" [ref=e237]
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - heading "Champ Lite Brushes" [level=4] [ref=e241]:
+                - generic [ref=e947]: Champ
+                - generic [ref=e949]: Lite
+                - generic [ref=e951]: Brushes
+              - heading "Made for little ones with big imaginations" [level=5] [ref=e242]:
+                - generic [ref=e953]: Made
+                - generic [ref=e955]: for
+                - generic [ref=e957]: little
+                - generic [ref=e959]: ones
+                - generic [ref=e961]: with
+                - generic [ref=e963]: big
+                - generic [ref=e965]: imaginations
+              - link "Shop now" [ref=e244] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/track?log_data=log->CTA->Home Page Banner Clicked-Champ Lite Brushes&url=https://www.kokuyocamlin.com/camel/brushes?section=champ-lite-brushes
+                - paragraph [ref=e245]: Shop now
+            - img "Kokuyo Camlin Website" [ref=e248]
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - heading "Unity in art, connection in colour" [level=1] [ref=e252]:
+                - generic [ref=e967]: Unity
+                - generic [ref=e969]: in
+                - generic [ref=e971]: art,
+                - generic [ref=e973]: connection
+                - generic [ref=e975]: in
+                - generic [ref=e977]: colour
+              - link "Meet Artists" [ref=e254] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/artist-gallery
+                - paragraph [ref=e255]: Meet Artists
+            - img "Koyuko Camlin Website" [ref=e258]
+        - generic:
+          - img [ref=e260] [cursor=pointer]
+          - img [ref=e264] [cursor=pointer]
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - img "Kokuyo Camlin Website" [ref=e272]
+            - img "Camel Acrylic Markers" [ref=e273]
+          - generic [ref=e274]:
+            - heading "Camel Acrylic Markers" [level=2] [ref=e275]:
+              - generic [ref=e986]: Camel
+              - generic [ref=e988]: Acrylic
+              - generic [ref=e990]: Markers
+            - link "Explore more" [ref=e276] [cursor=pointer]:
+              - /url: drawing-materials/acrylic-markers/assorted-pack/assorted-pack-of-12-shades
+              - paragraph [ref=e277]: Explore more
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - img "Kokuyo Camlin Website" [ref=e281]
+            - img "Connect, Create & Grow Together" [ref=e282]
+          - generic [ref=e283]:
+            - heading "Connect, Create & Grow Together" [level=2] [ref=e284]:
+              - generic [ref=e992]: Connect,
+              - generic [ref=e994]: Create
+              - generic [ref=e996]: "&"
+              - generic [ref=e998]: Grow
+              - generic [ref=e1000]: Together
+            - link "Know more" [ref=e285] [cursor=pointer]:
+              - /url: signup-artist-community/
+              - paragraph [ref=e286]: Know more
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - heading "Featured Artist" [level=3] [ref=e293]:
+            - text: Featured
+            - text: Artist
+          - paragraph [ref=e294]: March 2026
+        - generic [ref=e295]:
+          - generic [ref=e296]:
+            - link "camel featured artist Sucheta Dhawan Mixed Media Artist" [ref=e297] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/artist/sucheta-dhawan/8213
+              - img "camel featured artist" [ref=e299]
+              - generic [ref=e300]:
+                - heading "Sucheta Dhawan" [level=4] [ref=e301]
+                - paragraph [ref=e302]: Mixed Media Artist
+            - link "View profile" [ref=e303] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/artist/sucheta-dhawan/8213
+              - paragraph [ref=e304]: View profile
+          - generic [ref=e305]:
+            - link [ref=e306] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/artist-artwork/7789
+            - link [ref=e308] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/artist-artwork/2771
+            - link [ref=e310] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/artist-artwork/2730
+      - generic [ref=e313]:
+        - generic [ref=e1001]:
+          - img
+        - img "Transparent Photo Colours" [ref=e315]
+        - heading "Find your perfect Camel all-in-one kit" [level=1] [ref=e317]:
+          - generic [ref=e1003]: Find
+          - generic [ref=e1005]: your
+          - generic [ref=e1007]: perfect
+          - generic [ref=e1009]: Camel
+          - generic [ref=e1011]: all-in-one
+          - generic [ref=e1013]: kit
+        - heading "Enjoy hours of fun-filled colouring" [level=2] [ref=e318]:
+          - generic [ref=e1015]: Enjoy
+          - generic [ref=e1017]: hours
+          - generic [ref=e1019]: of
+          - generic [ref=e1021]: fun-filled
+          - generic [ref=e1023]: colouring
+        - link "Shop" [ref=e319] [cursor=pointer]:
+          - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=artsafarikit
+          - paragraph [ref=e320]: Shop
+          - img [ref=e322]
+        - paragraph [ref=e324]:
+          - generic [ref=e325]: 60+
+          - generic [ref=e326]: creative essentials
+      - generic [ref=e328]:
+        - link "#ProductGuide How to Choose the Right Canvas for Your Painting? 4-mins read" [ref=e329] [cursor=pointer]:
+          - /url: https://www.kokuyocamlin.com/camel/techniques/product-guides/how-to-choose-the-right-canvas-for-your-painting?
+          - paragraph [ref=e332]:
+            - generic [ref=e1025]: "#ProductGuide"
+          - heading "How to Choose the Right Canvas for Your Painting?" [level=1] [ref=e333]:
+            - generic [ref=e1027]: How
+            - generic [ref=e1029]: to
+            - generic [ref=e1031]: Choose
+            - generic [ref=e1033]: the
+            - generic [ref=e1035]: Right
+            - generic [ref=e1037]: Canvas
+            - generic [ref=e1039]: for
+            - generic [ref=e1041]: Your
+            - generic [ref=e1043]: Painting?
+          - paragraph [ref=e335]:
+            - generic [ref=e1045]: 4-mins
+            - generic [ref=e1047]: read
+          - img [ref=e337]
+        - 'link "#ProTips Acrylic Painting Made Easy: Best Techniques for Beginners Using Camel Colours 5-mins read" [ref=e339] [cursor=pointer]':
+          - /url: https://www.kokuyocamlin.com/camel/techniques/pro-tips/acrylic-painting-made-easy-best-techniques-for-beginners-using-camel-colours
+          - paragraph [ref=e341]:
+            - generic [ref=e1049]: "#ProTips"
+          - 'heading "Acrylic Painting Made Easy: Best Techniques for Beginners Using Camel Colours" [level=1] [ref=e342]':
+            - generic [ref=e1051]: Acrylic
+            - generic [ref=e1053]: Painting
+            - generic [ref=e1055]: Made
+            - generic [ref=e1057]: "Easy:"
+            - generic [ref=e1059]: Best
+            - generic [ref=e1061]: Techniques
+            - generic [ref=e1063]: for
+            - generic [ref=e1065]: Beginners
+            - generic [ref=e1067]: Using
+            - generic [ref=e1069]: Camel
+            - generic [ref=e1071]: Colours
+          - paragraph [ref=e344]:
+            - generic [ref=e1073]: 5-mins
+            - generic [ref=e1075]: read
+          - img [ref=e346]
+        - 'link "#DIY Crafting Fun: Easy DIY Projects For Kids Using Camel Colours and Art Kits 3-mins read" [ref=e348] [cursor=pointer]':
+          - /url: https://www.kokuyocamlin.com/camel/techniques/diy/crafting-fun-easy-diy-projects-for-kids-using-camel-colours-and-art-kits
+          - paragraph [ref=e350]:
+            - generic [ref=e1077]: "#DIY"
+          - 'heading "Crafting Fun: Easy DIY Projects For Kids Using Camel Colours and Art Kits" [level=1] [ref=e351]':
+            - generic [ref=e1079]: Crafting
+            - generic [ref=e1081]: "Fun:"
+            - generic [ref=e1083]: Easy
+            - generic [ref=e1085]: DIY
+            - generic [ref=e1087]: Projects
+            - generic [ref=e1089]: For
+            - generic [ref=e1091]: Kids
+            - generic [ref=e1093]: Using
+            - generic [ref=e1095]: Camel
+            - generic [ref=e1097]: Colours
+            - generic [ref=e1099]: and
+            - generic [ref=e1101]: Art
+            - generic [ref=e1103]: Kits
+          - paragraph [ref=e353]:
+            - generic [ref=e1105]: 3-mins
+            - generic [ref=e1107]: read
+          - img [ref=e355]
+      - generic [ref=e357]:
+        - generic [ref=e359]:
+          - heading "Discover, Create, and Inspire!" [level=2] [ref=e360]
+          - paragraph [ref=e361]: Join the Camel Art Community
+        - generic [ref=e362]:
+          - generic:
+            - generic:
+              - generic:
+                - img "camel crayons"
+                - img "camel crayons"
+            - heading "Build Your Portfolio" [level=1]:
+              - generic:
+                - generic: Build
+              - generic:
+                - generic: Your
+              - generic:
+                - generic: Portfolio
+            - link "Upload now" [ref=e367] [cursor=pointer]:
+              - /url: "#"
+              - paragraph [ref=e368]: Upload now
+              - img [ref=e370]
+          - generic:
+            - generic:
+              - generic:
+                - img "camel artist community"
+                - img "camel artist community"
+            - heading "Refine Your Technique" [level=1]:
+              - generic:
+                - generic: Refine
+              - generic:
+                - generic: Your
+              - generic:
+                - generic: Technique
+            - link "Know more" [ref=e372] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/techniques
+              - paragraph [ref=e373]: Know more
+              - img [ref=e375]
+          - generic:
+            - generic:
+              - generic:
+                - img "camel poster colour"
+                - img "camel poster colour"
+            - heading "Learn with Tutorials" [level=1]:
+              - generic:
+                - generic: Learn
+              - generic:
+                - generic: with
+              - generic:
+                - generic: Tutorials
+            - link "Watch now" [ref=e377] [cursor=pointer]:
+              - /url: https://www.youtube.com/playlist?list=PL4s72nQBek04x0zzo7kkW67Wi3ihGyaCV
+              - paragraph [ref=e378]: Watch now
+              - img [ref=e380]
+      - generic [ref=e382]:
+        - generic [ref=e384]:
+          - heading "Once upon a time, art came to India" [level=2] [ref=e385]:
+            - generic [ref=e1109]: Once
+            - generic [ref=e1111]: upon
+            - generic [ref=e1113]: a
+            - generic [ref=e1115]: time,
+            - generic [ref=e1117]: art
+            - generic [ref=e1119]: came
+            - generic [ref=e1121]: to
+            - generic [ref=e1123]: India
+          - link "Explore our heritage" [ref=e386] [cursor=pointer]:
+            - /url: ../heritage/
+            - paragraph [ref=e387]: Explore our heritage
+            - img [ref=e389]
+          - generic [ref=e390]:
+            - button:
+              - img
+            - button [ref=e391] [cursor=pointer]:
+              - img [ref=e392]
+        - generic [ref=e395]:
+          - link "2025 Kokuyo Camlin Website We received the ‘India Best Design Award (IBDA) 2025’ in the ‘Best Design Project’ category for the Camlin Scholar Pro Geometry Box and Camel ColorPAD." [ref=e397] [cursor=pointer]:
+            - /url: ../heritage
+            - heading "2025" [level=3] [ref=e398]
+            - img "Kokuyo Camlin Website" [ref=e400]
+            - heading "We received the ‘India Best Design Award (IBDA) 2025’ in the ‘Best Design Project’ category for the Camlin Scholar Pro Geometry Box and Camel ColorPAD." [level=4] [ref=e401]
+          - link "2024 Kokuyo Camlin Website The house of Kokuyo Camlin expands its portfolio with the launch of multiple new Camel art and Camlin stationery products." [ref=e403] [cursor=pointer]:
+            - /url: ../heritage?year=2024
+            - heading "2024" [level=3] [ref=e404]
+            - img "Kokuyo Camlin Website" [ref=e406]
+            - heading "The house of Kokuyo Camlin expands its portfolio with the launch of multiple new Camel art and Camlin stationery products." [level=4] [ref=e407]
+          - link "2023 Kokuyo Camlin Website The silver jubilee celebration of the Camel Art Foundation concludes with a grand exhibition at Mumbai’s Jehangir Art Gallery." [ref=e409] [cursor=pointer]:
+            - /url: ../heritage?year=2023
+            - heading "2023" [level=3] [ref=e410]
+            - img "Kokuyo Camlin Website" [ref=e412]
+            - heading "The silver jubilee celebration of the Camel Art Foundation concludes with a grand exhibition at Mumbai’s Jehangir Art Gallery." [level=4] [ref=e413]
+          - link "2022 Kokuyo Camlin Website Celebrating 25 years of the Camel Art Foundation with a National Art Camp at Ajanta Caves, a UNESCO World Heritage Site." [ref=e415] [cursor=pointer]:
+            - /url: ../heritage?year=2022
+            - heading "2022" [level=3] [ref=e416]
+            - img "Kokuyo Camlin Website" [ref=e418]
+            - heading "Celebrating 25 years of the Camel Art Foundation with a National Art Camp at Ajanta Caves, a UNESCO World Heritage Site." [level=4] [ref=e419]
+          - link "2021 Kokuyo Camlin Website Kokuyo Camlin’s art and stationery products get a new look." [ref=e421] [cursor=pointer]:
+            - /url: ../heritage?year=2021
+            - heading "2021" [level=3] [ref=e422]
+            - img "Kokuyo Camlin Website" [ref=e424]
+            - heading "Kokuyo Camlin’s art and stationery products get a new look." [level=4] [ref=e425]
+      - generic [ref=e427]:
+        - generic [ref=e430]:
+          - heading "Turn your ideas into art" [level=2] [ref=e431]:
+            - generic [ref=e1125]: Turn
+            - generic [ref=e1127]: your
+            - generic [ref=e1129]: ideas
+            - generic [ref=e1131]: into
+            - generic [ref=e1133]: art
+          - paragraph [ref=e432]:
+            - generic [ref=e1135]: Art
+            - generic [ref=e1137]: supplies
+            - generic [ref=e1139]: for
+            - generic [ref=e1141]: hobby
+            - generic [ref=e1143]: artist
+        - generic [ref=e433]:
+          - link "Kokuyo Camlin Website Kokuyo Camlin Website Kokuyo Camlin Website Camel Acrylic Colours Starting at ₹400" [ref=e434] [cursor=pointer]:
+            - /url: paints/acrylic-colours/assorted-packs/assorted-pack-of-24-shades-in-10-ml
+            - generic [ref=e435]:
+              - img "Kokuyo Camlin Website" [ref=e437]
+              - img "Kokuyo Camlin Website" [ref=e438]
+            - generic [ref=e439]:
+              - img "Kokuyo Camlin Website" [ref=e441]
+              - generic [ref=e442]:
+                - heading "Camel Acrylic Colours" [level=2] [ref=e443]:
+                  - generic [ref=e1145]: Camel
+                  - generic [ref=e1147]: Acrylic
+                  - generic [ref=e1149]: Colours
+                - paragraph [ref=e444]:
+                  - generic [ref=e1151]: Starting
+                  - generic [ref=e1153]: at
+                  - generic [ref=e1155]: ₹400
+          - link "Kokuyo Camlin Website Kokuyo Camlin Website Kokuyo Camlin Website Camel Fine Liner Pens Starting at ₹500" [ref=e445] [cursor=pointer]:
+            - /url: drawing-materials/fine-liner-pens/assorted-pack/assorted-pack-of-6-pens
+            - generic [ref=e446]:
+              - img "Kokuyo Camlin Website" [ref=e448]
+              - img "Kokuyo Camlin Website" [ref=e449]
+            - generic [ref=e450]:
+              - img "Kokuyo Camlin Website" [ref=e452]
+              - generic [ref=e453]:
+                - heading "Camel Fine Liner Pens" [level=2] [ref=e454]:
+                  - generic [ref=e1157]: Camel
+                  - generic [ref=e1159]: Fine
+                  - generic [ref=e1161]: Liner
+                  - generic [ref=e1163]: Pens
+                - paragraph [ref=e455]:
+                  - generic [ref=e1165]: Starting
+                  - generic [ref=e1167]: at
+                  - generic [ref=e1169]: ₹500
+      - generic [ref=e457]:
+        - generic [ref=e461]:
+          - heading "A colourful mini-universe" [level=1] [ref=e462]:
+            - generic [ref=e1171]: A
+            - generic [ref=e1173]: colourful
+            - generic [ref=e1175]: mini-universe
+          - paragraph [ref=e463]:
+            - generic [ref=e1177]: Art
+            - generic [ref=e1179]: supplies
+            - generic [ref=e1181]: for
+            - generic [ref=e1183]: kids
+        - generic [ref=e464]:
+          - link "Oil Pastels Oil Pastels Oil Pastels" [ref=e465] [cursor=pointer]:
+            - /url: https://www.kokuyocamlin.com/camel/kids/oil-pastels/assorted-packs
+            - generic [ref=e467]:
+              - img "Oil Pastels" [ref=e469]
+              - img "Oil Pastels" [ref=e470]
+            - heading "Oil Pastels" [level=1] [ref=e471]:
+              - generic [ref=e1185]: Oil
+              - generic [ref=e1187]: Pastels
+          - link "Colour Pencils Colour Pencils Colour Pencils" [ref=e472] [cursor=pointer]:
+            - /url: https://www.kokuyocamlin.com/camel/kids/colour-pencils/assorted-packs
+            - generic [ref=e474]:
+              - img "Colour Pencils" [ref=e476]
+              - img "Colour Pencils" [ref=e477]
+            - heading "Colour Pencils" [level=1] [ref=e478]:
+              - generic [ref=e1189]: Colour
+              - generic [ref=e1191]: Pencils
+          - link "Brush Pens Brush Pens Brush Pens" [ref=e479] [cursor=pointer]:
+            - /url: https://www.kokuyocamlin.com/camel/kids/brush-pens/assorted-packs
+            - generic [ref=e481]:
+              - img "Brush Pens" [ref=e483]
+              - img "Brush Pens" [ref=e484]
+            - heading "Brush Pens" [level=1] [ref=e485]:
+              - generic [ref=e1193]: Brush
+              - generic [ref=e1195]: Pens
+          - link "Crayons Crayons Crayons" [ref=e486] [cursor=pointer]:
+            - /url: https://www.kokuyocamlin.com/camel/kids/crayons/assorted-packs
+            - generic [ref=e488]:
+              - img "Crayons" [ref=e490]
+              - img "Crayons" [ref=e491]
+            - heading "Crayons" [level=1] [ref=e492]:
+              - generic [ref=e1197]: Crayons
+      - generic [ref=e494]:
+        - img [ref=e496]
+        - generic [ref=e498]:
+          - img "Koyuko Camlin Website" [ref=e500]
+          - img "Koyuko Camlin Website" [ref=e502]
+          - img "Koyuko Camlin Website" [ref=e504]
+          - img "Koyuko Camlin Website" [ref=e506]
+          - img "Koyuko Camlin Website" [ref=e508]
+          - img "Koyuko Camlin Website" [ref=e510]
+        - generic [ref=e511]:
+          - heading "Get inspired by popular artists" [level=1] [ref=e512]:
+            - generic [ref=e1199]: Get
+            - generic [ref=e1201]: inspired
+            - generic [ref=e1203]: by
+            - generic [ref=e1205]: popular
+            - generic [ref=e1207]: artists
+          - heading "Share your artwork and connect with other artists in our online community." [level=2] [ref=e513]:
+            - generic [ref=e1209]: Share
+            - generic [ref=e1211]: your
+            - generic [ref=e1213]: artwork
+            - generic [ref=e1215]: and
+            - generic [ref=e1217]: connect
+            - generic [ref=e1219]: with
+            - generic [ref=e1221]: other
+            - generic [ref=e1223]: artists
+            - generic [ref=e1225]: in
+            - generic [ref=e1227]: our
+            - generic [ref=e1229]: online
+            - generic [ref=e1231]: community.
+          - generic [ref=e514]:
+            - paragraph [ref=e515]:
+              - generic [ref=e516]: 250,000
+              - text: professional and budding artists
+              - text: and growing
+            - paragraph [ref=e517]:
+              - generic [ref=e518]: 17,000
+              - text: and more artworks on
+              - text: display
+          - link "Explore artist gallery" [ref=e519] [cursor=pointer]:
+            - /url: https://www.kokuyocamlin.com/camel/artist-gallery
+            - paragraph [ref=e520]: Explore artist gallery
+            - img [ref=e522]
+        - generic [ref=e524]:
+          - img "Koyuko Camlin Website" [ref=e526]
+          - img "Koyuko Camlin Website" [ref=e528]
+          - img "Koyuko Camlin Website" [ref=e530]
+      - generic [ref=e534]:
+        - paragraph [ref=e535]: “
+        - paragraph [ref=e536]:
+          - generic [ref=e1233]: “Keep
+          - generic [ref=e1235]: practicing.”
+          - generic [ref=e1237]: "-"
+          - generic [ref=e1239]: Vivek
+          - generic [ref=e1241]: Wagh
+      - generic [ref=e537]:
+        - generic [ref=e539]:
+          - heading "Indulge in the realm of art with Camel art products" [level=2] [ref=e540]
+          - paragraph [ref=e541]:
+            - text: Hey there, art lovers! Want to let your creativity reach heights? Look no further than Camel art supplies. With a wide variety of
+            - link "Paints" [ref=e542] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/paints
+            - text: ","
+            - link "Brushes" [ref=e543] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/brushes
+            - text: ","
+            - link "Drawing Materials" [ref=e544] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/drawing-materials
+            - text: ","
+            - link "Canvases" [ref=e545] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/canvases
+            - text: ", and more, Camel has everything you need to create your masterpiece."
+          - paragraph [ref=e546]
+          - paragraph [ref=e547]: All things art - Camel, housed under the corporate identity of Kokuyo Camlin, is a trusted name in the world of art and creativity. We continue to inspire creativity and provide tools for self-expression to individuals of all ages.
+          - paragraph [ref=e548]
+          - heading "Create masterpieces with the exquisite paint collection" [level=3] [ref=e549]
+          - paragraph [ref=e550]:
+            - text: Explore endless possibilities and upgrade your art with our diverse range of
+            - link "Paints" [ref=e551] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/paints
+            - text: . Our passionately curated collection has its own unique characteristics and vibrant hues. Whether you prefer the timeless beauty of
+            - link "Water Colours" [ref=e552] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/paints?section=artist-water-colours
+            - text: ", the rich texture of"
+            - link "Oil Colours" [ref=e553] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/paints?section=artist-oil-colours
+            - text: ", or the versatility of"
+            - link "Acrylic Colours" [ref=e554] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/paints?section=acrylic-colours
+            - text: ", we have everything to suit your artistic vision."
+          - paragraph [ref=e555]
+          - heading "Elevate your artwork with Mediums collection" [level=3] [ref=e556]
+          - paragraph [ref=e557]:
+            - text: Unlock your artistic potential with our carefully curated range of
+            - link "Mediums" [ref=e558] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/mediums
+            - text: . Our
+            - link "Mediums" [ref=e559] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/mediums
+            - text: allow you to add dimension and tactile elements to your artwork. With Camel painting
+            - link "Mediums" [ref=e560] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/mediums
+            - text: ", you can achieve a flawless finish and create captivating textures that bring your paintings to life."
+          - paragraph [ref=e561]
+          - heading "Paint a stroke of imagination with our brush collection" [level=3] [ref=e562]
+          - paragraph [ref=e563]:
+            - text: Designed to be the perfect extension of your creativity, our
+            - link "Brushes" [ref=e564] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/brushes
+            - text: are crafted with precision and care. From fine, pointed brushes for intricate details and delicate lines to large, broad brushes for bold strokes and expressive movements, we have something for everyone.
+          - paragraph [ref=e565]
+          - heading "Explore an array of Camel art supplies" [level=3] [ref=e566]
+          - paragraph [ref=e567]: Welcome to the world of Camel products, where creativity knows no bounds! Whether you’re a student, artist, or professional, we offer a wide range of art supplies to fuel your imagination and help you bring your ideas to life.
+          - paragraph [ref=e568]
+          - heading "Master intricate designs with our drawing materials" [level=3] [ref=e569]
+          - paragraph [ref=e570]:
+            - text: Shape your ideas with fine detailing as you navigate your way through our
+            - link "Drawing Materials" [ref=e571] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/drawing-materials
+            - text: . From convenient
+            - link "Artist Brush Pens" [ref=e572] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=artist-brush-pens
+            - text: to
+            - link "Soft Pastels" [ref=e573] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=artist-soft-pastels
+            - text: and more, Camel offers an extensive range of products. Our products allow you to capture every intricate detail with ease, whether it’s sketching a portrait or creating stunning gradients.
+          - paragraph [ref=e574]
+          - heading "Unleash your inner artist with the canvas collection" [level=3] [ref=e575]
+          - paragraph [ref=e576]:
+            - text: Our
+            - link "Canvas" [ref=e577] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/canvases
+            - text: collection is more than just a surface to paint on—it’s an invitation to unleash your creativity and let your artistic spirit soar. Each
+            - link "canvas" [ref=e578] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/canvases
+            - text: is expertly primed to ensure optimal paint adhesion, allowing you to create bold and fascinating artwork with ease
+          - paragraph [ref=e579]
+          - heading "Your go-to painting kit collection" [level=3] [ref=e580]
+          - paragraph [ref=e581]:
+            - text: Designed to provide you with everything you need to embark on your artistic journey, our
+            - link "Painting Kits" [ref=e582] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=paintingkit
+            - text: offer a comprehensive and hassle-free solution for artists of all levels. With our
+            - link "painting kit" [ref=e583] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=paintingkit
+            - text: ", you’ll find an assortment of colours,"
+            - link "brushes" [ref=e584] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/brushes
+            - text: ","
+            - link "canvases" [ref=e585] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/canvases
+            - text: ", and other essential accessories"
+        - generic [ref=e586]:
+          - heading "FAQs" [level=2] [ref=e588]
+          - generic [ref=e589]:
+            - generic [ref=e590]:
+              - button "What are some tips for blending Camel paints to create unique shades?" [ref=e591] [cursor=pointer]:
+                - heading "What are some tips for blending Camel paints to create unique shades?" [level=3] [ref=e592]:
+                  - strong [ref=e593]: What are some tips for blending Camel paints to create unique shades?
+              - generic [ref=e594]:
+                - paragraph
+                - paragraph [ref=e595]: Blending Camel paints to craft unique shades can be a fun and rewarding experience. Start by using a palette knife to mix different colours directly on your palette. This method helps you achieve smooth transitions between hues. Experimenting with varying paint ratios can result in a wide range of shades. Remember to clean your tools between blends to maintain the purity of each colour. Camel Artist Acrylic Colours, with their vibrant pigments, provide a fantastic base for your blends, making your art stand out with intensity and depth.
+                - paragraph
+            - generic [ref=e597]:
+              - button "What are some popular techniques artists use with Camel acrylic paints?" [ref=e598] [cursor=pointer]:
+                - heading "What are some popular techniques artists use with Camel acrylic paints?" [level=3] [ref=e599]:
+                  - strong [ref=e600]: What are some popular techniques artists use with Camel acrylic paints?
+              - generic [ref=e601]:
+                - paragraph
+                - paragraph [ref=e602]: Artists enjoy exploring various techniques with Camel acrylic paints to bring their ideas to life. Amongst different methods, the most popular is layering, where multiple paint layers are applied to build texture and depth. Another one is 'dry brushing', which uses a scant amount of paint in a dry brush for the scratchy and textured impression. In addition, palette knives are widely used by artists to get the impasto effect, which can produce thick textured strokes to give dimension to their work. The versatility of Camel Artist HD Acrylic Colours, known for their exceptional colour intensity and thick consistency, makes them ideal for these techniques.
+                - paragraph
+            - generic [ref=e604]:
+              - button "Can Camel paints be used for both fine arts and crafts?" [ref=e605] [cursor=pointer]:
+                - heading "Can Camel paints be used for both fine arts and crafts?" [level=3] [ref=e606]:
+                  - strong [ref=e607]: Can Camel paints be used for both fine arts and crafts?
+              - generic [ref=e608]:
+                - paragraph
+                - paragraph [ref=e609]:
+                  - text: Absolutely! The complete variety of Camel paints is designed for fine art and handicrafts. Be it a professional artist or a person who creates art as part of his hobby, Camel paints offer the flexibility and quality needed for various applications. Under the
+                  - strong [ref=e610]: Fine Art segment,
+                  - text: Camel Artist Water Colours and Camel Artist Oil Colours offer the brilliance and texture that fine detailing entails. For crafts, Camel Premium Poster Colours and Camel Drawing Inks are perfect for vibrant and detailed projects. No matter the medium, Camel paints can help you achieve stunning results.
+                - paragraph
+            - generic [ref=e612]:
+              - button "Are there specific Camel paint sets recommended for professional artists?" [ref=e613] [cursor=pointer]:
+                - heading "Are there specific Camel paint sets recommended for professional artists?" [level=3] [ref=e614]:
+                  - strong [ref=e615]: Are there specific Camel paint sets recommended for professional artists?
+              - generic [ref=e616]:
+                - paragraph
+                - paragraph [ref=e617]: Yes, Camel has paint sets in its collection for the professional artist. The Camel Artist Acrylic Colours is specially formulated to realize an artist's imagination with rich, bold, and lively colours. For those who prefer working with oil, the Artist and Student Oil Colours provide fine texture and smooth consistency, perfect for creating deep masterpieces. In addition, Camel Artist HD Acrylic Colours are a line of outstandingly brilliant quality colours, ideal for artists who are looking for excellent pigmentation and supreme versatility.
+                - paragraph
+            - generic [ref=e619]:
+              - button "Are there any workshops or tutorials available for artists using Camel paints?" [ref=e620] [cursor=pointer]:
+                - heading "Are there any workshops or tutorials available for artists using Camel paints?" [level=3] [ref=e621]:
+                  - strong [ref=e622]: Are there any workshops or tutorials available for artists using Camel paints?
+              - generic [ref=e623]:
+                - paragraph
+                - paragraph [ref=e624]:
+                  - strong [ref=e625]: Camel often arranges workshops and tutorials by professional artists and teaching institutions to enhance the quality of artists further. These workshops are intended to assist artists of all levels develop their talents and experimenting with new techniques.
+                  - text: Attending these can help an artist learn more about advanced painting techniques such as layering, blending, and more. Keep an eye out for upcoming events and workshops through announcements on our website and social media channels.
+                - paragraph
+            - generic [ref=e627]:
+              - button "Is Camel Paint waterproof?" [ref=e628] [cursor=pointer]:
+                - heading "Is Camel Paint waterproof?" [level=3] [ref=e629]:
+                  - strong [ref=e630]: Is Camel Paint waterproof?
+              - generic [ref=e631]:
+                - paragraph
+                - paragraph [ref=e632]: The waterproof quality in Camel Paints is specific to the pigment used in the formulation. For instance, Camel Acrylic Colours are water resistant after drying and provide very good resistance to moisture. On the other hand, Camel Artist Watercolours are not waterproof as they are designed to be reactivated with water for blending and layering techniques. Using the right kind of paint is essential to give you proper results.
+                - paragraph
+    - button "Scroll To Top" [ref=e634] [cursor=pointer]:
+      - img [ref=e635]
+    - contentinfo [ref=e638]:
+      - generic [ref=e639]:
+        - generic [ref=e640]:
+          - generic [ref=e641]:
+            - generic [ref=e642] [cursor=pointer]: Camel
+            - generic [ref=e643]: /
+            - generic [ref=e644] [cursor=pointer]: Camlin
+          - link "Go to Camel homepage" [ref=e645] [cursor=pointer]:
+            - /url: https://www.kokuyocamlin.com/camel/
+        - generic [ref=e646]:
+          - generic [ref=e648]:
+            - link "Paints" [ref=e649] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/paints
+            - generic [ref=e650]:
+              - link "Artist Gouache Colours" [ref=e651] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=artist-gouache-colours
+              - link "Artist Acrylic Colours" [ref=e652] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=artist-acrylic-colours
+              - link "Artist Hd Acrylics" [ref=e653] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=artist-hd-acrylics
+              - link "Artist Water Colours" [ref=e654] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=artist-water-colours
+              - link "Artist Oil Colours" [ref=e655] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=artist-oil-colours
+              - link "Acrylic Colours" [ref=e656] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=acrylic-colours
+              - link "Drawing Inks" [ref=e657] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=drawing-inks
+              - link "Transparent Photo Colours" [ref=e658] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=transparent-photo-colours
+              - link "Student Oil Colours" [ref=e659] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=student-oil-colours
+              - link "Premium Poster Colours" [ref=e660] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=premium-poster-colours
+              - link "Art Powders" [ref=e661] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=art-powders
+              - link "Redimix Tempera Colours" [ref=e662] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints?section=redimix-tempera-colours
+          - generic [ref=e664]:
+            - link "Drawing Materials" [ref=e665] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/drawing-materials
+            - generic [ref=e666]:
+              - link "Acrylic Markers" [ref=e667] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=acrylic-markers
+              - link "Fine Liner Pens" [ref=e668] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=fine-liner-pens
+              - link "Art Markers" [ref=e669] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=art-markers
+              - link "Artist Colour Pencils" [ref=e670] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=artist-colour-pencils
+              - link "Artist Soft Pastels" [ref=e671] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=artist-soft-pastels
+              - link "Artist Brush Pens" [ref=e672] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=artist-brush-pens
+              - link "Artist Oil Pastels" [ref=e673] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=artist-oil-pastels
+              - link "Sketch Books" [ref=e674] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=sketch-books
+              - link "Drawing Pencils" [ref=e675] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=drawing-pencils
+              - link "Charcoals" [ref=e676] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=charcoals
+              - link "Drawing Inks" [ref=e677] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/drawing-materials?section=drawing-inks
+          - generic [ref=e679]:
+            - link "Mediums" [ref=e680] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/mediums
+            - generic [ref=e681]:
+              - link "Acrylic Mediums" [ref=e682] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/mediums?section=acrylic-mediums
+              - link "Oil Mediums" [ref=e683] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/mediums?section=oil-mediums
+              - link "Dry Mediums" [ref=e684] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/mediums?section=dry-mediums
+              - link "Hobby Mediums" [ref=e685] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/mediums?section=hobby-mediums
+          - generic [ref=e687]:
+            - link "Canvases" [ref=e688] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/canvases
+            - generic [ref=e689]:
+              - link "Stretched Canvases" [ref=e690] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/canvases?section=stretched-canvases
+              - link "Canvas Boards" [ref=e691] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/canvases?section=canvas-boards
+              - link "Oil Sketching Papers" [ref=e692] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/canvases?section=oil-sketching-papers
+              - link "Canvas Pads" [ref=e693] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/canvases?section=canvas-pads
+              - link "Canvas Rolls" [ref=e694] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/canvases?section=canvas-rolls
+          - generic [ref=e696]:
+            - link "Brushes" [ref=e697] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/brushes
+            - generic [ref=e698]:
+              - link "Artist Brushes" [ref=e699] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes?section=artist-brushes
+              - link "Synthetic Gold Brushes" [ref=e700] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes?section=synthetic-gold-brushes
+              - link "Specialty Brushes" [ref=e701] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes?section=specialty-brushes
+              - link "Champ Brushes" [ref=e702] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes?section=champ-brushes
+              - link "Champ Lite Brushes" [ref=e703] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes?section=champ-lite-brushes
+              - link "Artist Mop Brushes" [ref=e704] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes?section=artist-mop-brushes
+              - link "White Bristle Brushes" [ref=e705] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes?section=white-bristle-brushes
+              - link "Wash Brushes" [ref=e706] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes?section=wash-brushes
+          - generic [ref=e708]:
+            - link "Painting Kits" [ref=e709] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/painting-kits
+            - generic [ref=e710]:
+              - link "Art Safari kit" [ref=e711] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=artsafarikit
+              - link "Art Studio Kit" [ref=e712] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=artstudiokit
+              - link "Painting Kit" [ref=e713] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=paintingkit
+              - link "Drawing Kit" [ref=e714] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=drawingkit
+              - link "Art Kit" [ref=e715] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=artkit
+              - link "Creative Kit" [ref=e716] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=creativekit
+              - link "Writing Kit" [ref=e717] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=writingkit
+              - link "Fluid Art Kit" [ref=e718] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=fluidartkit
+              - link "Colouring Book Kit" [ref=e719] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits?section=colouringbookkit
+          - generic [ref=e721]:
+            - link "Hobby" [ref=e722] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/hobby
+            - generic [ref=e723]:
+              - link "Acrylic Colours" [ref=e724] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints/acrylic-colours/assorted-packs
+              - link "Glass Colours" [ref=e725] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/hobby/glass-colours/assorted-packs
+              - link "Fluid Acrylic Colours Kits" [ref=e726] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits/#fluidart
+              - link "DIY Colouring for Grown Ups" [ref=e727] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits/colouring/kits/colouring
+              - link "Sparkle Colours" [ref=e728] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/hobby/sparkle-colours/assorted-packs
+              - link "Specialty Brushes" [ref=e729] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/brushes/?section=specialty-brushes
+              - link "Hobby Mediums" [ref=e730] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/mediums/?section=hobby-mediums
+              - link "Fabric Glue" [ref=e731] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/hobby/fabric-glue/individual/individual-bottle-of-50-ml
+          - generic [ref=e733]:
+            - link "Kids" [ref=e734] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/kids
+            - generic [ref=e735]:
+              - link "Painting Kit" [ref=e736] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits/painting/kits/painting-kit
+              - link "Drawing Kit" [ref=e737] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/painting-kits/drawing-kit/kits/drawing-kit
+              - link "Oil Pastels" [ref=e738] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/oil-pastels/assorted-packs
+              - link "Crayons" [ref=e739] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/crayons/assorted-packs
+              - link "Poster Colours" [ref=e740] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/poster-colours/assorted-packs
+              - link "Water Colours" [ref=e741] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/water-colours/assorted-packs
+              - link "Sketch Pens" [ref=e742] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/sketch-pens/assorted-packs
+              - link "Brush Pens" [ref=e743] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/brush-pens/assorted-packs
+              - link "Colour Pencils" [ref=e744] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/colour-pencils/assorted-packs
+              - link "Redimix Tempera Colours" [ref=e745] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/paints/redimix-tempera-colours/individual-bottles-in-12-shades
+              - link "Drawing Books" [ref=e746] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/kids/drawing-books/assorted-packs
+          - generic [ref=e748]:
+            - link "Techniques" [ref=e749] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/techniques
+            - generic [ref=e750]:
+              - link "DIY" [ref=e751] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/techniques/?type=diy
+              - link "Tutorials" [ref=e752] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/techniques/?type=tutorials
+              - link "Pro Tips" [ref=e753] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/techniques/?type=pro-tips
+              - link "Product Guides" [ref=e754] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/techniques/?type=product-guides
+              - link "Art Reporter" [ref=e755] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/techniques/?type=art-reporter
+              - link "Glossary" [ref=e756] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/glossary
+          - generic [ref=e758]:
+            - link "Community" [ref=e759] [cursor=pointer]:
+              - /url: javascirpt:void(0)
+            - generic [ref=e760]:
+              - link "Artist Gallery" [ref=e761] [cursor=pointer]:
+                - /url: /camel/artist-gallery
+              - link "Art Workshops" [ref=e762] [cursor=pointer]:
+                - /url: /camel/art-workshop
+              - link "Art Contests" [ref=e763] [cursor=pointer]:
+                - /url: /camel/art-contests
+              - link "Community Guidelines" [ref=e764] [cursor=pointer]:
+                - /url: /camel/community-guidelines
+          - generic [ref=e765]:
+            - generic [ref=e766]:
+              - heading "Customer Service" [level=2] [ref=e767]
+              - generic [ref=e768]:
+                - link "Contact Us" [ref=e769] [cursor=pointer]:
+                  - /url: https://www.kokuyocamlin.com/camel/../contact-us
+                - link "FAQs" [ref=e770] [cursor=pointer]:
+                  - /url: https://www.kokuyocamlin.com/camel/../contact-faqs
+                - link "Find a store" [ref=e771] [cursor=pointer]:
+                  - /url: https://www.kokuyocamlin.com/camel/../camel/store-locator
+            - generic [ref=e772]:
+              - heading "Account" [level=2] [ref=e773]
+              - link "My Account" [ref=e775] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/account/profile
+          - generic [ref=e777]:
+            - heading "Kokuyo Camlin" [level=2] [ref=e778]
+            - generic [ref=e779]:
+              - link "About Us" [ref=e780] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/../about-us
+              - link "Investors" [ref=e781] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/../investor-relations
+              - link "Careers" [ref=e782] [cursor=pointer]:
+                - /url: https://chroma.tcsapps.com/webhcm/KCL/careers
+              - link "CSR Policy" [ref=e783] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/../csr
+              - link "QEHS Policy" [ref=e784] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/../qehs
+              - link "Code of Conduct" [ref=e785] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/../code-of-conduct
+        - generic [ref=e786]:
+          - generic [ref=e787]:
+            - generic [ref=e1242]:
+              - img
+            - heading "Subscribe to a world of colour and creativity" [level=2] [ref=e788]
+            - heading "Get updates on product launches, competitions, live sessions and more." [level=3] [ref=e789]
+          - generic [ref=e791]:
+            - textbox "Email address" [ref=e793]
+            - button "Newletter Submit Button" [ref=e794] [cursor=pointer]:
+              - img [ref=e795]
+            - paragraph [ref=e798]: Please enter a valid email to continue.
+            - paragraph [ref=e799]: Subscription successful!
+        - generic [ref=e800]:
+          - generic [ref=e801]:
+            - generic [ref=e802]:
+              - link "Privacy" [ref=e803] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/../privacy-policy
+              - generic [ref=e804]: "|"
+              - link "Disclaimer" [ref=e805] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/../disclaimer
+              - generic [ref=e806]: "|"
+              - link "Sitemap" [ref=e807] [cursor=pointer]:
+                - /url: https://www.kokuyocamlin.com/camel/../sitemaps
+            - paragraph [ref=e808]: ©2026 Kokuyo Camlin. All rights reserved.
+          - generic [ref=e809]:
+            - link "YouTube" [ref=e810] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/KokuyoCamlin
+              - img [ref=e811]
+            - link "Instagram" [ref=e814] [cursor=pointer]:
+              - /url: https://www.instagram.com/kokuyo.camlin/
+              - img [ref=e815]
+            - link "Instagram" [ref=e820] [cursor=pointer]:
+              - /url: https://www.kokuyocamlin.com/camel/web-stories
+              - img [ref=e821]

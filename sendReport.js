@@ -12,7 +12,7 @@ async function sendMail() {
   await transporter.sendMail({
     from: process.env.EMAIL_USER,
     to: 'sanket@bombaydc.com , arpit@bombaydc.com', 
-    subject: 'Weekly Playwright Execution Report',
+    subject: 'Weekly Playwright Execution Report of Camel login page',
     text: 'Please find attached Playwright HTML report.',
     attachments: [
       {

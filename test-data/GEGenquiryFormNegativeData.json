@@ -1,0 +1,45 @@
+{
+  "invalidName": {
+    "empty": "",
+    "tooShort": "J",
+    "expectedErrorRequired": "Enter your full name.",
+    "expectedErrorMin": "Name must be between 2-100 characters."
+  },
+  "invalidEmail": {
+    "empty": "",
+    "tooShort": "ab@c",
+    "invalidFormat1": "johndoe@",
+    "invalidFormat2": "johndoe.com",
+    "invalidFormat3": "@example.com",
+    "expectedErrorRequired": "Enter your email address.",
+    "expectedErrorInvalid": "Enter a valid email address.",
+    "expectedErrorMin": "Email address must be between 5-300 characters."
+  },
+  "invalidMobile": {
+    "empty": "",
+    "tooShort": "12345",
+    "tooLong": "12345678901234567890",
+    "expectedErrorRequired": "Enter your mobile number.",
+    "expectedErrorMin": "Number must be 10 numbers",
+    "expectedErrorMax": "Number must be 10 digits."
+  },
+  "invalidCity": {
+    "empty": "",
+    "expectedErrorRequired": "Enter the name of your city."
+  },
+  "invalidMessage": {
+    "withInvalidChars": "Test <script>alert(1)</script>",
+    "expectedError": "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+  },
+  "validData": {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "countryCode": "+91",
+    "mobile": "9876543210",
+    "city": "Mum",
+    "cityExpected": "Mumbai",
+    "businessUnit": "Home Appliances",
+    "businessCategory": "Refrigerators",
+    "message": "This is a valid test message with allowed chars: .-!(),%"
+  }
+}

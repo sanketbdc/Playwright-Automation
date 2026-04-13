@@ -1,0 +1,1258 @@
+2026-04-13 16:44:24 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 16:44:24 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 16:44:24 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:44:24 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:44:36 [INFO] Filling Name: John Doe
+2026-04-13 16:44:37 [INFO] Suggestions shown: 18
+2026-04-13 16:44:37 [INFO] First suggestion: "Aurangabad"
+2026-04-13 16:44:37 [INFO] City input after selection: "Aurangabad"
+2026-04-13 16:44:37 [INFO] Filling Email: johndoe@example.com
+2026-04-13 16:44:37 [INFO] Selecting Country Code: +91
+2026-04-13 16:44:39 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 16:44:39 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:44:56 [INFO] === TC05: File attachment validation ===
+2026-04-13 16:44:56 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:44:57 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 16:44:57 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:45:05 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 16:45:05 [INFO] File attached successfully
+2026-04-13 16:45:06 [INFO] Files attached: 1
+2026-04-13 16:45:08 [INFO] === TC06: Required field validation ===
+2026-04-13 16:45:08 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:45:15 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 16:57:32 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 16:57:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:57:32 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 16:57:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:57:42 [INFO] Filling Name: John Doe
+2026-04-13 16:57:42 [INFO] Filling Email: johndoe@example.com
+2026-04-13 16:57:42 [INFO] Selecting Country Code: +91
+2026-04-13 16:57:44 [INFO] Suggestions shown: 18
+2026-04-13 16:57:44 [INFO] First suggestion: "Aurangabad"
+2026-04-13 16:57:44 [INFO] City input after selection: "Aurangabad"
+2026-04-13 16:57:45 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 16:57:45 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:58:00 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 16:58:00 [INFO] === TC05: File attachment validation ===
+2026-04-13 16:58:00 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:58:00 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:58:08 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 16:58:09 [INFO] File attached successfully
+2026-04-13 16:58:09 [INFO] Files attached: 1
+2026-04-13 16:58:10 [INFO] === TC06: Required field validation ===
+2026-04-13 16:58:10 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 16:58:16 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 17:03:27 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 17:03:27 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:03:27 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:03:27 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:03:38 [INFO] Filling Name: John Doe
+2026-04-13 17:03:38 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:03:38 [INFO] Selecting Country Code: +91
+2026-04-13 17:03:41 [INFO] Suggestions shown: 18
+2026-04-13 17:03:41 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:03:41 [INFO] City input after selection: "Aurangabad"
+2026-04-13 17:03:42 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 17:03:42 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:03:57 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 17:03:57 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:04:08 [INFO] === TC05: File attachment validation ===
+2026-04-13 17:04:08 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:04:14 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:04:14 [INFO] File attached successfully
+2026-04-13 17:04:15 [INFO] Files attached: 1
+2026-04-13 17:04:15 [INFO] === TC06: Required field validation ===
+2026-04-13 17:04:16 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:04:22 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 17:05:32 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:05:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:05:32 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 17:05:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:05:41 [INFO] Filling Name: John Doe
+2026-04-13 17:05:41 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:05:41 [INFO] Selecting Country Code: +91
+2026-04-13 17:05:42 [INFO] Suggestions shown: 18
+2026-04-13 17:05:42 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:05:42 [INFO] City input after selection: "Aurangabad"
+2026-04-13 17:05:43 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:05:43 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 17:05:43 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 17:05:43 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:05:44 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:05:44 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:05:45 [INFO] Business Unit dropdown is open
+2026-04-13 17:05:47 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:05:47 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:05:48 [INFO] Business Category dropdown is open
+2026-04-13 17:05:49 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:05:50 [INFO] Filling Message
+2026-04-13 17:05:50 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:05:50 [INFO] File attached successfully
+2026-04-13 17:05:50 [INFO] Clicking Submit button
+2026-04-13 17:05:50 [INFO] Asserting form submission success
+2026-04-13 17:05:53 [INFO] Option visible: "Security"
+2026-04-13 17:05:53 [INFO] Option visible: "Aerospace"
+2026-04-13 17:05:53 [INFO] Option visible: "Real Estate"
+2026-04-13 17:05:53 [INFO] Option visible: "Intralogistics"
+2026-04-13 17:05:53 [INFO] Assertion passed: Form submitted successfully
+2026-04-13 17:05:53 [INFO] Option visible: "Home Appliances"
+2026-04-13 17:05:53 [INFO] Option visible: "Locks & Security"
+2026-04-13 17:05:53 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 17:05:53 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 17:05:53 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 17:05:53 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 17:05:55 [INFO] === TC05: File attachment validation ===
+2026-04-13 17:05:55 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:05:55 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 17:05:55 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:06:03 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:06:03 [INFO] File attached successfully
+2026-04-13 17:06:03 [INFO] Files attached: 1
+2026-04-13 17:06:05 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 17:06:05 [INFO] === TC06: Required field validation ===
+2026-04-13 17:06:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:06:12 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 17:15:10 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 17:15:10 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:15:11 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:15:11 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:15:20 [INFO] Filling Name: John Doe
+2026-04-13 17:15:20 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:15:21 [INFO] Selecting Country Code: +91
+2026-04-13 17:15:22 [INFO] Suggestions shown: 18
+2026-04-13 17:15:22 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:15:22 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:15:22 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 17:15:23 [INFO] City input after selection: "Aurangabad"
+2026-04-13 17:15:24 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:15:24 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:15:24 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 17:15:24 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:15:25 [INFO] Business Unit dropdown is open
+2026-04-13 17:15:27 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:15:27 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:15:28 [INFO] Business Category dropdown is open
+2026-04-13 17:15:29 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:15:29 [INFO] Filling Message
+2026-04-13 17:15:29 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:15:29 [INFO] File attached successfully
+2026-04-13 17:15:29 [INFO] Clicking Submit button
+2026-04-13 17:15:30 [INFO] Asserting form submission success
+2026-04-13 17:15:33 [INFO] Option visible: "Security"
+2026-04-13 17:15:33 [INFO] Option visible: "Aerospace"
+2026-04-13 17:15:33 [INFO] Option visible: "Real Estate"
+2026-04-13 17:15:33 [INFO] Option visible: "Intralogistics"
+2026-04-13 17:15:33 [INFO] Option visible: "Home Appliances"
+2026-04-13 17:15:33 [INFO] Option visible: "Locks & Security"
+2026-04-13 17:15:33 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 17:15:33 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 17:15:33 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 17:15:35 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 17:15:36 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 17:15:36 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:15:41 [ERROR] Assertion failed: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator:  locator('h3.ui-enquiry__form-submit-title')
+Expected: [32m"Thank you for your interest."[39m
+Received: [31m""[39m
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('h3.ui-enquiry__form-submit-title')[22m
+
+2026-04-13 17:15:44 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 17:15:45 [INFO] === TC05: File attachment validation ===
+2026-04-13 17:15:45 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:15:50 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:15:50 [INFO] File attached successfully
+2026-04-13 17:15:51 [INFO] Files attached: 1
+2026-04-13 17:15:52 [INFO] === TC06: Required field validation ===
+2026-04-13 17:15:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:15:58 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 17:19:15 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:19:15 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:19:20 [INFO] Filling Name: John Doe
+2026-04-13 17:19:20 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:19:20 [INFO] Selecting Country Code: +91
+2026-04-13 17:19:22 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:19:22 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 17:19:24 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:19:25 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:19:26 [INFO] Business Unit dropdown is open
+2026-04-13 17:19:26 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:19:26 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:19:27 [INFO] Business Category dropdown is open
+2026-04-13 17:19:27 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:19:28 [INFO] Filling Message
+2026-04-13 17:19:28 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:19:28 [INFO] File attached successfully
+2026-04-13 17:19:28 [INFO] Clicking Submit button
+2026-04-13 17:19:28 [INFO] Asserting form submission success
+2026-04-13 17:19:30 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 17:20:17 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:20:17 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:20:17 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 17:20:17 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:20:25 [INFO] Filling Name: John Doe
+2026-04-13 17:20:26 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:20:27 [INFO] Selecting Country Code: +91
+2026-04-13 17:20:28 [INFO] Suggestions shown: 18
+2026-04-13 17:20:28 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:20:28 [INFO] City input after selection: "Aurangabad"
+2026-04-13 17:20:29 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:20:30 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 17:20:30 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 17:20:30 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:20:31 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:20:32 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:20:35 [INFO] Business Unit dropdown is open
+2026-04-13 17:20:39 [INFO] Option visible: "Security"
+2026-04-13 17:20:39 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:20:39 [INFO] Option visible: "Aerospace"
+2026-04-13 17:20:39 [INFO] Option visible: "Real Estate"
+2026-04-13 17:20:39 [INFO] Option visible: "Intralogistics"
+2026-04-13 17:20:39 [INFO] Option visible: "Home Appliances"
+2026-04-13 17:20:39 [INFO] Option visible: "Locks & Security"
+2026-04-13 17:20:39 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 17:20:39 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 17:20:39 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 17:20:39 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:20:40 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 17:20:40 [INFO] Business Category dropdown is open
+2026-04-13 17:20:41 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 17:20:41 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:20:42 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:20:42 [INFO] Filling Message
+2026-04-13 17:20:42 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:20:42 [INFO] File attached successfully
+2026-04-13 17:20:42 [INFO] Clicking Submit button
+2026-04-13 17:20:43 [INFO] Asserting form submission success
+2026-04-13 17:20:47 [ERROR] Assertion failed: locator.textContent: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('h3.ui-enquiry__form-submit-title')[22m
+
+2026-04-13 17:20:51 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 17:20:52 [INFO] === TC05: File attachment validation ===
+2026-04-13 17:20:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:20:57 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:20:57 [INFO] File attached successfully
+2026-04-13 17:20:57 [INFO] Files attached: 1
+2026-04-13 17:21:04 [INFO] === TC06: Required field validation ===
+2026-04-13 17:21:04 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:21:10 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 17:22:59 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:22:59 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:23:03 [INFO] Filling Name: John Doe
+2026-04-13 17:23:04 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:23:04 [INFO] Selecting Country Code: +91
+2026-04-13 17:23:05 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:23:06 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 17:23:07 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:23:07 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:23:08 [INFO] Business Unit dropdown is open
+2026-04-13 17:23:09 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:23:09 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:23:09 [INFO] Business Category dropdown is open
+2026-04-13 17:23:10 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:23:10 [INFO] Filling Message
+2026-04-13 17:23:10 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:23:10 [INFO] File attached successfully
+2026-04-13 17:23:10 [INFO] Clicking Submit button
+2026-04-13 17:23:10 [INFO] Submit clicked and response received
+2026-04-13 17:23:10 [INFO] Asserting form submission success
+2026-04-13 17:23:13 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 17:24:15 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:24:15 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:24:17 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 17:24:17 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:24:23 [INFO] Filling Name: John Doe
+2026-04-13 17:24:24 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:24:24 [INFO] Selecting Country Code: +91
+2026-04-13 17:24:26 [INFO] Suggestions shown: 18
+2026-04-13 17:24:26 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:24:26 [INFO] City input after selection: "Aurangabad"
+2026-04-13 17:24:26 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:24:27 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 17:24:28 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 17:24:28 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:24:28 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:24:28 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:24:30 [INFO] Business Unit dropdown is open
+2026-04-13 17:24:32 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:24:33 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:24:33 [INFO] Business Category dropdown is open
+2026-04-13 17:24:34 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:24:34 [INFO] Filling Message
+2026-04-13 17:24:34 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:24:34 [INFO] File attached successfully
+2026-04-13 17:24:34 [INFO] Clicking Submit button
+2026-04-13 17:24:35 [INFO] Submit clicked and response received
+2026-04-13 17:24:35 [INFO] Asserting form submission success
+2026-04-13 17:24:37 [INFO] Option visible: "Security"
+2026-04-13 17:24:37 [INFO] Option visible: "Aerospace"
+2026-04-13 17:24:37 [INFO] Option visible: "Real Estate"
+2026-04-13 17:24:37 [INFO] Option visible: "Intralogistics"
+2026-04-13 17:24:37 [INFO] Option visible: "Home Appliances"
+2026-04-13 17:24:37 [INFO] Option visible: "Locks & Security"
+2026-04-13 17:24:37 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 17:24:37 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 17:24:37 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 17:24:37 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 17:24:39 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 17:24:39 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 17:24:39 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:24:40 [INFO] === TC05: File attachment validation ===
+2026-04-13 17:24:40 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:24:45 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:24:45 [INFO] File attached successfully
+2026-04-13 17:24:45 [INFO] Files attached: 1
+2026-04-13 17:24:46 [INFO] === TC06: Required field validation ===
+2026-04-13 17:24:46 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:24:52 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 17:25:06 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 17:42:29 [INFO] === TC07: Name with numbers validation ===
+2026-04-13 17:42:29 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:42:34 [INFO] === TC10: Email too short validation ===
+2026-04-13 17:42:34 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:42:39 [INFO] Filling Name: John123
+2026-04-13 17:42:47 [INFO] Filling Email: ab@c
+2026-04-13 17:42:47 [INFO] Expected error to contain: "Name must contain only letters and spaces."
+2026-04-13 17:42:47 [INFO] Actual error: "undefined"
+2026-04-13 17:42:54 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 17:42:54 [INFO] Actual error: "undefined"
+2026-04-13 17:43:00 [INFO] === TC14: Mobile number too short ===
+2026-04-13 17:43:00 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:43:08 [INFO] Selecting Country Code: +91
+2026-04-13 17:43:10 [INFO] Filling Mobile: 12345
+2026-04-13 17:43:16 [INFO] Expected error to contain: "Enter a valid mobile number."
+2026-04-13 17:43:16 [INFO] Actual error: "undefined"
+2026-04-13 17:53:21 [INFO] === TC07: Name with numbers validation ===
+2026-04-13 17:53:21 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:53:27 [INFO] Filling Name: John123
+2026-04-13 17:53:41 [INFO] === TC10: Email too short validation ===
+2026-04-13 17:53:41 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:53:46 [INFO] Filling Email: ab@c
+2026-04-13 17:53:47 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 17:53:47 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-13 17:53:48 [INFO] === TC14: Mobile number too short ===
+2026-04-13 17:53:48 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:53:53 [INFO] Selecting Country Code: +91
+2026-04-13 17:53:54 [INFO] Filling Mobile: 12345
+2026-04-13 17:53:55 [INFO] Expected error to contain: "Enter a valid mobile number."
+2026-04-13 17:53:55 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-13 17:54:05 [INFO] === TC18: City with numbers validation ===
+2026-04-13 17:54:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:05 [INFO] === TC07: Name empty validation ===
+2026-04-13 17:56:05 [INFO] === TC08: Name too short validation ===
+2026-04-13 17:56:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:13 [INFO] Expected error to contain: "Enter your full name."
+2026-04-13 17:56:13 [INFO] Actual error: "Enter your full name."
+2026-04-13 17:56:13 [INFO] === TC09: Email empty validation ===
+2026-04-13 17:56:13 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:14 [INFO] Filling Name: J
+2026-04-13 17:56:16 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-13 17:56:16 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-13 17:56:16 [INFO] === TC10: Email too short validation ===
+2026-04-13 17:56:16 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:19 [INFO] Expected error to contain: "Enter your email address."
+2026-04-13 17:56:19 [INFO] Actual error: "Enter your email address."
+2026-04-13 17:56:20 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-13 17:56:20 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:21 [INFO] Filling Email: ab@c
+2026-04-13 17:56:22 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 17:56:22 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-13 17:56:23 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-13 17:56:23 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:25 [INFO] Filling Email: johndoe@
+2026-04-13 17:56:25 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 17:56:25 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 17:56:26 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-13 17:56:26 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:28 [INFO] Filling Email: johndoe.com
+2026-04-13 17:56:29 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 17:56:29 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 17:56:29 [INFO] === TC14: Mobile number empty ===
+2026-04-13 17:56:29 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:31 [INFO] Filling Email: @example.com
+2026-04-13 17:56:32 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 17:56:32 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 17:56:32 [INFO] === TC15: Mobile number too short ===
+2026-04-13 17:56:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:34 [INFO] Selecting Country Code: +91
+2026-04-13 17:56:36 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-13 17:56:36 [INFO] Actual error: "Enter your mobile number."
+2026-04-13 17:56:36 [INFO] === TC16: Mobile number too long ===
+2026-04-13 17:56:36 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:37 [INFO] Selecting Country Code: +91
+2026-04-13 17:56:39 [INFO] Filling Mobile: 12345
+2026-04-13 17:56:39 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-13 17:56:39 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-13 17:56:40 [INFO] === TC17: City empty validation ===
+2026-04-13 17:56:40 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:41 [INFO] Selecting Country Code: +91
+2026-04-13 17:56:42 [INFO] Filling Mobile: 12345678901234567890
+2026-04-13 17:56:43 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-13 17:56:43 [INFO] Actual error: "Number must be 10 digits."
+2026-04-13 17:56:43 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-13 17:56:43 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:45 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-13 17:56:45 [INFO] Actual error: "Enter the name of your city."
+2026-04-13 17:56:46 [INFO] === TC19: Message with valid special characters ===
+2026-04-13 17:56:46 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:48 [INFO] Filling Message
+2026-04-13 17:56:49 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 17:56:49 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 17:56:50 [INFO] === TC20: Submit form without optional fields ===
+2026-04-13 17:56:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:56:50 [INFO] Filling Message
+2026-04-13 17:56:54 [INFO] Filling Name: John Doe
+2026-04-13 17:56:54 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:56:54 [INFO] Selecting Country Code: +91
+2026-04-13 17:56:55 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:56:55 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-13 17:56:57 [INFO] First suggestion: "Mumbai"
+2026-04-13 17:56:57 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:56:57 [INFO] Business Unit dropdown is open
+2026-04-13 17:56:59 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:56:59 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:57:00 [INFO] Business Category dropdown is open
+2026-04-13 17:57:00 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:57:00 [INFO] Clicking Submit button
+2026-04-13 17:57:00 [INFO] Submit clicked and response received
+2026-04-13 17:57:00 [INFO] Asserting form submission success
+2026-04-13 17:57:02 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 17:57:32 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 17:57:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:57:32 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:57:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:57:38 [INFO] Filling Name: John Doe
+2026-04-13 17:57:39 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:57:39 [INFO] Selecting Country Code: +91
+2026-04-13 17:57:40 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:57:40 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 17:57:40 [INFO] Suggestions shown: 18
+2026-04-13 17:57:40 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:57:40 [INFO] City input after selection: "Aurangabad"
+2026-04-13 17:57:41 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 17:57:41 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:57:41 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:57:41 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:57:43 [INFO] Business Unit dropdown is open
+2026-04-13 17:57:44 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:57:44 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:57:45 [INFO] Business Category dropdown is open
+2026-04-13 17:57:45 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:57:45 [INFO] Filling Message
+2026-04-13 17:57:45 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:57:45 [INFO] File attached successfully
+2026-04-13 17:57:45 [INFO] Clicking Submit button
+2026-04-13 17:57:46 [INFO] Submit clicked and response received
+2026-04-13 17:57:46 [INFO] Asserting form submission success
+2026-04-13 17:57:46 [INFO] Option visible: "Security"
+2026-04-13 17:57:46 [INFO] Option visible: "Aerospace"
+2026-04-13 17:57:46 [INFO] Option visible: "Real Estate"
+2026-04-13 17:57:46 [INFO] Option visible: "Intralogistics"
+2026-04-13 17:57:47 [INFO] Option visible: "Home Appliances"
+2026-04-13 17:57:47 [INFO] Option visible: "Locks & Security"
+2026-04-13 17:57:47 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 17:57:47 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 17:57:47 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 17:57:47 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 17:57:47 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 17:57:47 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:57:48 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 17:57:49 [INFO] === TC05: File attachment validation ===
+2026-04-13 17:57:49 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:57:54 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 17:57:54 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:57:54 [INFO] === TC06: Required field validation ===
+2026-04-13 17:57:54 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:57:54 [INFO] File attached successfully
+2026-04-13 17:57:55 [INFO] Files attached: 1
+2026-04-13 17:57:59 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 17:58:23 [INFO] === TC07: Name empty validation ===
+2026-04-13 17:58:23 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:23 [INFO] === TC08: Name too short validation ===
+2026-04-13 17:58:23 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:29 [INFO] Filling Name: J
+2026-04-13 17:58:29 [INFO] Expected error to contain: "Enter your full name."
+2026-04-13 17:58:29 [INFO] Actual error: "Enter your full name."
+2026-04-13 17:58:30 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-13 17:58:30 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-13 17:58:30 [INFO] === TC10: Email too short validation ===
+2026-04-13 17:58:30 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:30 [INFO] === TC09: Email empty validation ===
+2026-04-13 17:58:30 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:35 [INFO] Filling Email: ab@c
+2026-04-13 17:58:36 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 17:58:36 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-13 17:58:36 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-13 17:58:36 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:37 [INFO] Expected error to contain: "Enter your email address."
+2026-04-13 17:58:37 [INFO] Actual error: "Enter your email address."
+2026-04-13 17:58:37 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-13 17:58:37 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:41 [INFO] Filling Email: johndoe@
+2026-04-13 17:58:42 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 17:58:42 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 17:58:42 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-13 17:58:42 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:43 [INFO] Filling Email: johndoe.com
+2026-04-13 17:58:43 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 17:58:43 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 17:58:44 [INFO] === TC14: Mobile number empty ===
+2026-04-13 17:58:44 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:48 [INFO] Filling Email: @example.com
+2026-04-13 17:58:49 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 17:58:49 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 17:58:50 [INFO] === TC15: Mobile number too short ===
+2026-04-13 17:58:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:50 [INFO] Selecting Country Code: +91
+2026-04-13 17:58:52 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-13 17:58:52 [INFO] Actual error: "Enter your mobile number."
+2026-04-13 17:58:53 [INFO] === TC16: Mobile number too long ===
+2026-04-13 17:58:53 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:55 [INFO] Selecting Country Code: +91
+2026-04-13 17:58:56 [INFO] Filling Mobile: 12345
+2026-04-13 17:58:56 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-13 17:58:56 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-13 17:58:57 [INFO] === TC17: City empty validation ===
+2026-04-13 17:58:57 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:58:58 [INFO] Selecting Country Code: +91
+2026-04-13 17:59:00 [INFO] Filling Mobile: 12345678901234567890
+2026-04-13 17:59:00 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-13 17:59:00 [INFO] Actual error: "Number must be 10 digits."
+2026-04-13 17:59:01 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-13 17:59:01 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:03 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-13 17:59:03 [INFO] Actual error: "Enter the name of your city."
+2026-04-13 17:59:04 [INFO] === TC19: Message with valid special characters ===
+2026-04-13 17:59:04 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:06 [INFO] Filling Message
+2026-04-13 17:59:07 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 17:59:07 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 17:59:08 [INFO] === TC20: Submit form without optional fields ===
+2026-04-13 17:59:08 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:09 [INFO] Filling Message
+2026-04-13 17:59:13 [INFO] Filling Name: John Doe
+2026-04-13 17:59:13 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:59:13 [INFO] Selecting Country Code: +91
+2026-04-13 17:59:14 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:59:14 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-13 17:59:15 [INFO] First suggestion: "Mumbai"
+2026-04-13 17:59:16 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:59:16 [INFO] Business Unit dropdown is open
+2026-04-13 17:59:17 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 17:59:17 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:20 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:59:20 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:59:21 [INFO] Business Category dropdown is open
+2026-04-13 17:59:22 [INFO] Filling Name: John Doe
+2026-04-13 17:59:22 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:59:22 [INFO] Filling Email: johndoe@example.com
+2026-04-13 17:59:22 [INFO] Clicking Submit button
+2026-04-13 17:59:22 [INFO] Selecting Country Code: +91
+2026-04-13 17:59:23 [INFO] Submit clicked and response received
+2026-04-13 17:59:23 [INFO] Asserting form submission success
+2026-04-13 17:59:23 [INFO] Filling Mobile: 9876543210
+2026-04-13 17:59:23 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 17:59:24 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:59:25 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 17:59:25 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 17:59:25 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 17:59:25 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:26 [INFO] Business Unit dropdown is open
+2026-04-13 17:59:27 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 17:59:28 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 17:59:28 [INFO] Business Category dropdown is open
+2026-04-13 17:59:32 [INFO] Suggestions shown: 18
+2026-04-13 17:59:32 [INFO] First suggestion: "Aurangabad"
+2026-04-13 17:59:32 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 17:59:32 [INFO] City input after selection: "Aurangabad"
+2026-04-13 17:59:33 [INFO] Filling Message
+2026-04-13 17:59:33 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:59:33 [INFO] File attached successfully
+2026-04-13 17:59:33 [INFO] Clicking Submit button
+2026-04-13 17:59:33 [INFO] Submit clicked and response received
+2026-04-13 17:59:33 [INFO] Asserting form submission success
+2026-04-13 17:59:34 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 17:59:34 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:37 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 17:59:38 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 17:59:38 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:39 [INFO] Option visible: "Security"
+2026-04-13 17:59:39 [INFO] Option visible: "Aerospace"
+2026-04-13 17:59:39 [INFO] Option visible: "Real Estate"
+2026-04-13 17:59:39 [INFO] Option visible: "Intralogistics"
+2026-04-13 17:59:39 [INFO] Option visible: "Home Appliances"
+2026-04-13 17:59:39 [INFO] Option visible: "Locks & Security"
+2026-04-13 17:59:39 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 17:59:39 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 17:59:39 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 17:59:40 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 17:59:41 [INFO] === TC05: File attachment validation ===
+2026-04-13 17:59:41 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:45 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 17:59:46 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 17:59:46 [INFO] File attached successfully
+2026-04-13 17:59:46 [INFO] === TC06: Required field validation ===
+2026-04-13 17:59:46 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 17:59:46 [INFO] Files attached: 1
+2026-04-13 17:59:50 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 18:00:50 [INFO] === TC19: Message with valid special characters ===
+2026-04-13 18:00:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:00:54 [INFO] Filling Message
+2026-04-13 18:02:09 [INFO] === TC07: Name empty validation ===
+2026-04-13 18:02:09 [INFO] === TC08: Name too short validation ===
+2026-04-13 18:02:09 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:09 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:16 [INFO] Filling Name: J
+2026-04-13 18:02:17 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-13 18:02:17 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-13 18:02:17 [INFO] Expected error to contain: "Enter your full name."
+2026-04-13 18:02:17 [INFO] === TC09: Email empty validation ===
+2026-04-13 18:02:17 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:17 [INFO] Actual error: "Enter your full name."
+2026-04-13 18:02:18 [INFO] === TC10: Email too short validation ===
+2026-04-13 18:02:18 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:23 [INFO] Expected error to contain: "Enter your email address."
+2026-04-13 18:02:23 [INFO] Actual error: "Enter your email address."
+2026-04-13 18:02:23 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-13 18:02:23 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:23 [INFO] Filling Email: ab@c
+2026-04-13 18:02:24 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 18:02:24 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-13 18:02:25 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-13 18:02:25 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:28 [INFO] Filling Email: johndoe@
+2026-04-13 18:02:29 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:02:29 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:02:29 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-13 18:02:29 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:30 [INFO] Filling Email: johndoe.com
+2026-04-13 18:02:32 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:02:32 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:02:32 [INFO] === TC14: Mobile number empty ===
+2026-04-13 18:02:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:35 [INFO] Filling Email: @example.com
+2026-04-13 18:02:36 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:02:36 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:02:37 [INFO] === TC15: Mobile number too short ===
+2026-04-13 18:02:37 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:37 [INFO] Selecting Country Code: +91
+2026-04-13 18:02:39 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-13 18:02:39 [INFO] Actual error: "Enter your mobile number."
+2026-04-13 18:02:39 [INFO] === TC16: Mobile number too long ===
+2026-04-13 18:02:39 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:42 [INFO] Selecting Country Code: +91
+2026-04-13 18:02:43 [INFO] Filling Mobile: 12345
+2026-04-13 18:02:43 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-13 18:02:43 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-13 18:02:44 [INFO] === TC17: City empty validation ===
+2026-04-13 18:02:44 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:44 [INFO] Selecting Country Code: +91
+2026-04-13 18:02:46 [INFO] Filling Mobile: 12345678901234567890
+2026-04-13 18:02:47 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-13 18:02:47 [INFO] Actual error: "Number must be 10 digits."
+2026-04-13 18:02:47 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-13 18:02:47 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:50 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-13 18:02:50 [INFO] Actual error: "Enter the name of your city."
+2026-04-13 18:02:50 [INFO] === TC19: Message with valid special characters ===
+2026-04-13 18:02:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:52 [INFO] Filling Message
+2026-04-13 18:02:54 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:02:54 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:02:54 [INFO] === TC20: Submit form without optional fields ===
+2026-04-13 18:02:54 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:02:55 [INFO] Filling Message
+2026-04-13 18:02:58 [INFO] Filling Name: John Doe
+2026-04-13 18:02:59 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:02:59 [INFO] Selecting Country Code: +91
+2026-04-13 18:03:00 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:03:00 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-13 18:03:01 [INFO] First suggestion: "Mumbai"
+2026-04-13 18:03:01 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:03:02 [INFO] Business Unit dropdown is open
+2026-04-13 18:03:04 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 18:03:04 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:03:04 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:03:04 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:03:05 [INFO] Business Category dropdown is open
+2026-04-13 18:03:05 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:03:06 [INFO] Clicking Submit button
+2026-04-13 18:03:06 [INFO] Submit clicked and response received
+2026-04-13 18:03:06 [INFO] Asserting form submission success
+2026-04-13 18:03:08 [INFO] Filling Name: John Doe
+2026-04-13 18:03:08 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:03:09 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:03:09 [INFO] Selecting Country Code: +91
+2026-04-13 18:03:09 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 18:03:09 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:03:10 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:03:10 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 18:03:11 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:03:11 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:03:12 [INFO] Business Unit dropdown is open
+2026-04-13 18:03:14 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:03:14 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:03:14 [INFO] Suggestions shown: 18
+2026-04-13 18:03:14 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:03:15 [INFO] City input after selection: "Aurangabad"
+2026-04-13 18:03:15 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 18:03:15 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:03:15 [INFO] Business Category dropdown is open
+2026-04-13 18:03:15 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:03:15 [INFO] Filling Message
+2026-04-13 18:03:15 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:03:15 [INFO] File attached successfully
+2026-04-13 18:03:15 [INFO] Clicking Submit button
+2026-04-13 18:03:16 [INFO] Submit clicked and response received
+2026-04-13 18:03:16 [INFO] Asserting form submission success
+2026-04-13 18:03:18 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:03:19 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 18:03:19 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:03:20 [INFO] Option visible: "Security"
+2026-04-13 18:03:20 [INFO] Option visible: "Aerospace"
+2026-04-13 18:03:20 [INFO] Option visible: "Real Estate"
+2026-04-13 18:03:21 [INFO] Option visible: "Intralogistics"
+2026-04-13 18:03:21 [INFO] Option visible: "Home Appliances"
+2026-04-13 18:03:21 [INFO] Option visible: "Locks & Security"
+2026-04-13 18:03:21 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 18:03:21 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 18:03:21 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 18:03:21 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 18:03:22 [INFO] === TC05: File attachment validation ===
+2026-04-13 18:03:22 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:03:26 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 18:03:26 [INFO] === TC06: Required field validation ===
+2026-04-13 18:03:26 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:03:26 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:03:26 [INFO] File attached successfully
+2026-04-13 18:03:26 [INFO] Files attached: 1
+2026-04-13 18:03:30 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 18:13:31 [INFO] === TC07: Name empty validation ===
+2026-04-13 18:13:31 [INFO] === TC08: Name too short validation ===
+2026-04-13 18:13:31 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:13:31 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:13:42 [INFO] Filling Name: J
+2026-04-13 18:13:44 [INFO] Expected error to contain: "Enter your full name."
+2026-04-13 18:13:44 [INFO] Actual error: "Enter your full name."
+2026-04-13 18:13:44 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-13 18:13:44 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-13 18:13:45 [INFO] === TC09: Email empty validation ===
+2026-04-13 18:13:45 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:13:45 [INFO] === TC10: Email too short validation ===
+2026-04-13 18:13:45 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:13:51 [INFO] Filling Email: ab@c
+2026-04-13 18:13:51 [INFO] Expected error to contain: "Enter your email address."
+2026-04-13 18:13:51 [INFO] Actual error: "Enter your email address."
+2026-04-13 18:13:51 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-13 18:13:51 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:13:51 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 18:13:51 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-13 18:13:52 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-13 18:13:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:13:58 [INFO] Filling Email: johndoe@
+2026-04-13 18:13:59 [INFO] Filling Email: johndoe.com
+2026-04-13 18:13:59 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:13:59 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:14:01 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:14:01 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:14:03 [INFO] === TC14: Mobile number empty ===
+2026-04-13 18:14:03 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:14:03 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-13 18:14:03 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:14:09 [INFO] Selecting Country Code: +91
+2026-04-13 18:14:11 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-13 18:14:11 [INFO] Actual error: "Enter your mobile number."
+2026-04-13 18:14:11 [INFO] === TC15: Mobile number too short ===
+2026-04-13 18:14:11 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:14:12 [INFO] Filling Email: @example.com
+2026-04-13 18:14:13 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:14:13 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:14:17 [INFO] Selecting Country Code: +91
+2026-04-13 18:14:19 [INFO] Filling Mobile: 12345
+2026-04-13 18:14:20 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-13 18:14:20 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-13 18:14:26 [INFO] === TC16: Mobile number too long ===
+2026-04-13 18:14:26 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:14:35 [INFO] Selecting Country Code: +91
+2026-04-13 18:14:36 [INFO] Filling Mobile: 12345678901234567890
+2026-04-13 18:14:36 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-13 18:14:36 [INFO] Actual error: "Number must be 10 digits."
+2026-04-13 18:14:37 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-13 18:14:37 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:14:37 [INFO] === TC17: City empty validation ===
+2026-04-13 18:14:37 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:14:44 [INFO] Filling Message
+2026-04-13 18:14:45 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:14:45 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:14:45 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-13 18:14:45 [INFO] Actual error: "Enter the name of your city."
+2026-04-13 18:14:45 [INFO] === TC19: Submit form without optional fields ===
+2026-04-13 18:14:45 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:14:49 [INFO] Filling Name: John Doe
+2026-04-13 18:14:49 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:14:50 [INFO] Selecting Country Code: +91
+2026-04-13 18:14:50 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:14:50 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-13 18:14:51 [INFO] First suggestion: "Mumbai"
+2026-04-13 18:14:52 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:14:52 [INFO] Business Unit dropdown is open
+2026-04-13 18:14:53 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:14:53 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:14:54 [INFO] Business Category dropdown is open
+2026-04-13 18:14:54 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:14:54 [INFO] Clicking Submit button
+2026-04-13 18:14:54 [INFO] Submit clicked and response received
+2026-04-13 18:14:54 [INFO] Asserting form submission success
+2026-04-13 18:14:56 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:20:07 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-13 18:20:07 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:20:15 [INFO] Business Unit selected: "Aerospace"
+2026-04-13 18:20:15 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-13 18:20:43 [INFO] === TC07: Name empty validation ===
+2026-04-13 18:20:43 [INFO] === TC08: Name too short validation ===
+2026-04-13 18:20:43 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:20:43 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:20:49 [INFO] Filling Name: J
+2026-04-13 18:20:51 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-13 18:20:51 [INFO] Expected error to contain: "Enter your full name."
+2026-04-13 18:20:51 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-13 18:20:51 [INFO] Actual error: "Enter your full name."
+2026-04-13 18:20:52 [INFO] === TC10: Email too short validation ===
+2026-04-13 18:20:52 [INFO] === TC09: Email empty validation ===
+2026-04-13 18:20:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:20:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:20:58 [INFO] Filling Email: ab@c
+2026-04-13 18:20:58 [INFO] Expected error to contain: "Enter your email address."
+2026-04-13 18:20:58 [INFO] Actual error: "Enter your email address."
+2026-04-13 18:20:59 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 18:20:59 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-13 18:20:59 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-13 18:20:59 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:20:59 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-13 18:20:59 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:05 [INFO] Filling Email: johndoe.com
+2026-04-13 18:21:05 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:21:05 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:21:06 [INFO] Filling Email: johndoe@
+2026-04-13 18:21:06 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:21:06 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:21:07 [INFO] === TC14: Mobile number empty ===
+2026-04-13 18:21:07 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:07 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-13 18:21:07 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:13 [INFO] Selecting Country Code: +91
+2026-04-13 18:21:13 [INFO] Filling Email: @example.com
+2026-04-13 18:21:14 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:21:14 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:21:14 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-13 18:21:14 [INFO] Actual error: "Enter your mobile number."
+2026-04-13 18:21:15 [INFO] === TC16: Mobile number too long ===
+2026-04-13 18:21:15 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:15 [INFO] === TC15: Mobile number too short ===
+2026-04-13 18:21:15 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:20 [INFO] Selecting Country Code: +91
+2026-04-13 18:21:21 [INFO] Filling Mobile: 12345678901234567890
+2026-04-13 18:21:21 [INFO] Selecting Country Code: +91
+2026-04-13 18:21:22 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-13 18:21:22 [INFO] Actual error: "Number must be 10 digits."
+2026-04-13 18:21:22 [INFO] === TC17: City empty validation ===
+2026-04-13 18:21:22 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:22 [INFO] Filling Mobile: 12345
+2026-04-13 18:21:23 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-13 18:21:23 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-13 18:21:24 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-13 18:21:24 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:28 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-13 18:21:28 [INFO] Actual error: "Enter the name of your city."
+2026-04-13 18:21:28 [INFO] === TC19: Submit form without optional fields ===
+2026-04-13 18:21:28 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:29 [INFO] Filling Message
+2026-04-13 18:21:30 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:21:30 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:21:32 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 18:21:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:34 [INFO] Filling Name: John Doe
+2026-04-13 18:21:34 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:21:35 [INFO] Selecting Country Code: +91
+2026-04-13 18:21:36 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:21:36 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-13 18:21:37 [INFO] Filling Name: John Doe
+2026-04-13 18:21:37 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:21:37 [INFO] Selecting Country Code: +91
+2026-04-13 18:21:37 [INFO] First suggestion: "Mumbai"
+2026-04-13 18:21:37 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:21:38 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:21:38 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 18:21:38 [INFO] Business Unit dropdown is open
+2026-04-13 18:21:39 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:21:39 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:21:40 [INFO] Business Unit dropdown is open
+2026-04-13 18:21:40 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:21:40 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:21:41 [INFO] Business Category dropdown is open
+2026-04-13 18:21:41 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:21:41 [INFO] Clicking Submit button
+2026-04-13 18:21:41 [INFO] Submit clicked and response received
+2026-04-13 18:21:41 [INFO] Asserting form submission success
+2026-04-13 18:21:42 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:21:42 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:21:43 [INFO] Business Category dropdown is open
+2026-04-13 18:21:43 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:21:43 [INFO] Filling Message
+2026-04-13 18:21:43 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:21:43 [INFO] File attached successfully
+2026-04-13 18:21:43 [INFO] Clicking Submit button
+2026-04-13 18:21:43 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:21:44 [INFO] Submit clicked and response received
+2026-04-13 18:21:44 [INFO] Asserting form submission success
+2026-04-13 18:21:44 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 18:21:44 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:46 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:21:46 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 18:21:46 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:51 [INFO] Suggestions shown: 18
+2026-04-13 18:21:51 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:21:51 [INFO] City input after selection: "Aurangabad"
+2026-04-13 18:21:51 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 18:21:51 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:21:54 [INFO] Option visible: "Security"
+2026-04-13 18:21:54 [INFO] Option visible: "Aerospace"
+2026-04-13 18:21:55 [INFO] Option visible: "Real Estate"
+2026-04-13 18:21:55 [INFO] Option visible: "Intralogistics"
+2026-04-13 18:21:55 [INFO] Option visible: "Home Appliances"
+2026-04-13 18:21:55 [INFO] Option visible: "Locks & Security"
+2026-04-13 18:21:55 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 18:21:56 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 18:21:56 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 18:21:57 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 18:21:58 [INFO] === TC05: File attachment validation ===
+2026-04-13 18:21:58 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:22:01 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 18:22:04 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:22:05 [INFO] File attached successfully
+2026-04-13 18:22:05 [INFO] Files attached: 1
+2026-04-13 18:22:06 [INFO] === TC06: Required field validation ===
+2026-04-13 18:22:06 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:22:06 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-13 18:22:06 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:22:12 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 18:22:15 [INFO] Business Unit selected: "Aerospace"
+2026-04-13 18:22:15 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-13 18:25:14 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 18:25:14 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:25:14 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 18:25:14 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:25:20 [INFO] Filling Name: John Doe
+2026-04-13 18:25:20 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:25:20 [INFO] Selecting Country Code: +91
+2026-04-13 18:25:21 [INFO] Suggestions shown: 18
+2026-04-13 18:25:21 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:25:21 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:25:22 [INFO] City input after selection: "Aurangabad"
+2026-04-13 18:25:22 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 18:25:22 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 18:25:22 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:25:23 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:25:23 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:25:25 [INFO] Business Unit dropdown is open
+2026-04-13 18:25:26 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:25:26 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:25:27 [INFO] Business Category dropdown is open
+2026-04-13 18:25:27 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:25:27 [INFO] Filling Message
+2026-04-13 18:25:27 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:25:27 [INFO] File attached successfully
+2026-04-13 18:25:27 [INFO] Clicking Submit button
+2026-04-13 18:25:28 [INFO] Option visible: "Security"
+2026-04-13 18:25:28 [INFO] Option visible: "Aerospace"
+2026-04-13 18:25:28 [INFO] Option visible: "Real Estate"
+2026-04-13 18:25:28 [INFO] Option visible: "Intralogistics"
+2026-04-13 18:25:28 [INFO] Submit clicked and response received
+2026-04-13 18:25:28 [INFO] Option visible: "Home Appliances"
+2026-04-13 18:25:28 [INFO] Asserting form submission success
+2026-04-13 18:25:28 [INFO] Option visible: "Locks & Security"
+2026-04-13 18:25:28 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 18:25:28 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 18:25:28 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 18:25:28 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 18:25:29 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 18:25:29 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:25:31 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:25:32 [INFO] === TC05: File attachment validation ===
+2026-04-13 18:25:32 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:25:35 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 18:25:35 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-13 18:25:35 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:25:36 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:25:36 [INFO] File attached successfully
+2026-04-13 18:25:37 [INFO] Files attached: 1
+2026-04-13 18:25:38 [INFO] === TC06: Required field validation ===
+2026-04-13 18:25:38 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:25:42 [INFO] Business Unit selected: "Aerospace"
+2026-04-13 18:25:42 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-13 18:25:43 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 18:33:12 [INFO] === TC07: Name empty validation ===
+2026-04-13 18:33:12 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:12 [INFO] === TC08: Name too short validation ===
+2026-04-13 18:33:12 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:18 [INFO] Filling Name: J
+2026-04-13 18:33:19 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-13 18:33:19 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-13 18:33:19 [INFO] Expected error to contain: "Enter your full name."
+2026-04-13 18:33:19 [INFO] Actual error: "Enter your full name."
+2026-04-13 18:33:20 [INFO] === TC09: Email empty validation ===
+2026-04-13 18:33:20 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:20 [INFO] === TC10: Email too short validation ===
+2026-04-13 18:33:20 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:25 [INFO] Expected error to contain: "Enter your email address."
+2026-04-13 18:33:25 [INFO] Actual error: "Enter your email address."
+2026-04-13 18:33:25 [INFO] Filling Email: ab@c
+2026-04-13 18:33:26 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-13 18:33:26 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:26 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 18:33:26 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-13 18:33:27 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-13 18:33:27 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:31 [INFO] Filling Email: johndoe@
+2026-04-13 18:33:31 [INFO] Filling Email: johndoe.com
+2026-04-13 18:33:32 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:33:32 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:33:33 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:33:33 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:33:33 [INFO] === TC14: Mobile number empty ===
+2026-04-13 18:33:33 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:33 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-13 18:33:33 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:38 [INFO] Filling Email: @example.com
+2026-04-13 18:33:38 [INFO] Selecting Country Code: +91
+2026-04-13 18:33:39 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:33:39 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:33:39 [INFO] === TC15: Mobile number too short ===
+2026-04-13 18:33:39 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:39 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-13 18:33:39 [INFO] Actual error: "Enter your mobile number."
+2026-04-13 18:33:40 [INFO] === TC16: Mobile number too long ===
+2026-04-13 18:33:40 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:45 [INFO] Selecting Country Code: +91
+2026-04-13 18:33:45 [INFO] Selecting Country Code: +91
+2026-04-13 18:33:46 [INFO] Filling Mobile: 12345
+2026-04-13 18:33:46 [INFO] Filling Mobile: 12345678901234567890
+2026-04-13 18:33:47 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-13 18:33:47 [INFO] Actual error: "Number must be 10 digits."
+2026-04-13 18:33:47 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-13 18:33:47 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-13 18:33:48 [INFO] === TC17: City empty validation ===
+2026-04-13 18:33:48 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-13 18:33:48 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:48 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:53 [INFO] Filling Message
+2026-04-13 18:33:54 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-13 18:33:54 [INFO] Actual error: "Enter the name of your city."
+2026-04-13 18:33:54 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:33:54 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:33:54 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 18:33:54 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:54 [INFO] === TC19: Submit form without optional fields ===
+2026-04-13 18:33:54 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:33:59 [INFO] Filling Name: John Doe
+2026-04-13 18:33:59 [INFO] Filling Name: John Doe
+2026-04-13 18:33:59 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:33:59 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:33:59 [INFO] Selecting Country Code: +91
+2026-04-13 18:34:00 [INFO] Selecting Country Code: +91
+2026-04-13 18:34:01 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:34:01 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:34:01 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-13 18:34:01 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 18:34:02 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:34:02 [INFO] First suggestion: "Mumbai"
+2026-04-13 18:34:02 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:34:02 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:34:03 [INFO] Business Unit dropdown is open
+2026-04-13 18:34:03 [INFO] Business Unit dropdown is open
+2026-04-13 18:34:04 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:34:04 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:34:04 [INFO] Business Category dropdown is open
+2026-04-13 18:34:04 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:34:05 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:34:05 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:34:05 [INFO] Clicking Submit button
+2026-04-13 18:34:05 [INFO] Submit clicked and response received
+2026-04-13 18:34:05 [INFO] Asserting form submission success
+2026-04-13 18:34:05 [INFO] Business Category dropdown is open
+2026-04-13 18:34:06 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:34:06 [INFO] Filling Message
+2026-04-13 18:34:06 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:34:07 [INFO] File attached successfully
+2026-04-13 18:34:07 [INFO] Clicking Submit button
+2026-04-13 18:34:07 [INFO] Submit clicked and response received
+2026-04-13 18:34:07 [INFO] Asserting form submission success
+2026-04-13 18:34:07 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:34:07 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 18:34:07 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:34:09 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:34:10 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 18:34:10 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:34:14 [INFO] Suggestions shown: 18
+2026-04-13 18:34:14 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:34:14 [INFO] City input after selection: "Aurangabad"
+2026-04-13 18:34:14 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 18:34:14 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:34:15 [INFO] Option visible: "Security"
+2026-04-13 18:34:15 [INFO] Option visible: "Aerospace"
+2026-04-13 18:34:16 [INFO] Option visible: "Real Estate"
+2026-04-13 18:34:16 [INFO] Option visible: "Intralogistics"
+2026-04-13 18:34:16 [INFO] Option visible: "Home Appliances"
+2026-04-13 18:34:16 [INFO] Option visible: "Locks & Security"
+2026-04-13 18:34:16 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 18:34:16 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 18:34:16 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 18:34:16 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 18:34:17 [INFO] === TC05: File attachment validation ===
+2026-04-13 18:34:17 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:34:20 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 18:34:21 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-13 18:34:21 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:34:21 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:34:22 [INFO] File attached successfully
+2026-04-13 18:34:22 [INFO] Files attached: 1
+2026-04-13 18:34:23 [INFO] === TC06: Required field validation ===
+2026-04-13 18:34:23 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:34:27 [INFO] Business Unit selected: "Aerospace"
+2026-04-13 18:34:27 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-13 18:34:28 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-13 18:36:50 [INFO] === TC07: Name empty validation ===
+2026-04-13 18:36:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:36:51 [INFO] === TC08: Name too short validation ===
+2026-04-13 18:36:51 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:36:56 [INFO] Filling Name: J
+2026-04-13 18:36:57 [INFO] Expected error to contain: "Enter your full name."
+2026-04-13 18:36:57 [INFO] Actual error: "Enter your full name."
+2026-04-13 18:36:58 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-13 18:36:58 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-13 18:36:58 [INFO] === TC09: Email empty validation ===
+2026-04-13 18:36:58 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:36:58 [INFO] === TC10: Email too short validation ===
+2026-04-13 18:36:58 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:04 [INFO] Filling Email: ab@c
+2026-04-13 18:37:04 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-13 18:37:04 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-13 18:37:04 [INFO] Expected error to contain: "Enter your email address."
+2026-04-13 18:37:04 [INFO] Actual error: "Enter your email address."
+2026-04-13 18:37:05 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-13 18:37:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:05 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-13 18:37:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:09 [INFO] Filling Email: johndoe@
+2026-04-13 18:37:10 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:37:10 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:37:10 [INFO] Filling Email: johndoe.com
+2026-04-13 18:37:10 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:37:10 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:37:11 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-13 18:37:11 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:11 [INFO] === TC14: Mobile number empty ===
+2026-04-13 18:37:11 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:16 [INFO] Filling Email: @example.com
+2026-04-13 18:37:16 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-13 18:37:16 [INFO] Actual error: "Enter a valid email address."
+2026-04-13 18:37:17 [INFO] Selecting Country Code: +91
+2026-04-13 18:37:17 [INFO] === TC15: Mobile number too short ===
+2026-04-13 18:37:17 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:18 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-13 18:37:18 [INFO] Actual error: "Enter your mobile number."
+2026-04-13 18:37:20 [INFO] === TC16: Mobile number too long ===
+2026-04-13 18:37:20 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:22 [INFO] Selecting Country Code: +91
+2026-04-13 18:37:23 [INFO] Filling Mobile: 12345
+2026-04-13 18:37:24 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-13 18:37:24 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-13 18:37:24 [INFO] === TC17: City empty validation ===
+2026-04-13 18:37:24 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:25 [INFO] Selecting Country Code: +91
+2026-04-13 18:37:26 [INFO] Filling Mobile: 12345678901234567890
+2026-04-13 18:37:27 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-13 18:37:27 [INFO] Actual error: "Number must be 10 digits."
+2026-04-13 18:37:28 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-13 18:37:28 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:31 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-13 18:37:31 [INFO] Actual error: "Enter the name of your city."
+2026-04-13 18:37:33 [INFO] === TC19: Submit form without optional fields ===
+2026-04-13 18:37:33 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:33 [INFO] Filling Message
+2026-04-13 18:37:34 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:37:34 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-13 18:37:35 [INFO] === TC01: Full enquiry form submission ===
+2026-04-13 18:37:35 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:38 [INFO] Filling Name: John Doe
+2026-04-13 18:37:39 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:37:39 [INFO] Selecting Country Code: +91
+2026-04-13 18:37:41 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:37:41 [INFO] Filling Name: John Doe
+2026-04-13 18:37:41 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-13 18:37:42 [INFO] Filling Email: johndoe@example.com
+2026-04-13 18:37:42 [INFO] Selecting Country Code: +91
+2026-04-13 18:37:43 [INFO] First suggestion: "Mumbai"
+2026-04-13 18:37:44 [INFO] Filling Mobile: 9876543210
+2026-04-13 18:37:44 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-13 18:37:44 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:37:46 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:37:47 [INFO] Business Unit dropdown is open
+2026-04-13 18:37:47 [INFO] Selecting Business Unit: Home Appliances
+2026-04-13 18:37:47 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:37:47 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:37:48 [INFO] Business Category dropdown is open
+2026-04-13 18:37:48 [INFO] Business Unit dropdown is open
+2026-04-13 18:37:48 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:37:48 [INFO] Clicking Submit button
+2026-04-13 18:37:49 [INFO] Submit clicked and response received
+2026-04-13 18:37:49 [INFO] Asserting form submission success
+2026-04-13 18:37:49 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-13 18:37:49 [INFO] Selecting Business Category: Refrigerators
+2026-04-13 18:37:50 [INFO] Business Category dropdown is open
+2026-04-13 18:37:51 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:37:51 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-13 18:37:51 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:52 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-13 18:37:52 [INFO] Filling Message
+2026-04-13 18:37:52 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:37:52 [INFO] File attached successfully
+2026-04-13 18:37:52 [INFO] Clicking Submit button
+2026-04-13 18:37:52 [INFO] Submit clicked and response received
+2026-04-13 18:37:52 [INFO] Asserting form submission success
+2026-04-13 18:37:55 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-13 18:37:55 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-13 18:37:55 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:37:58 [INFO] Suggestions shown: 18
+2026-04-13 18:37:58 [INFO] First suggestion: "Aurangabad"
+2026-04-13 18:37:58 [INFO] City input after selection: "Aurangabad"
+2026-04-13 18:37:59 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-13 18:37:59 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:38:05 [INFO] Option visible: "Security"
+2026-04-13 18:38:05 [INFO] Option visible: "Aerospace"
+2026-04-13 18:38:05 [INFO] Option visible: "Real Estate"
+2026-04-13 18:38:05 [INFO] Option visible: "Intralogistics"
+2026-04-13 18:38:05 [INFO] Option visible: "Home Appliances"
+2026-04-13 18:38:05 [INFO] Option visible: "Locks & Security"
+2026-04-13 18:38:05 [INFO] Option visible: "Advanced Engineering"
+2026-04-13 18:38:05 [INFO] Option visible: "Commercial Appliances"
+2026-04-13 18:38:05 [INFO] Option visible: "Furniture & fittings"
+2026-04-13 18:38:07 [INFO] Business Unit selected: "Home Appliances"
+2026-04-13 18:38:08 [INFO] Business Category selected: "Refrigerators"
+2026-04-13 18:38:08 [INFO] === TC05: File attachment validation ===
+2026-04-13 18:38:08 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:38:08 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-13 18:38:08 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:38:14 [INFO] Attaching file: C:\Users\Manish.Pandey\Pictures\down.jpg
+2026-04-13 18:38:15 [INFO] File attached successfully
+2026-04-13 18:38:16 [INFO] Files attached: 1
+2026-04-13 18:38:19 [INFO] === TC06: Required field validation ===
+2026-04-13 18:38:19 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-13 18:38:19 [INFO] Business Unit selected: "Aerospace"
+2026-04-13 18:38:19 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-13 18:38:28 [INFO] TC06 passed: Form blocked submission with empty fields

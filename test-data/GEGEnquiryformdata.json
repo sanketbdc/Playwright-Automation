@@ -1,0 +1,12 @@
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "countryCode": "+91",
+  "mobile": "9876543210",
+  "city": "Aur",
+  "cityExpected": "Aurangabad",
+  "businessUnit": "Home Appliances",
+  "businessCategory": "Refrigerators",
+  "message": "This is a test enquiry message submitted via Playwright automation.",
+  "filePath": "C:\\Users\\Manish.Pandey\\Pictures\\down.jpg"
+}

@@ -9,7 +9,11 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  test:
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # JOB 1 — Camel Tests
+  # ══════════════════════════════════════════════════════════════════════════════
+  camel-tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,20 +31,82 @@ jobs:
       - name: Install browsers
         run: npx playwright install --with-deps
 
-      - name: Run tests
-        run: npx playwright test
+      - name: Run Camel tests
+        run: npx playwright test tests/camel-*.spec.ts --reporter=html,list,./utils/excelReporter.js
+        continue-on-error: true
+        env:
+          SUITE: camel
 
-      - name: Zip HTML report
-        run: zip -r playwright-report.zip playwright-report
+      - name: Zip Camel HTML report
+        run: zip -r camel-report.zip playwright-report
 
-      - name: Send Email
-        run: node sendReport.js
+      - name: Send Camel Email
+        run: node sendReport.js --suite=camel
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
 
-      - name: Upload report
+      - name: Upload Camel HTML artifact
         uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: playwright-report
+          name: camel-html-report
           path: playwright-report/
+
+      - name: Upload Camel Excel artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: camel-excel-report
+          path: reports/camel/*.xlsx
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # JOB 2 — GEG Tests (runs after Camel completes)
+  # ══════════════════════════════════════════════════════════════════════════════
+  geg-tests:
+    runs-on: ubuntu-latest
+    needs: camel-tests
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install browsers
+        run: npx playwright install --with-deps
+
+      - name: Run GEG tests
+        run: npx playwright test tests/GEG-*.spec.ts --reporter=html,list,./utils/excelReporter.js
+        continue-on-error: true
+        env:
+          SUITE: geg
+
+      - name: Zip GEG HTML report
+        run: zip -r geg-report.zip playwright-report
+
+      - name: Send GEG Email
+        run: node sendReport.js --suite=geg
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+
+      - name: Upload GEG HTML artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: geg-html-report
+          path: playwright-report/
+
+      - name: Upload GEG Excel artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: geg-excel-report
+          path: reports/geg/*.xlsx

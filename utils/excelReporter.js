@@ -94,10 +94,15 @@ class ExcelReporter {
   }
 
   async onEnd(result) {
-    const reportsDir = path.join(process.cwd(), 'reports');
+    // Write to suite-specific subfolder if SUITE env var is set
+    const suite      = process.env.SUITE || '';
+    const reportsDir = suite
+      ? path.join(process.cwd(), 'reports', suite)
+      : path.join(process.cwd(), 'reports');
+
     if (!fs.existsSync(reportsDir)) fs.mkdirSync(reportsDir, { recursive: true });
 
-    const date = new Date().toISOString().slice(0, 10);
+    const date     = new Date().toISOString().slice(0, 10);
     const filePath = path.join(reportsDir, `test-report-${date}.xlsx`);
 
     const workbook = new ExcelJS.Workbook();

@@ -3,7 +3,25 @@ const fs = require('fs');
 const path = require('path');
 const archiver = require('archiver');
 
-// Zip a file and return the zip path
+// Accept --suite camel or --suite geg from command line
+const suiteArg = process.argv.find(a => a.startsWith('--suite='));
+const suite    = suiteArg ? suiteArg.split('=')[1].toLowerCase() : 'all';
+
+const SUITE_CONFIG = {
+  camel: {
+    subject:  'Playwright Execution Report — Camel Login',
+    htmlZip:  './camel-report.zip',
+    excelDir: './reports/camel',
+    text:     'Please find attached the Camel login test execution report:\n1. camel-report.zip — HTML report\n2. camel-excel-report.zip — Excel report',
+  },
+  geg: {
+    subject:  'Playwright Execution Report — GEG Enquiry Form',
+    htmlZip:  './geg-report.zip',
+    excelDir: './reports/geg',
+    text:     'Please find attached the GEG Enquiry Form test execution report:\n1. geg-report.zip — HTML report\n2. geg-excel-report.zip — Excel report',
+  },
+};
+
 function zipFile(sourceFile, zipPath) {
   return new Promise((resolve, reject) => {
     const output = fs.createWriteStream(zipPath);
@@ -16,9 +34,8 @@ function zipFile(sourceFile, zipPath) {
   });
 }
 
-// Find the latest Excel report in reports/
-function getLatestExcelReport() {
-  const reportsDir = path.join(__dirname, 'reports');
+function getLatestExcelReport(dir) {
+  const reportsDir = path.join(__dirname, dir);
   if (!fs.existsSync(reportsDir)) return null;
   const files = fs.readdirSync(reportsDir)
     .filter(f => f.endsWith('.xlsx'))
@@ -28,44 +45,50 @@ function getLatestExcelReport() {
 }
 
 async function sendMail() {
+  const config = SUITE_CONFIG[suite];
+  if (!config) {
+    console.error(`❌ Unknown suite "${suite}". Use --suite=camel or --suite=geg`);
+    process.exit(1);
+  }
+
+  console.log(`📧 Sending report for suite: ${suite.toUpperCase()}`);
   const attachments = [];
 
   // ── HTML report zip ────────────────────────────────────────────────────
-  const htmlZip = './playwright-report.zip';
-  if (fs.existsSync(htmlZip)) {
-    attachments.push({ filename: 'playwright-report.zip', path: htmlZip });
+  if (fs.existsSync(config.htmlZip)) {
+    attachments.push({ filename: path.basename(config.htmlZip), path: config.htmlZip });
   } else {
-    console.warn('⚠️  playwright-report.zip not found, skipping HTML report attachment.');
+    console.warn(`⚠️  ${config.htmlZip} not found, skipping HTML attachment.`);
   }
 
   // ── Excel report zip ───────────────────────────────────────────────────
-  const excelFile = getLatestExcelReport();
+  const excelFile = getLatestExcelReport(config.excelDir);
   if (excelFile) {
-    const excelZip = path.join(__dirname, 'reports', 'excel-report.zip');
+    const excelZip = path.join(__dirname, config.excelDir, `${suite}-excel-report.zip`);
     await zipFile(excelFile, excelZip);
-    attachments.push({ filename: 'excel-report.zip', path: excelZip });
+    attachments.push({ filename: path.basename(excelZip), path: excelZip });
     console.log(`📊 Excel report zipped: ${path.basename(excelFile)}`);
   } else {
-    console.warn('⚠️  No Excel report found in reports/, skipping Excel attachment.');
+    console.warn(`⚠️  No Excel report found in ${config.excelDir}, skipping Excel attachment.`);
   }
 
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
       user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS
-    }
+      pass: process.env.EMAIL_PASS,
+    },
   });
 
   await transporter.sendMail({
-    from: process.env.EMAIL_USER,
-    to: 'sanket@bombaydc.com , arpit@bombaydc.com',
-    subject: 'Weekly Playwright Execution Report of Camel login page',
-    text: 'Please find attached:\n1. playwright-report.zip — HTML test report\n2. excel-report.zip — Excel test report with Summary, Test Results, Test Scenarios and Logs',
-    attachments
+    from:        process.env.EMAIL_USER,
+    to:          'sanket@bombaydc.com, arpit@bombaydc.com',
+    subject:     config.subject,
+    text:        config.text,
+    attachments,
   });
 
-  console.log('✅ Email sent successfully');
+  console.log(`✅ Email sent successfully for ${suite.toUpperCase()}`);
 }
 
 sendMail();

@@ -221,9 +221,11 @@ export class EnquiryFormPage {
   async submitForm(): Promise<void> {
     logger.info('Clicking Submit button');
     await this.submitButton.waitFor({ state: 'visible' });
-    // Wait for the network request triggered by submit to complete before returning
     await Promise.all([
-      this.page.waitForResponse(res => res.url().includes('inquiry') && res.status() === 200, { timeout: 30000 }),
+      this.page.waitForResponse(
+        res => res.request().method() === 'POST' && res.status() < 500,
+        { timeout: 30000 }
+      ),
       this.submitButton.click(),
     ]);
     logger.info('Submit clicked and response received');

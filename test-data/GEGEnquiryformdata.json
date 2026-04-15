@@ -8,5 +8,5 @@
   "businessUnit": "Home Appliances",
   "businessCategory": "Refrigerators",
   "message": "This is a test enquiry message submitted via Playwright automation.",
-  "filePath": "C:\\Users\\Manish.Pandey\\Pictures\\down.jpg"
+  "filePath": "test-data/assets/test-upload.jpg"
 }

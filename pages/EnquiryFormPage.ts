@@ -1,6 +1,7 @@
 // pages/EnquiryFormPage.ts
 
 import { Page, Locator, expect } from '@playwright/test';
+import path from 'path';
 import { logger } from '../utils/logger';
 
 export class EnquiryFormPage {
@@ -212,9 +213,10 @@ export class EnquiryFormPage {
    * @param filePath - absolute or project-relative path
    */
   async attachFile(filePath: string): Promise<void> {
-    logger.info(`Attaching file: ${filePath}`);
+    const resolvedPath = path.isAbsolute(filePath) ? filePath : path.resolve(process.cwd(), filePath);
+    logger.info(`Attaching file: ${resolvedPath}`);
     await this.fileInput.waitFor({ state: 'attached' });
-    await this.fileInput.setInputFiles(filePath);
+    await this.fileInput.setInputFiles(resolvedPath);
     logger.info('File attached successfully');
   }
 

@@ -32,10 +32,11 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Camel tests
-        run: npx playwright test tests/camel-*.spec.ts --reporter=html,list,./utils/excelReporter.js
+        run: npx playwright test tests/camel-*.spec.ts
         continue-on-error: true
         env:
           SUITE: camel
+          CI: true
 
       - name: Zip Camel HTML report
         run: zip -r camel-report.zip playwright-report
@@ -83,10 +84,11 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run GEG tests
-        run: npx playwright test tests/GEG-*.spec.ts --reporter=html,list,./utils/excelReporter.js
+        run: npx playwright test tests/GEG-*.spec.ts
         continue-on-error: true
         env:
           SUITE: geg
+          CI: true
 
       - name: Zip GEG HTML report
         run: zip -r geg-report.zip playwright-report

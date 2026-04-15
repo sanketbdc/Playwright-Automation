@@ -1,9 +1,9 @@
 // tests/enquiry-form.spec.ts
 
 import { test, expect } from '@playwright/test';
-import { EnquiryFormPage } from '../pages/EnquiryFormPage';
-import { logger } from '../utils/logger';
-import formData from '../test-data/GEGEnquiryformdata.json';
+import { EnquiryFormPage } from '../../pages/EnquiryFormPage';
+import { logger } from '../../utils/logger';
+import formData from '../../test-data/GEGEnquiryformdata.json';
 
 // ── Replace with your actual enquiry form URL ──────────────────────────────
 const FORM_URL = 'https://www.godrejenterprises.com/inquiry'; // ← update this

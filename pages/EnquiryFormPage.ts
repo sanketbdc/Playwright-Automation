@@ -86,6 +86,13 @@ export class EnquiryFormPage {
     logger.info(`Navigating to enquiry form: ${url}`);
     await this.page.goto(url);
     await this.page.waitForLoadState('domcontentloaded');
+    // Dismiss cookies banner using the button inside the banner, not the link
+    const cookiesBanner = this.page.locator('div.ui-cookies-alert');
+    if (await cookiesBanner.isVisible({ timeout: 3000 }).catch(() => false)) {
+      await this.page.locator('div.ui-cookies-alert button').click();
+      await cookiesBanner.waitFor({ state: 'hidden', timeout: 3000 }).catch(() => {});
+      logger.info('Cookies banner dismissed');
+    }
   }
 
   // ── Field helpers ────────────────────────────────────────────────────────

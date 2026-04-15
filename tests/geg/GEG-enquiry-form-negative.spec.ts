@@ -1,9 +1,9 @@
 // tests/enquiry-form-negative.spec.ts
 
 import { test, expect } from '@playwright/test';
-import { EnquiryFormPage } from '../pages/EnquiryFormPage';
-import { logger } from '../utils/logger';
-import negativeData from '../test-data/GEGenquiryFormNegativeData.json';
+import { EnquiryFormPage } from '../../pages/EnquiryFormPage';
+import { logger } from '../../utils/logger';
+import negativeData from '../../test-data/GEGenquiryFormNegativeData.json';
 
 const FORM_URL = 'https://www.godrejenterprises.com/inquiry';
 

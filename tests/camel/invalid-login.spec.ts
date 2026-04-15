@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import loginUsers from '../test-data/loginUsers.json';
-const { logger, logFile } = require('../utils/logger');
+import loginUsers from '../../test-data/loginUsers.json';
+const { logger, logFile } = require('../../utils/logger');
 
 // Only invalid users (index 1 and above)
 const invalidUsers = loginUsers.slice(1);

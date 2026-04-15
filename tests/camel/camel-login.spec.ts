@@ -13,6 +13,6 @@ test('Camel login success', async ({ page }) => {
   // 4. Click on login button
   await page.getByRole('button', { name: 'Log in' }).click();
 
-  // 5. Validate successful login by checking for account email in a paragraph after login
-  await expect(page.locator('p', { hasText: 'sanketkumarghadmode@gmail.com' })).toBeVisible();
+  // 5. Validate successful login by checking for account email visible in header
+  await expect(page.locator('p:has-text("sanketkumarghadmode@gmail.com")').first()).toBeVisible({ timeout: 10000 });
 });

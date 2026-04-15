@@ -374,3 +374,982 @@
 2026-04-15 15:58:02 [INFO] Assertion passed: Enter a valid email to continue. message is visible
 2026-04-15 15:58:02 [INFO] Test end: User is not logged in with invalid details
 2026-04-15 15:58:02 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 16:42:58 [INFO] === TC08: Name too short validation ===
+2026-04-15 16:42:58 [INFO] === TC07: Name empty validation ===
+2026-04-15 16:42:58 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:42:58 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:09 [INFO] Filling Name: J
+2026-04-15 16:43:11 [INFO] Expected error to contain: "Enter your full name."
+2026-04-15 16:43:11 [INFO] Actual error: "Enter your full name."
+2026-04-15 16:43:11 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-15 16:43:11 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-15 16:43:13 [INFO] === TC10: Email too short validation ===
+2026-04-15 16:43:13 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:14 [INFO] === TC09: Email empty validation ===
+2026-04-15 16:43:14 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:20 [INFO] Filling Email: ab@c
+2026-04-15 16:43:22 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-15 16:43:22 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-15 16:43:23 [INFO] Expected error to contain: "Enter your email address."
+2026-04-15 16:43:23 [INFO] Actual error: "Enter your email address."
+2026-04-15 16:43:24 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-15 16:43:24 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:29 [INFO] Filling Email: johndoe.com
+2026-04-15 16:43:30 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 16:43:30 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 16:43:31 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-15 16:43:31 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:34 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-15 16:43:34 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:37 [INFO] Filling Email: johndoe@
+2026-04-15 16:43:40 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 16:43:40 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 16:43:41 [INFO] Filling Email: @example.com
+2026-04-15 16:43:42 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 16:43:42 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 16:43:43 [INFO] === TC15: Mobile number too short ===
+2026-04-15 16:43:43 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:49 [INFO] Selecting Country Code: +91
+2026-04-15 16:43:51 [INFO] Filling Mobile: 12345
+2026-04-15 16:43:51 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-15 16:43:51 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-15 16:43:52 [INFO] === TC14: Mobile number empty ===
+2026-04-15 16:43:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:56 [INFO] === TC16: Mobile number too long ===
+2026-04-15 16:43:56 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:43:58 [INFO] Selecting Country Code: +91
+2026-04-15 16:44:01 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-15 16:44:01 [INFO] Actual error: "Enter your mobile number."
+2026-04-15 16:44:03 [INFO] Selecting Country Code: +91
+2026-04-15 16:44:04 [INFO] Filling Mobile: 12345678901234567890
+2026-04-15 16:44:05 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-15 16:44:05 [INFO] Actual error: "Number must be 10 digits."
+2026-04-15 16:44:05 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-15 16:44:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:10 [INFO] Filling Message
+2026-04-15 16:44:12 [INFO] === TC17: City empty validation ===
+2026-04-15 16:44:12 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:12 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 16:44:12 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 16:44:17 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-15 16:44:17 [INFO] Actual error: "Enter the name of your city."
+2026-04-15 16:44:18 [INFO] === TC01: Full enquiry form submission ===
+2026-04-15 16:44:18 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:19 [INFO] === TC19: Submit form without optional fields ===
+2026-04-15 16:44:19 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:23 [INFO] Filling Name: John Doe
+2026-04-15 16:44:24 [INFO] Filling Email: johndoe@example.com
+2026-04-15 16:44:24 [INFO] Selecting Country Code: +91
+2026-04-15 16:44:25 [INFO] Filling Name: John Doe
+2026-04-15 16:44:25 [INFO] Filling Email: johndoe@example.com
+2026-04-15 16:44:26 [INFO] Filling Mobile: 9876543210
+2026-04-15 16:44:26 [INFO] Selecting Country Code: +91
+2026-04-15 16:44:26 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-15 16:44:27 [INFO] First suggestion: "Aurangabad"
+2026-04-15 16:44:27 [INFO] Filling Mobile: 9876543210
+2026-04-15 16:44:27 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-15 16:44:28 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 16:44:29 [INFO] Business Unit dropdown is open
+2026-04-15 16:44:29 [INFO] First suggestion: "Mumbai"
+2026-04-15 16:44:30 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 16:44:30 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 16:44:31 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 16:44:32 [INFO] Business Category dropdown is open
+2026-04-15 16:44:32 [INFO] Business Unit dropdown is open
+2026-04-15 16:44:32 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 16:44:32 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 16:44:32 [INFO] Filling Message
+2026-04-15 16:44:32 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 16:44:32 [INFO] Attaching file: c:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 16:44:32 [INFO] File attached successfully
+2026-04-15 16:44:32 [INFO] Clicking Submit button
+2026-04-15 16:44:32 [INFO] Business Category dropdown is open
+2026-04-15 16:44:33 [INFO] Submit clicked and response received
+2026-04-15 16:44:33 [INFO] Asserting form submission success
+2026-04-15 16:44:33 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 16:44:33 [INFO] Clicking Submit button
+2026-04-15 16:44:33 [INFO] Submit clicked and response received
+2026-04-15 16:44:33 [INFO] Asserting form submission success
+2026-04-15 16:44:35 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-15 16:44:36 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-15 16:44:37 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-15 16:44:37 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:42 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-15 16:44:42 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:43 [INFO] Suggestions shown: 18
+2026-04-15 16:44:43 [INFO] First suggestion: "Aurangabad"
+2026-04-15 16:44:44 [INFO] City input after selection: "Aurangabad"
+2026-04-15 16:44:45 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-15 16:44:45 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:49 [INFO] Option visible: "Security"
+2026-04-15 16:44:49 [INFO] Option visible: "Aerospace"
+2026-04-15 16:44:49 [INFO] Option visible: "Real Estate"
+2026-04-15 16:44:49 [INFO] Option visible: "Intralogistics"
+2026-04-15 16:44:49 [INFO] Option visible: "Home Appliances"
+2026-04-15 16:44:49 [INFO] Option visible: "Locks & Security"
+2026-04-15 16:44:49 [INFO] Option visible: "Advanced Engineering"
+2026-04-15 16:44:49 [INFO] Option visible: "Commercial Appliances"
+2026-04-15 16:44:49 [INFO] Option visible: "Furniture & fittings"
+2026-04-15 16:44:49 [INFO] Business Unit selected: "Home Appliances"
+2026-04-15 16:44:50 [INFO] === TC05: File attachment validation ===
+2026-04-15 16:44:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:51 [INFO] Business Category selected: "Refrigerators"
+2026-04-15 16:44:54 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-15 16:44:54 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:44:55 [INFO] Attaching file: c:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 16:44:55 [INFO] File attached successfully
+2026-04-15 16:44:55 [INFO] Files attached: 1
+2026-04-15 16:44:57 [INFO] === TC06: Required field validation ===
+2026-04-15 16:44:57 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:45:01 [INFO] Business Unit selected: "Aerospace"
+2026-04-15 16:45:01 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-15 16:45:03 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-15 16:56:56 [INFO] === TC08: Name too short validation ===
+2026-04-15 16:56:56 [INFO] === TC07: Name empty validation ===
+2026-04-15 16:56:56 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:56:56 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:05 [INFO] Filling Name: J
+2026-04-15 16:57:06 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-15 16:57:06 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-15 16:57:06 [INFO] Expected error to contain: "Enter your full name."
+2026-04-15 16:57:06 [INFO] Actual error: "Enter your full name."
+2026-04-15 16:57:07 [INFO] === TC09: Email empty validation ===
+2026-04-15 16:57:07 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:08 [INFO] === TC10: Email too short validation ===
+2026-04-15 16:57:08 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:13 [INFO] Filling Email: ab@c
+2026-04-15 16:57:13 [INFO] Expected error to contain: "Enter your email address."
+2026-04-15 16:57:13 [INFO] Actual error: "Enter your email address."
+2026-04-15 16:57:15 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-15 16:57:15 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-15 16:57:15 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-15 16:57:15 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:18 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-15 16:57:18 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:21 [INFO] Filling Email: johndoe@
+2026-04-15 16:57:23 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 16:57:23 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 16:57:25 [INFO] Filling Email: johndoe.com
+2026-04-15 16:57:25 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 16:57:25 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 16:57:26 [INFO] === TC14: Mobile number empty ===
+2026-04-15 16:57:26 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:27 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-15 16:57:27 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:31 [INFO] Selecting Country Code: +91
+2026-04-15 16:57:33 [INFO] Filling Email: @example.com
+2026-04-15 16:57:33 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-15 16:57:33 [INFO] Actual error: "Enter your mobile number."
+2026-04-15 16:57:34 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 16:57:34 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 16:57:35 [INFO] === TC16: Mobile number too long ===
+2026-04-15 16:57:35 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:35 [INFO] === TC15: Mobile number too short ===
+2026-04-15 16:57:35 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:40 [INFO] Selecting Country Code: +91
+2026-04-15 16:57:41 [INFO] Selecting Country Code: +91
+2026-04-15 16:57:41 [INFO] Filling Mobile: 12345678901234567890
+2026-04-15 16:57:42 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-15 16:57:42 [INFO] Actual error: "Number must be 10 digits."
+2026-04-15 16:57:42 [INFO] Filling Mobile: 12345
+2026-04-15 16:57:43 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-15 16:57:43 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-15 16:57:43 [INFO] === TC17: City empty validation ===
+2026-04-15 16:57:43 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:46 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-15 16:57:46 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:48 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-15 16:57:48 [INFO] Actual error: "Enter the name of your city."
+2026-04-15 16:57:50 [INFO] === TC19: Submit form without optional fields ===
+2026-04-15 16:57:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:51 [INFO] Filling Message
+2026-04-15 16:57:52 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 16:57:52 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 16:57:55 [INFO] === TC01: Full enquiry form submission ===
+2026-04-15 16:57:55 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:57:55 [INFO] Filling Name: John Doe
+2026-04-15 16:57:55 [INFO] Filling Email: johndoe@example.com
+2026-04-15 16:57:56 [INFO] Selecting Country Code: +91
+2026-04-15 16:57:57 [INFO] Filling Mobile: 9876543210
+2026-04-15 16:57:58 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-15 16:57:59 [INFO] First suggestion: "Mumbai"
+2026-04-15 16:57:59 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 16:58:00 [INFO] Filling Name: John Doe
+2026-04-15 16:58:00 [INFO] Filling Email: johndoe@example.com
+2026-04-15 16:58:00 [INFO] Selecting Country Code: +91
+2026-04-15 16:58:00 [INFO] Business Unit dropdown is open
+2026-04-15 16:58:01 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 16:58:01 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 16:58:02 [INFO] Filling Mobile: 9876543210
+2026-04-15 16:58:02 [INFO] Business Category dropdown is open
+2026-04-15 16:58:02 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-15 16:58:02 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 16:58:02 [INFO] Clicking Submit button
+2026-04-15 16:58:03 [INFO] Submit clicked and response received
+2026-04-15 16:58:03 [INFO] Asserting form submission success
+2026-04-15 16:58:03 [INFO] First suggestion: "Aurangabad"
+2026-04-15 16:58:04 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 16:58:05 [INFO] Business Unit dropdown is open
+2026-04-15 16:58:05 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-15 16:58:06 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 16:58:06 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 16:58:06 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-15 16:58:06 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:58:06 [INFO] Business Category dropdown is open
+2026-04-15 16:58:09 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 16:58:10 [INFO] Filling Message
+2026-04-15 16:58:10 [INFO] Attaching file: c:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 16:58:10 [INFO] File attached successfully
+2026-04-15 16:58:10 [INFO] Clicking Submit button
+2026-04-15 16:58:11 [INFO] Submit clicked and response received
+2026-04-15 16:58:11 [INFO] Asserting form submission success
+2026-04-15 16:58:14 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-15 16:58:15 [INFO] Suggestions shown: 18
+2026-04-15 16:58:15 [INFO] First suggestion: "Aurangabad"
+2026-04-15 16:58:15 [INFO] City input after selection: "Aurangabad"
+2026-04-15 16:58:16 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-15 16:58:16 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:58:24 [INFO] Business Category selected: "Refrigerators"
+2026-04-15 16:58:31 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-15 16:58:31 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:58:35 [INFO] === TC05: File attachment validation ===
+2026-04-15 16:58:35 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:58:42 [INFO] Option visible: "Security"
+2026-04-15 16:58:42 [INFO] Option visible: "Aerospace"
+2026-04-15 16:58:42 [INFO] Option visible: "Real Estate"
+2026-04-15 16:58:42 [INFO] Option visible: "Intralogistics"
+2026-04-15 16:58:42 [INFO] Option visible: "Home Appliances"
+2026-04-15 16:58:43 [INFO] Option visible: "Locks & Security"
+2026-04-15 16:58:43 [INFO] Option visible: "Advanced Engineering"
+2026-04-15 16:58:43 [INFO] Option visible: "Commercial Appliances"
+2026-04-15 16:58:43 [INFO] Option visible: "Furniture & fittings"
+2026-04-15 16:58:43 [INFO] Attaching file: c:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 16:58:43 [INFO] File attached successfully
+2026-04-15 16:58:44 [INFO] Files attached: 1
+2026-04-15 16:58:44 [INFO] Business Unit selected: "Home Appliances"
+2026-04-15 16:58:45 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-15 16:58:45 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:58:46 [INFO] === TC06: Required field validation ===
+2026-04-15 16:58:46 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 16:58:54 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-15 16:58:54 [INFO] Business Unit selected: "Aerospace"
+2026-04-15 16:58:55 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-15 17:04:02 [INFO] Test start: #1 Unregistered or wrong credentials: "testuser@example.com"
+2026-04-15 17:04:02 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:04:08 [INFO] Entering email: testuser@example.com
+2026-04-15 17:04:12 [INFO] Entering password: Password123!
+2026-04-15 17:04:13 [INFO] Clicking on login CTA
+2026-04-15 17:04:14 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:04:14 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:04:25 [INFO] Test start: #2 Invalid email format: "testgmailfd.com"
+2026-04-15 17:04:25 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:04:31 [INFO] Entering email: testgmailfd.com
+2026-04-15 17:04:31 [INFO] Entering password: Password1@
+2026-04-15 17:04:31 [INFO] Clicking on login CTA
+2026-04-15 17:04:32 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:04:32 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:04:35 [INFO] Test start: #3 Invalid password for valid email: "test@test.com"
+2026-04-15 17:04:35 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:04:40 [INFO] Entering email: test@test.com
+2026-04-15 17:04:40 [INFO] Entering password: 123
+2026-04-15 17:04:40 [INFO] Clicking on login CTA
+2026-04-15 17:04:40 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:04:40 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:04:48 [INFO] Test start: #5 Unregistered or wrong credentials: "test@gmai"
+2026-04-15 17:04:48 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:04:55 [INFO] Entering email: test@gmai
+2026-04-15 17:04:56 [INFO] Entering password: password
+2026-04-15 17:04:57 [INFO] Clicking on login CTA
+2026-04-15 17:04:57 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:04:57 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:04:59 [INFO] Test start: #4 Invalid email format: "@gmail.com"
+2026-04-15 17:04:59 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:05:00 [INFO] Test start: #6 Invalid email format: "123"
+2026-04-15 17:05:00 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:05:05 [INFO] Entering email: 123
+2026-04-15 17:05:05 [INFO] Entering email: @gmail.com
+2026-04-15 17:05:05 [INFO] Entering password: Password@
+2026-04-15 17:05:05 [INFO] Entering password: Password1@
+2026-04-15 17:05:06 [INFO] Clicking on login CTA
+2026-04-15 17:05:06 [INFO] Clicking on login CTA
+2026-04-15 17:05:06 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:05:06 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:05:06 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:05:06 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:05:07 [INFO] Log file for this run: c:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 17:05:08 [INFO] Test start: #7 Unregistered or wrong credentials: "test.comgmail@"
+2026-04-15 17:05:08 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:05:08 [INFO] === TC07: Name empty validation ===
+2026-04-15 17:05:08 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:05:12 [INFO] Entering email: test.comgmail@
+2026-04-15 17:05:12 [INFO] Entering password: Password1@ '
+2026-04-15 17:05:12 [INFO] Clicking on login CTA
+2026-04-15 17:05:13 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:05:13 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:05:14 [INFO] Test start: #8 Invalid email format: "OR 1=1 --"
+2026-04-15 17:05:14 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:05:17 [INFO] Entering email: OR 1=1 --
+2026-04-15 17:05:17 [INFO] Expected error to contain: "Enter your full name."
+2026-04-15 17:05:17 [INFO] Actual error: "Enter your full name."
+2026-04-15 17:05:18 [INFO] Entering password: Password1@
+2026-04-15 17:05:18 [INFO] Clicking on login CTA
+2026-04-15 17:05:18 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:05:18 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:05:18 [INFO] Log file for this run: c:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 17:05:19 [INFO] === TC08: Name too short validation ===
+2026-04-15 17:05:19 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:05:19 [INFO] === TC09: Email empty validation ===
+2026-04-15 17:05:19 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:05:27 [INFO] Filling Name: J
+2026-04-15 17:05:29 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-15 17:05:29 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-15 17:05:31 [INFO] Expected error to contain: "Enter your email address."
+2026-04-15 17:05:31 [INFO] Actual error: "Enter your email address."
+2026-04-15 17:05:31 [INFO] === TC10: Email too short validation ===
+2026-04-15 17:05:31 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:05:35 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-15 17:05:35 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:05:43 [INFO] Filling Email: ab@c
+2026-04-15 17:05:46 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-15 17:05:46 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-15 17:05:47 [INFO] Filling Email: johndoe@
+2026-04-15 17:05:49 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:05:49 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:05:50 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-15 17:05:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:05:52 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-15 17:05:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:05:59 [INFO] Filling Email: @example.com
+2026-04-15 17:06:03 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:06:03 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:06:04 [INFO] Filling Email: johndoe.com
+2026-04-15 17:06:07 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:06:07 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:06:09 [INFO] === TC15: Mobile number too short ===
+2026-04-15 17:06:09 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:06:12 [INFO] === TC14: Mobile number empty ===
+2026-04-15 17:06:12 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:06:21 [INFO] Selecting Country Code: +91
+2026-04-15 17:06:24 [INFO] Filling Mobile: 12345
+2026-04-15 17:06:24 [INFO] Selecting Country Code: +91
+2026-04-15 17:06:25 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-15 17:06:25 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-15 17:06:27 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-15 17:06:27 [INFO] Actual error: "Enter your mobile number."
+2026-04-15 17:06:30 [INFO] === TC17: City empty validation ===
+2026-04-15 17:06:30 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:06:36 [INFO] === TC16: Mobile number too long ===
+2026-04-15 17:06:36 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:06:41 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-15 17:06:41 [INFO] Actual error: "Enter the name of your city."
+2026-04-15 17:06:43 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-15 17:06:43 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:06:44 [INFO] Selecting Country Code: +91
+2026-04-15 17:06:47 [INFO] Filling Mobile: 12345678901234567890
+2026-04-15 17:06:48 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-15 17:06:48 [INFO] Actual error: "Number must be 10 digits."
+2026-04-15 17:06:51 [INFO] Filling Message
+2026-04-15 17:06:53 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 17:06:53 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 17:06:59 [INFO] === TC19: Submit form without optional fields ===
+2026-04-15 17:06:59 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:07:00 [INFO] === TC01: Full enquiry form submission ===
+2026-04-15 17:07:00 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:07:09 [INFO] Filling Name: John Doe
+2026-04-15 17:07:10 [INFO] Filling Email: johndoe@example.com
+2026-04-15 17:07:11 [INFO] Filling Name: John Doe
+2026-04-15 17:07:11 [INFO] Selecting Country Code: +91
+2026-04-15 17:07:12 [INFO] Filling Email: johndoe@example.com
+2026-04-15 17:07:13 [INFO] Selecting Country Code: +91
+2026-04-15 17:07:13 [INFO] Filling Mobile: 9876543210
+2026-04-15 17:07:14 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-15 17:07:15 [INFO] Filling Mobile: 9876543210
+2026-04-15 17:07:15 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-15 17:07:15 [INFO] First suggestion: "Mumbai"
+2026-04-15 17:07:15 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 17:07:17 [INFO] First suggestion: "Aurangabad"
+2026-04-15 17:07:18 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 17:07:19 [INFO] Business Unit dropdown is open
+2026-04-15 17:07:20 [INFO] Business Unit dropdown is open
+2026-04-15 17:07:21 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 17:07:22 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 17:07:22 [INFO] Business Category dropdown is open
+2026-04-15 17:07:24 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 17:07:47 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-15 17:07:47 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:07:47 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-15 17:07:47 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:07:58 [INFO] Option visible: "Security"
+2026-04-15 17:07:58 [INFO] Option visible: "Aerospace"
+2026-04-15 17:07:58 [INFO] Option visible: "Real Estate"
+2026-04-15 17:07:59 [INFO] Option visible: "Intralogistics"
+2026-04-15 17:07:59 [INFO] Option visible: "Home Appliances"
+2026-04-15 17:07:59 [INFO] Option visible: "Locks & Security"
+2026-04-15 17:07:59 [INFO] Option visible: "Advanced Engineering"
+2026-04-15 17:07:59 [INFO] Option visible: "Commercial Appliances"
+2026-04-15 17:07:59 [INFO] Option visible: "Furniture & fittings"
+2026-04-15 17:07:59 [INFO] Suggestions shown: 18
+2026-04-15 17:07:59 [INFO] First suggestion: "Aurangabad"
+2026-04-15 17:07:59 [INFO] City input after selection: "Aurangabad"
+2026-04-15 17:08:01 [INFO] Business Unit selected: "Home Appliances"
+2026-04-15 17:08:02 [INFO] === TC05: File attachment validation ===
+2026-04-15 17:08:02 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:08:03 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-15 17:08:03 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:08:11 [INFO] Attaching file: c:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 17:08:17 [INFO] File attached successfully
+2026-04-15 17:08:18 [INFO] Files attached: 1
+2026-04-15 17:08:19 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-15 17:08:19 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:08:19 [INFO] Business Category selected: "Refrigerators"
+2026-04-15 17:08:21 [INFO] === TC06: Required field validation ===
+2026-04-15 17:08:21 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:08:28 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-15 17:08:30 [INFO] Business Unit selected: "Aerospace"
+2026-04-15 17:08:30 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-15 17:10:11 [INFO] Test start: #1 Unregistered or wrong credentials: "testuser@example.com"
+2026-04-15 17:10:11 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:10:17 [INFO] Entering email: testuser@example.com
+2026-04-15 17:10:18 [INFO] Entering password: Password123!
+2026-04-15 17:10:18 [INFO] Clicking on login CTA
+2026-04-15 17:10:18 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:10:18 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:10:19 [INFO] Test start: #2 Invalid email format: "testgmailfd.com"
+2026-04-15 17:10:19 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:10:25 [INFO] Entering email: testgmailfd.com
+2026-04-15 17:10:25 [INFO] Entering password: Password1@
+2026-04-15 17:10:26 [INFO] Clicking on login CTA
+2026-04-15 17:10:26 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:10:26 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:10:26 [INFO] Test start: #5 Unregistered or wrong credentials: "test@gmai"
+2026-04-15 17:10:26 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:10:26 [INFO] Test start: #3 Invalid password for valid email: "test@test.com"
+2026-04-15 17:10:26 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:10:33 [INFO] Entering email: test@test.com
+2026-04-15 17:10:33 [INFO] Entering email: test@gmai
+2026-04-15 17:10:35 [INFO] Entering password: 123
+2026-04-15 17:10:35 [INFO] Entering password: password
+2026-04-15 17:10:35 [INFO] Clicking on login CTA
+2026-04-15 17:10:35 [INFO] Clicking on login CTA
+2026-04-15 17:10:36 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:10:36 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:10:36 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:10:36 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:10:38 [INFO] Test start: #6 Invalid email format: "123"
+2026-04-15 17:10:38 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:10:38 [INFO] Test start: #4 Invalid email format: "@gmail.com"
+2026-04-15 17:10:38 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:10:44 [INFO] Entering email: 123
+2026-04-15 17:10:44 [INFO] Entering email: @gmail.com
+2026-04-15 17:10:45 [INFO] Entering password: Password@
+2026-04-15 17:10:45 [INFO] Entering password: Password1@
+2026-04-15 17:10:45 [INFO] Clicking on login CTA
+2026-04-15 17:10:45 [INFO] Clicking on login CTA
+2026-04-15 17:10:46 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:10:46 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:10:46 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:10:46 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:10:46 [INFO] Log file for this run: c:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 17:10:47 [INFO] === TC07: Name empty validation ===
+2026-04-15 17:10:48 [INFO] Test start: #7 Unregistered or wrong credentials: "test.comgmail@"
+2026-04-15 17:10:48 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:10:47 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:10:54 [INFO] Entering email: test.comgmail@
+2026-04-15 17:10:54 [INFO] Entering password: Password1@ '
+2026-04-15 17:10:54 [INFO] Clicking on login CTA
+2026-04-15 17:10:55 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:10:55 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:10:57 [INFO] Cookies banner dismissed
+2026-04-15 17:10:57 [INFO] Test start: #8 Invalid email format: "OR 1=1 --"
+2026-04-15 17:10:57 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:11:03 [INFO] Entering email: OR 1=1 --
+2026-04-15 17:11:04 [INFO] Entering password: Password1@
+2026-04-15 17:11:04 [INFO] Clicking on login CTA
+2026-04-15 17:11:04 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:11:04 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:11:05 [INFO] Log file for this run: c:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 17:11:05 [INFO] === TC08: Name too short validation ===
+2026-04-15 17:11:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:11:12 [INFO] Cookies banner dismissed
+2026-04-15 17:11:12 [INFO] Filling Name: J
+2026-04-15 17:11:31 [INFO] === TC09: Email empty validation ===
+2026-04-15 17:11:31 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:11:38 [INFO] Cookies banner dismissed
+2026-04-15 17:11:47 [INFO] === TC10: Email too short validation ===
+2026-04-15 17:11:47 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:11:54 [INFO] Cookies banner dismissed
+2026-04-15 17:11:54 [INFO] Filling Email: ab@c
+2026-04-15 17:12:12 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-15 17:12:12 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:12:21 [INFO] Cookies banner dismissed
+2026-04-15 17:12:21 [INFO] Filling Email: johndoe@
+2026-04-15 17:12:29 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-15 17:12:29 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:12:34 [INFO] Cookies banner dismissed
+2026-04-15 17:12:34 [INFO] Filling Email: johndoe.com
+2026-04-15 17:12:51 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-15 17:12:51 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:12:57 [INFO] Cookies banner dismissed
+2026-04-15 17:12:57 [INFO] Filling Email: @example.com
+2026-04-15 17:13:07 [INFO] === TC14: Mobile number empty ===
+2026-04-15 17:13:07 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:13:12 [INFO] Cookies banner dismissed
+2026-04-15 17:13:12 [INFO] Selecting Country Code: +91
+2026-04-15 17:13:26 [INFO] === TC15: Mobile number too short ===
+2026-04-15 17:13:26 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:13:30 [INFO] Cookies banner dismissed
+2026-04-15 17:13:30 [INFO] Selecting Country Code: +91
+2026-04-15 17:13:46 [INFO] === TC16: Mobile number too long ===
+2026-04-15 17:13:46 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:13:51 [INFO] Cookies banner dismissed
+2026-04-15 17:13:51 [INFO] Selecting Country Code: +91
+2026-04-15 17:14:02 [INFO] === TC17: City empty validation ===
+2026-04-15 17:14:02 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:14:09 [INFO] Cookies banner dismissed
+2026-04-15 17:14:22 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-15 17:14:22 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:14:28 [INFO] Cookies banner dismissed
+2026-04-15 17:14:28 [INFO] Filling Message
+2026-04-15 17:14:38 [INFO] === TC19: Submit form without optional fields ===
+2026-04-15 17:14:38 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:14:44 [INFO] Cookies banner dismissed
+2026-04-15 17:14:44 [INFO] Filling Name: John Doe
+2026-04-15 17:14:58 [INFO] === TC01: Full enquiry form submission ===
+2026-04-15 17:14:58 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:15:04 [INFO] Cookies banner dismissed
+2026-04-15 17:15:04 [INFO] Filling Name: John Doe
+2026-04-15 17:15:26 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-15 17:15:26 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:15:32 [INFO] Cookies banner dismissed
+2026-04-15 17:15:39 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-15 17:15:39 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:15:45 [INFO] Cookies banner dismissed
+2026-04-15 17:16:08 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-15 17:16:08 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:16:17 [INFO] Cookies banner dismissed
+2026-04-15 17:16:25 [INFO] === TC05: File attachment validation ===
+2026-04-15 17:16:25 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:16:34 [INFO] Cookies banner dismissed
+2026-04-15 17:16:34 [INFO] Attaching file: c:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 17:16:50 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-15 17:16:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:16:57 [INFO] Cookies banner dismissed
+2026-04-15 17:17:05 [INFO] === TC06: Required field validation ===
+2026-04-15 17:17:05 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:17:11 [INFO] Cookies banner dismissed
+2026-04-15 17:18:47 [INFO] Test start: #1 Unregistered or wrong credentials: "testuser@example.com"
+2026-04-15 17:18:47 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:18:53 [INFO] Entering email: testuser@example.com
+2026-04-15 17:18:53 [INFO] Entering password: Password123!
+2026-04-15 17:18:53 [INFO] Clicking on login CTA
+2026-04-15 17:18:54 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:18:54 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:18:54 [INFO] Test start: #2 Invalid email format: "testgmailfd.com"
+2026-04-15 17:18:54 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:18:59 [INFO] Entering email: testgmailfd.com
+2026-04-15 17:18:59 [INFO] Entering password: Password1@
+2026-04-15 17:18:59 [INFO] Clicking on login CTA
+2026-04-15 17:19:00 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:19:00 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:19:01 [INFO] Test start: #3 Invalid password for valid email: "test@test.com"
+2026-04-15 17:19:01 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:19:03 [INFO] Test start: #5 Unregistered or wrong credentials: "test@gmai"
+2026-04-15 17:19:03 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:19:06 [INFO] Entering email: test@test.com
+2026-04-15 17:19:06 [INFO] Entering password: 123
+2026-04-15 17:19:06 [INFO] Clicking on login CTA
+2026-04-15 17:19:07 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:19:07 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:19:07 [INFO] Entering email: test@gmai
+2026-04-15 17:19:07 [INFO] Entering password: password
+2026-04-15 17:19:07 [INFO] Clicking on login CTA
+2026-04-15 17:19:07 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:19:07 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:19:08 [INFO] Test start: #4 Invalid email format: "@gmail.com"
+2026-04-15 17:19:08 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:19:08 [INFO] Test start: #6 Invalid email format: "123"
+2026-04-15 17:19:08 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:19:13 [INFO] Entering email: @gmail.com
+2026-04-15 17:19:13 [INFO] Entering password: Password1@
+2026-04-15 17:19:13 [INFO] Clicking on login CTA
+2026-04-15 17:19:13 [INFO] Entering email: 123
+2026-04-15 17:19:13 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:19:13 [INFO] Entering password: Password@
+2026-04-15 17:19:13 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:19:13 [INFO] Clicking on login CTA
+2026-04-15 17:19:14 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:19:14 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:19:14 [INFO] Log file for this run: c:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 17:19:14 [INFO] Test start: #7 Unregistered or wrong credentials: "test.comgmail@"
+2026-04-15 17:19:14 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:19:14 [INFO] === TC07: Name empty validation ===
+2026-04-15 17:19:14 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:19:20 [INFO] Entering email: test.comgmail@
+2026-04-15 17:19:20 [INFO] Entering password: Password1@ '
+2026-04-15 17:19:20 [INFO] Clicking on login CTA
+2026-04-15 17:19:20 [INFO] Cookies banner dismissed
+2026-04-15 17:19:20 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:19:20 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:19:21 [INFO] Expected error to contain: "Enter your full name."
+2026-04-15 17:19:21 [INFO] Actual error: "Enter your full name."
+2026-04-15 17:19:21 [INFO] Test start: #8 Invalid email format: "OR 1=1 --"
+2026-04-15 17:19:21 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:19:21 [INFO] === TC08: Name too short validation ===
+2026-04-15 17:19:21 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:19:29 [INFO] Entering email: OR 1=1 --
+2026-04-15 17:19:29 [INFO] Entering password: Password1@
+2026-04-15 17:19:29 [INFO] Clicking on login CTA
+2026-04-15 17:19:30 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:19:30 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:19:30 [INFO] Log file for this run: c:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 17:19:31 [INFO] Cookies banner dismissed
+2026-04-15 17:19:31 [INFO] Filling Name: J
+2026-04-15 17:19:32 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-15 17:19:32 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-15 17:19:33 [INFO] === TC10: Email too short validation ===
+2026-04-15 17:19:33 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:19:33 [INFO] === TC09: Email empty validation ===
+2026-04-15 17:19:33 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:19:45 [INFO] Cookies banner dismissed
+2026-04-15 17:19:45 [INFO] Filling Email: ab@c
+2026-04-15 17:19:47 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-15 17:19:47 [INFO] Cookies banner dismissed
+2026-04-15 17:19:47 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-15 17:19:49 [INFO] Expected error to contain: "Enter your email address."
+2026-04-15 17:19:49 [INFO] Actual error: "Enter your email address."
+2026-04-15 17:19:50 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-15 17:19:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:19:50 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-15 17:19:50 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:19:59 [INFO] Cookies banner dismissed
+2026-04-15 17:19:59 [INFO] Filling Email: johndoe@
+2026-04-15 17:19:59 [INFO] Cookies banner dismissed
+2026-04-15 17:19:59 [INFO] Filling Email: johndoe.com
+2026-04-15 17:19:59 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:19:59 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:20:00 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:20:00 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:20:01 [INFO] === TC14: Mobile number empty ===
+2026-04-15 17:20:01 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:01 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-15 17:20:01 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:08 [INFO] Cookies banner dismissed
+2026-04-15 17:20:08 [INFO] Selecting Country Code: +91
+2026-04-15 17:20:08 [INFO] Cookies banner dismissed
+2026-04-15 17:20:08 [INFO] Filling Email: @example.com
+2026-04-15 17:20:09 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:20:09 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:20:09 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-15 17:20:09 [INFO] Actual error: "Enter your mobile number."
+2026-04-15 17:20:11 [INFO] === TC15: Mobile number too short ===
+2026-04-15 17:20:11 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:11 [INFO] === TC16: Mobile number too long ===
+2026-04-15 17:20:11 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:19 [INFO] Cookies banner dismissed
+2026-04-15 17:20:19 [INFO] Selecting Country Code: +91
+2026-04-15 17:20:19 [INFO] Filling Mobile: 12345678901234567890
+2026-04-15 17:20:20 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-15 17:20:20 [INFO] Actual error: "Number must be 10 digits."
+2026-04-15 17:20:21 [INFO] === TC17: City empty validation ===
+2026-04-15 17:20:21 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:21 [INFO] Cookies banner dismissed
+2026-04-15 17:20:21 [INFO] Selecting Country Code: +91
+2026-04-15 17:20:22 [INFO] Filling Mobile: 12345
+2026-04-15 17:20:23 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-15 17:20:23 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-15 17:20:25 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-15 17:20:25 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:27 [INFO] Cookies banner dismissed
+2026-04-15 17:20:28 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-15 17:20:28 [INFO] Actual error: "Enter the name of your city."
+2026-04-15 17:20:30 [INFO] === TC19: Submit form without optional fields ===
+2026-04-15 17:20:30 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:31 [INFO] Cookies banner dismissed
+2026-04-15 17:20:31 [INFO] Filling Message
+2026-04-15 17:20:32 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 17:20:32 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 17:20:33 [INFO] === TC01: Full enquiry form submission ===
+2026-04-15 17:20:33 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:37 [INFO] Cookies banner dismissed
+2026-04-15 17:20:37 [INFO] Filling Name: John Doe
+2026-04-15 17:20:38 [INFO] Filling Email: johndoe@example.com
+2026-04-15 17:20:39 [INFO] Selecting Country Code: +91
+2026-04-15 17:20:41 [INFO] Filling Mobile: 9876543210
+2026-04-15 17:20:41 [INFO] Cookies banner dismissed
+2026-04-15 17:20:41 [INFO] Filling Name: John Doe
+2026-04-15 17:20:41 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-15 17:20:41 [INFO] Filling Email: johndoe@example.com
+2026-04-15 17:20:41 [INFO] Selecting Country Code: +91
+2026-04-15 17:20:42 [INFO] First suggestion: "Mumbai"
+2026-04-15 17:20:42 [INFO] Filling Mobile: 9876543210
+2026-04-15 17:20:42 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 17:20:43 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-15 17:20:43 [INFO] Business Unit dropdown is open
+2026-04-15 17:20:43 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 17:20:44 [INFO] First suggestion: "Aurangabad"
+2026-04-15 17:20:44 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 17:20:44 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 17:20:45 [INFO] Business Unit dropdown is open
+2026-04-15 17:20:45 [INFO] Business Category dropdown is open
+2026-04-15 17:20:45 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 17:20:45 [INFO] Clicking Submit button
+2026-04-15 17:20:46 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 17:20:46 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 17:20:46 [INFO] Submit clicked and response received
+2026-04-15 17:20:46 [INFO] Asserting form submission success
+2026-04-15 17:20:46 [INFO] Business Category dropdown is open
+2026-04-15 17:20:46 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 17:20:47 [INFO] Filling Message
+2026-04-15 17:20:47 [INFO] Attaching file: c:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 17:20:47 [INFO] File attached successfully
+2026-04-15 17:20:47 [INFO] Clicking Submit button
+2026-04-15 17:20:47 [INFO] Submit clicked and response received
+2026-04-15 17:20:47 [INFO] Asserting form submission success
+2026-04-15 17:20:48 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-15 17:20:49 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-15 17:20:49 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:49 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-15 17:20:51 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-15 17:20:51 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:20:56 [INFO] Cookies banner dismissed
+2026-04-15 17:20:58 [INFO] Suggestions shown: 18
+2026-04-15 17:20:58 [INFO] First suggestion: "Aurangabad"
+2026-04-15 17:20:58 [INFO] City input after selection: "Aurangabad"
+2026-04-15 17:20:59 [INFO] Cookies banner dismissed
+2026-04-15 17:21:00 [INFO] Option visible: "Security"
+2026-04-15 17:21:00 [INFO] Option visible: "Aerospace"
+2026-04-15 17:21:00 [INFO] Option visible: "Real Estate"
+2026-04-15 17:21:00 [INFO] Option visible: "Intralogistics"
+2026-04-15 17:21:00 [INFO] Option visible: "Home Appliances"
+2026-04-15 17:21:00 [INFO] Option visible: "Locks & Security"
+2026-04-15 17:21:00 [INFO] Option visible: "Advanced Engineering"
+2026-04-15 17:21:00 [INFO] Option visible: "Commercial Appliances"
+2026-04-15 17:21:00 [INFO] Option visible: "Furniture & fittings"
+2026-04-15 17:21:00 [INFO] Business Unit selected: "Home Appliances"
+2026-04-15 17:21:01 [INFO] === TC05: File attachment validation ===
+2026-04-15 17:21:01 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:21:01 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-15 17:21:01 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:21:09 [INFO] Cookies banner dismissed
+2026-04-15 17:21:09 [INFO] Attaching file: c:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 17:21:09 [INFO] File attached successfully
+2026-04-15 17:21:10 [INFO] Cookies banner dismissed
+2026-04-15 17:21:10 [INFO] Files attached: 1
+2026-04-15 17:21:11 [INFO] Business Category selected: "Refrigerators"
+2026-04-15 17:21:12 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-15 17:21:12 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:21:13 [INFO] === TC06: Required field validation ===
+2026-04-15 17:21:13 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:21:19 [INFO] Cookies banner dismissed
+2026-04-15 17:21:21 [INFO] Business Unit selected: "Aerospace"
+2026-04-15 17:21:21 [INFO] Cookies banner dismissed
+2026-04-15 17:21:21 [INFO] Business Category dropdown is hidden as expected for Aerospace
+2026-04-15 17:21:21 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-15 17:23:12 [INFO] Test start: #1 Unregistered or wrong credentials: "testuser@example.com"
+2026-04-15 17:23:12 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:23:26 [INFO] Entering email: testuser@example.com
+2026-04-15 17:23:27 [INFO] Entering password: Password123!
+2026-04-15 17:23:27 [INFO] Clicking on login CTA
+2026-04-15 17:23:27 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:23:27 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:23:29 [INFO] Test start: #2 Invalid email format: "testgmailfd.com"
+2026-04-15 17:23:29 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:23:32 [INFO] Entering email: testgmailfd.com
+2026-04-15 17:23:32 [INFO] Entering password: Password1@
+2026-04-15 17:23:33 [INFO] Clicking on login CTA
+2026-04-15 17:23:33 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:23:33 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:23:35 [INFO] Test start: #3 Invalid password for valid email: "test@test.com"
+2026-04-15 17:23:35 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:23:35 [INFO] Test start: #5 Unregistered or wrong credentials: "test@gmai"
+2026-04-15 17:23:36 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:23:38 [INFO] Entering email: test@test.com
+2026-04-15 17:23:39 [INFO] Entering password: 123
+2026-04-15 17:23:39 [INFO] Clicking on login CTA
+2026-04-15 17:23:39 [INFO] Entering email: test@gmai
+2026-04-15 17:23:40 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:23:40 [INFO] Entering password: password
+2026-04-15 17:23:40 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:23:40 [INFO] Clicking on login CTA
+2026-04-15 17:23:41 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:23:41 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:23:43 [INFO] Test start: #6 Invalid email format: "123"
+2026-04-15 17:23:43 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:23:44 [INFO] Test start: #4 Invalid email format: "@gmail.com"
+2026-04-15 17:23:44 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:23:49 [INFO] Entering email: 123
+2026-04-15 17:23:49 [INFO] Entering password: Password@
+2026-04-15 17:23:49 [INFO] Clicking on login CTA
+2026-04-15 17:23:49 [INFO] Entering email: @gmail.com
+2026-04-15 17:23:49 [INFO] Entering password: Password1@
+2026-04-15 17:23:49 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:23:49 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:23:49 [INFO] Clicking on login CTA
+2026-04-15 17:23:50 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:23:50 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:23:51 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 17:23:53 [INFO] Test start: #7 Unregistered or wrong credentials: "test.comgmail@"
+2026-04-15 17:23:53 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:23:56 [INFO] Entering email: test.comgmail@
+2026-04-15 17:23:56 [INFO] Entering password: Password1@ '
+2026-04-15 17:23:56 [INFO] Clicking on login CTA
+2026-04-15 17:23:57 [INFO] Assertion passed: Incorrect email or password. Try again. message is visible
+2026-04-15 17:23:57 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:23:57 [INFO] === TC07: Name empty validation ===
+2026-04-15 17:23:57 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:24:00 [INFO] Test start: #8 Invalid email format: "OR 1=1 --"
+2026-04-15 17:24:00 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-15 17:24:02 [INFO] Entering email: OR 1=1 --
+2026-04-15 17:24:02 [INFO] Entering password: Password1@
+2026-04-15 17:24:02 [INFO] Clicking on login CTA
+2026-04-15 17:24:04 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-15 17:24:04 [INFO] Test end: User is not logged in with invalid details
+2026-04-15 17:24:06 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-04-15.log
+2026-04-15 17:24:07 [INFO] === TC08: Name too short validation ===
+2026-04-15 17:24:07 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:24:19 [INFO] Cookies banner dismissed
+2026-04-15 17:24:19 [INFO] Cookies banner dismissed
+2026-04-15 17:24:19 [INFO] Filling Name: J
+2026-04-15 17:24:20 [INFO] Expected error to contain: "Enter your full name."
+2026-04-15 17:24:20 [INFO] Actual error: "Enter your full name."
+2026-04-15 17:24:20 [INFO] Expected error to contain: "Name must be between 2-100 characters."
+2026-04-15 17:24:20 [INFO] Actual error: "Name must be between 2-100 characters."
+2026-04-15 17:24:22 [INFO] === TC09: Email empty validation ===
+2026-04-15 17:24:22 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:24:22 [INFO] === TC10: Email too short validation ===
+2026-04-15 17:24:22 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:24:31 [INFO] Cookies banner dismissed
+2026-04-15 17:24:31 [INFO] Filling Email: ab@c
+2026-04-15 17:24:31 [INFO] Cookies banner dismissed
+2026-04-15 17:24:32 [INFO] Expected error to contain: "Enter your email address."
+2026-04-15 17:24:32 [INFO] Actual error: "Enter your email address."
+2026-04-15 17:24:32 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-15 17:24:32 [INFO] Actual error: "Email address must be between 5-300 characters."
+2026-04-15 17:24:34 [INFO] === TC11: Email invalid format - missing domain ===
+2026-04-15 17:24:34 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:24:34 [INFO] === TC12: Email invalid format - missing @ ===
+2026-04-15 17:24:34 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:24:46 [INFO] Cookies banner dismissed
+2026-04-15 17:24:46 [INFO] Filling Email: johndoe@
+2026-04-15 17:24:47 [INFO] Cookies banner dismissed
+2026-04-15 17:24:47 [INFO] Filling Email: johndoe.com
+2026-04-15 17:24:47 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:24:47 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:24:48 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:24:48 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:24:48 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-15 17:24:48 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:24:49 [INFO] === TC14: Mobile number empty ===
+2026-04-15 17:24:49 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:24:57 [INFO] Cookies banner dismissed
+2026-04-15 17:24:57 [INFO] Filling Email: @example.com
+2026-04-15 17:24:57 [INFO] Cookies banner dismissed
+2026-04-15 17:24:57 [INFO] Selecting Country Code: +91
+2026-04-15 17:24:58 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-15 17:24:58 [INFO] Actual error: "Enter a valid email address."
+2026-04-15 17:25:00 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-15 17:25:00 [INFO] Actual error: "Enter your mobile number."
+2026-04-15 17:25:03 [INFO] === TC15: Mobile number too short ===
+2026-04-15 17:25:03 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:25:04 [INFO] === TC16: Mobile number too long ===
+2026-04-15 17:25:04 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:25:14 [INFO] Cookies banner dismissed
+2026-04-15 17:25:14 [INFO] Selecting Country Code: +91
+2026-04-15 17:25:16 [INFO] Cookies banner dismissed
+2026-04-15 17:25:16 [INFO] Selecting Country Code: +91
+2026-04-15 17:25:16 [INFO] Filling Mobile: 12345
+2026-04-15 17:25:17 [INFO] Filling Mobile: 12345678901234567890
+2026-04-15 17:25:17 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-15 17:25:17 [INFO] Actual error: "Number must be 10 numbers"
+2026-04-15 17:25:18 [INFO] Expected error to contain: "Number must be 10 digits."
+2026-04-15 17:25:18 [INFO] Actual error: "Number must be 10 digits."
+2026-04-15 17:25:18 [INFO] === TC17: City empty validation ===
+2026-04-15 17:25:18 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:25:19 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-15 17:25:19 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:25:27 [INFO] Cookies banner dismissed
+2026-04-15 17:25:27 [INFO] Cookies banner dismissed
+2026-04-15 17:25:27 [INFO] Filling Message
+2026-04-15 17:25:28 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-15 17:25:28 [INFO] Actual error: "Enter the name of your city."
+2026-04-15 17:25:29 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 17:25:29 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-15 17:25:30 [INFO] === TC01: Full enquiry form submission ===
+2026-04-15 17:25:30 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:25:31 [INFO] === TC19: Submit form without optional fields ===
+2026-04-15 17:25:31 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:25:39 [INFO] Cookies banner dismissed
+2026-04-15 17:25:39 [INFO] Filling Name: John Doe
+2026-04-15 17:25:39 [INFO] Filling Email: johndoe@example.com
+2026-04-15 17:25:40 [INFO] Selecting Country Code: +91
+2026-04-15 17:25:40 [INFO] Cookies banner dismissed
+2026-04-15 17:25:40 [INFO] Filling Name: John Doe
+2026-04-15 17:25:40 [INFO] Filling Email: johndoe@example.com
+2026-04-15 17:25:40 [INFO] Selecting Country Code: +91
+2026-04-15 17:25:42 [INFO] Filling Mobile: 9876543210
+2026-04-15 17:25:42 [INFO] Typing city: "Aur" — expecting suggestion: "Aurangabad"
+2026-04-15 17:25:42 [INFO] Filling Mobile: 9876543210
+2026-04-15 17:25:42 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-15 17:25:43 [INFO] First suggestion: "Mumbai"
+2026-04-15 17:25:43 [INFO] First suggestion: "Aurangabad"
+2026-04-15 17:25:43 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 17:25:44 [INFO] Selecting Business Unit: Home Appliances
+2026-04-15 17:25:44 [INFO] Business Unit dropdown is open
+2026-04-15 17:25:44 [INFO] Business Unit dropdown is open
+2026-04-15 17:25:45 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 17:25:45 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-15 17:25:45 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 17:25:45 [INFO] Selecting Business Category: Refrigerators
+2026-04-15 17:25:45 [INFO] Business Category dropdown is open
+2026-04-15 17:25:45 [INFO] Business Category dropdown is open
+2026-04-15 17:25:46 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 17:25:46 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-15 17:25:46 [INFO] Clicking Submit button
+2026-04-15 17:25:46 [INFO] Filling Message
+2026-04-15 17:25:46 [INFO] Attaching file: C:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 17:25:46 [INFO] File attached successfully
+2026-04-15 17:25:46 [INFO] Clicking Submit button
+2026-04-15 17:25:46 [INFO] Submit clicked and response received
+2026-04-15 17:25:46 [INFO] Asserting form submission success
+2026-04-15 17:25:47 [INFO] Submit clicked and response received
+2026-04-15 17:25:47 [INFO] Asserting form submission success
+2026-04-15 17:25:50 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-15 17:25:50 [INFO] Form submitted successfully. Message: "Thank you for your interest."
+2026-04-15 17:25:52 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-15 17:25:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:25:52 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-15 17:25:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:26:01 [INFO] Cookies banner dismissed
+2026-04-15 17:26:01 [INFO] Cookies banner dismissed
+2026-04-15 17:26:02 [INFO] Option visible: "Security"
+2026-04-15 17:26:02 [INFO] Option visible: "Aerospace"
+2026-04-15 17:26:02 [INFO] Option visible: "Real Estate"
+2026-04-15 17:26:02 [INFO] Option visible: "Intralogistics"
+2026-04-15 17:26:02 [INFO] Option visible: "Home Appliances"
+2026-04-15 17:26:02 [INFO] Option visible: "Locks & Security"
+2026-04-15 17:26:02 [INFO] Option visible: "Advanced Engineering"
+2026-04-15 17:26:02 [INFO] Option visible: "Commercial Appliances"
+2026-04-15 17:26:02 [INFO] Suggestions shown: 18
+2026-04-15 17:26:02 [INFO] Option visible: "Furniture & fittings"
+2026-04-15 17:26:02 [INFO] First suggestion: "Aurangabad"
+2026-04-15 17:26:03 [INFO] City input after selection: "Aurangabad"
+2026-04-15 17:26:03 [INFO] Business Unit selected: "Home Appliances"
+2026-04-15 17:26:04 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-15 17:26:04 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:26:04 [INFO] === TC05: File attachment validation ===
+2026-04-15 17:26:04 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:26:13 [INFO] Cookies banner dismissed
+2026-04-15 17:26:15 [INFO] Cookies banner dismissed
+2026-04-15 17:26:15 [INFO] Attaching file: C:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-15 17:26:15 [INFO] File attached successfully
+2026-04-15 17:26:15 [INFO] Business Category selected: "Refrigerators"
+2026-04-15 17:26:15 [INFO] Files attached: 1
+2026-04-15 17:26:16 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-15 17:26:16 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:26:16 [INFO] === TC06: Required field validation ===
+2026-04-15 17:26:16 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-15 17:26:24 [INFO] Cookies banner dismissed
+2026-04-15 17:26:24 [INFO] Cookies banner dismissed
+2026-04-15 17:26:26 [INFO] TC06 passed: Form blocked submission with empty fields
+2026-04-15 17:26:26 [INFO] Business Unit selected: "Aerospace"
+2026-04-15 17:26:26 [INFO] Business Category dropdown is hidden as expected for Aerospace

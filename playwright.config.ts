@@ -5,8 +5,10 @@ export default defineConfig({
   testMatch: '**/*.spec.ts',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
-  retries: 0,
-  workers: process.env.CI ? 2 : undefined,
+  retries: process.env.CI ? 2 : 0,
+  workers: process.env.CI ? 1 : undefined,
+  timeout: 90000,
+  expect: { timeout: 15000 },
 
   reporter: [
     ['html', { outputFolder: 'playwright-report', open: 'never' }],

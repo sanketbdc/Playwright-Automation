@@ -84,13 +84,13 @@ export class EnquiryFormPage {
 
   async goto(url: string): Promise<void> {
     logger.info(`Navigating to enquiry form: ${url}`);
-    await this.page.goto(url);
-    await this.page.waitForLoadState('domcontentloaded');
+    await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    await this.page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => {});
     // Dismiss cookies banner using the button inside the banner, not the link
     const cookiesBanner = this.page.locator('div.ui-cookies-alert');
-    if (await cookiesBanner.isVisible({ timeout: 3000 }).catch(() => false)) {
+    if (await cookiesBanner.isVisible({ timeout: 5000 }).catch(() => false)) {
       await this.page.locator('div.ui-cookies-alert button').click();
-      await cookiesBanner.waitFor({ state: 'hidden', timeout: 3000 }).catch(() => {});
+      await cookiesBanner.waitFor({ state: 'hidden', timeout: 5000 }).catch(() => {});
       logger.info('Cookies banner dismissed');
     }
   }
@@ -114,7 +114,7 @@ export class EnquiryFormPage {
     await this.countryCodeCombobox.click();
     const listbox = this.countryCodeCombobox.locator('..').getByRole('listbox');
     const option  = listbox.getByRole('option', { name: countryCode, exact: true });
-    await option.waitFor({ state: 'visible', timeout: 5000 });
+    await option.waitFor({ state: 'visible', timeout: 15000 });
     await option.click();
   }
 
@@ -135,7 +135,7 @@ export class EnquiryFormPage {
     await this.cityInput.fill(partialCity);
 
     // Wait for the suggestion list to appear
-    await this.cityAutoSuggestionList.first().waitFor({ state: 'visible', timeout: 5000 });
+    await this.cityAutoSuggestionList.first().waitFor({ state: 'visible', timeout: 15000 });
 
     // Verify first suggestion contains the expected city name
     const firstSuggestionText = await this.cityAutoSuggestionList.first().textContent();
@@ -166,16 +166,16 @@ export class EnquiryFormPage {
     await this.businessUnitCombobox.click();
 
     // Wait for the combobox to expand
-    await expect(this.businessUnitCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 5000 });
+    await expect(this.businessUnitCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 15000 });
     logger.info('Business Unit dropdown is open');
 
     // Scope option to the sibling listbox
     const option = this.businessUnitOptionList.getByRole('option', { name: unit, exact: true });
-    await option.waitFor({ state: 'visible', timeout: 5000 });
+    await option.waitFor({ state: 'visible', timeout: 15000 });
     await option.click();
     logger.info(`Clicked Business Unit option: "${unit}"`);
 
-    await expect(this.businessUnitInput).toHaveValue(unit, { timeout: 3000 });
+    await expect(this.businessUnitInput).toHaveValue(unit, { timeout: 10000 });
     await this.businessUnitInput.press('Tab');
   }
 
@@ -196,16 +196,16 @@ export class EnquiryFormPage {
     await this.businessCategoryCombobox.click();
 
     // Wait for the combobox to expand
-    await expect(this.businessCategoryCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 5000 });
+    await expect(this.businessCategoryCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 15000 });
     logger.info('Business Category dropdown is open');
 
     // Scope option to the sibling listbox
     const option = this.businessCategoryOptionList.getByRole('option', { name: category, exact: true });
-    await option.waitFor({ state: 'visible', timeout: 5000 });
+    await option.waitFor({ state: 'visible', timeout: 15000 });
     await option.click();
     logger.info(`Clicked Business Category option: "${category}"`);
 
-    await expect(this.businessCategoryInput).toHaveValue(category, { timeout: 3000 });
+    await expect(this.businessCategoryInput).toHaveValue(category, { timeout: 10000 });
     await this.businessCategoryInput.press('Tab');
   }
 

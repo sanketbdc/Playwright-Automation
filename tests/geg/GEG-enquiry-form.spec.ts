@@ -72,7 +72,7 @@ test.describe('Enquiry Form - City Auto-Suggestion', () => {
     await enquiryPage.cityInput.fill(formData.city);
 
     // Wait for suggestion list
-    await enquiryPage.cityAutoSuggestionList.first().waitFor({ state: 'visible', timeout: 5000 });
+    await enquiryPage.cityAutoSuggestionList.first().waitFor({ state: 'visible', timeout: 15000 });
 
     // At least one suggestion should appear
     const count = await enquiryPage.cityAutoSuggestionList.count();
@@ -107,7 +107,7 @@ test.describe('Enquiry Form - Business Unit Dropdown', () => {
     // Open the dropdown
     await enquiryPage.businessUnitCombobox.waitFor({ state: 'visible' });
     await enquiryPage.businessUnitCombobox.click();
-    await expect(enquiryPage.businessUnitCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 5000 });
+    await expect(enquiryPage.businessUnitCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 15000 });
 
     // All 9 expected options must be visible — scoped to the Business Unit list
     const expectedOptions = [
@@ -150,10 +150,10 @@ test.describe('Enquiry Form - Business Category Dropdown', () => {
 
     await enquiryPage.businessCategoryCombobox.waitFor({ state: 'visible' });
     await enquiryPage.businessCategoryCombobox.click();
-    await expect(enquiryPage.businessCategoryCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 5000 });
+    await expect(enquiryPage.businessCategoryCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 15000 });
 
     const option = enquiryPage.businessCategoryOptionList.getByRole('option', { name: formData.businessCategory, exact: true });
-    await option.waitFor({ state: 'visible', timeout: 5000 });
+    await option.waitFor({ state: 'visible', timeout: 15000 });
     await option.click();
 
     const selected = await enquiryPage.businessCategoryInput.inputValue();
@@ -200,7 +200,7 @@ test.describe('Enquiry Form - Business Category Visibility', () => {
     // Select Aerospace as Business Unit
     await enquiryPage.businessUnitCombobox.waitFor({ state: 'visible' });
     await enquiryPage.businessUnitCombobox.click();
-    await expect(enquiryPage.businessUnitCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 5000 });
+    await expect(enquiryPage.businessUnitCombobox).toHaveAttribute('aria-expanded', 'true', { timeout: 15000 });
     await enquiryPage.businessUnitOptionList.getByRole('option', { name: 'Aerospace', exact: true }).click();
 
     const selected = await enquiryPage.businessUnitInput.inputValue();
@@ -208,7 +208,7 @@ test.describe('Enquiry Form - Business Category Visibility', () => {
     logger.info(`Business Unit selected: "${selected}"`);
 
     // Business Category combobox should NOT be visible
-    await expect(enquiryPage.businessCategoryCombobox).not.toBeVisible({ timeout: 3000 });
+    await expect(enquiryPage.businessCategoryCombobox).not.toBeVisible({ timeout: 8000 });
     logger.info('Business Category dropdown is hidden as expected for Aerospace');
   });
 

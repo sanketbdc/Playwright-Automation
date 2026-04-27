@@ -66,7 +66,7 @@ async function sendMail() {
 
   await transporter.sendMail({
     from:        process.env.EMAIL_USER,
-    to:          'sanket@bombaydc.com',
+    to:          'sanket@bombaydc.com, arpit@bombaydc.com',
     subject:     config.subject,
     text:        config.text,
     attachments,

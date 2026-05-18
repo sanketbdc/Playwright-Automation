@@ -85,7 +85,8 @@ export class EnquiryFormPage {
   async goto(url: string): Promise<void> {
     logger.info(`Navigating to enquiry form: ${url}`);
     await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
-    await this.page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => {});
+    // Use 'load' instead of 'networkidle' — more reliable on CI with ads/trackers
+    await this.page.waitForLoadState('load', { timeout: 30000 }).catch(() => {});
     // Dismiss cookies banner using the button inside the banner, not the link
     const cookiesBanner = this.page.locator('div.ui-cookies-alert');
     if (await cookiesBanner.isVisible({ timeout: 5000 }).catch(() => false)) {

@@ -6,3 +6,12 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Reports & logs — generated at runtime
+/reports/
+/allure-results/
+/allure-report/
+/logs/
+
+# Environment
+.env

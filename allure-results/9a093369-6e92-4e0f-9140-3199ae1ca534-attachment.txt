@@ -1,0 +1,7 @@
+2026-04-30 11:18:51 [INFO] Test start: #6 Invalid email format: "123"
+2026-04-30 11:18:51 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-04-30 11:18:55 [INFO] Entering email: 123
+2026-04-30 11:18:55 [INFO] Entering password: Password@
+2026-04-30 11:18:55 [INFO] Clicking on login CTA
+2026-04-30 11:18:56 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-04-30 11:18:56 [INFO] Test end: User is not logged in with invalid details

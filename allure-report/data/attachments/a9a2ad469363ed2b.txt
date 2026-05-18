@@ -1,0 +1,7 @@
+2026-04-30 11:20:00 [INFO] === TC15: Mobile number too short ===
+2026-04-30 11:20:00 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:20:32 [INFO] Cookies banner dismissed
+2026-04-30 11:20:32 [INFO] Selecting Country Code: +91
+2026-04-30 11:20:32 [INFO] Filling Mobile: 12345
+2026-04-30 11:20:32 [INFO] Expected error to contain: "Number must be 10 numbers"
+2026-04-30 11:20:32 [INFO] Actual error: "Number must be 10 numbers"

@@ -1,0 +1,170 @@
+2026-04-29 12:09:16 [INFO] === TC01: Verify ENQUIRE CTA opens the modal ===
+2026-04-29 12:09:16 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:09:17 [INFO] === TC02: Full enquiry form submission ===
+2026-04-29 12:09:17 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:09:53 [INFO] Page loaded
+2026-04-29 12:09:53 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:09:54 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:09:54 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:09:56 [INFO] Page loaded
+2026-04-29 12:09:56 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:10:06 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:10:06 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:10:34 [INFO] === TC03: Verify form title and subtitle ===
+2026-04-29 12:10:34 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:10:35 [INFO] === TC04: Verify all form fields are visible ===
+2026-04-29 12:10:35 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:10:59 [INFO] Page loaded
+2026-04-29 12:10:59 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:11:01 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:11:01 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:11:09 [INFO] Page loaded
+2026-04-29 12:11:09 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:11:09 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:11:21 [INFO] === TC05: Verify WhatsApp checkbox toggle ===
+2026-04-29 12:11:22 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:11:56 [INFO] Page loaded
+2026-04-29 12:11:56 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:12:01 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:12:01 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:23:36 [INFO] === TC01: Verify ENQUIRE CTA opens the modal ===
+2026-04-29 12:23:36 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:23:53 [INFO] Page loaded
+2026-04-29 12:23:53 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:23:54 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:23:54 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:24:12 [INFO] === TC02: Full enquiry form submission ===
+2026-04-29 12:24:12 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:24:30 [INFO] Page loaded
+2026-04-29 12:24:30 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:24:32 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:24:32 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:24:49 [INFO] === TC03: Verify form title and subtitle ===
+2026-04-29 12:24:49 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:25:05 [INFO] Page loaded
+2026-04-29 12:25:05 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:25:06 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:25:29 [INFO] === TC04: Verify all form fields are visible ===
+2026-04-29 12:25:29 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:26:03 [INFO] Page loaded
+2026-04-29 12:26:03 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:26:04 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:26:04 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:26:29 [INFO] === TC05: Verify WhatsApp checkbox toggle ===
+2026-04-29 12:26:29 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:27:01 [INFO] Page loaded
+2026-04-29 12:27:01 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:27:03 [INFO] ENQUIRE CTA clicked
+2026-04-29 12:27:03 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:34:30 [INFO] === TC01: Verify ENQUIRE CTA opens the modal ===
+2026-04-29 12:34:30 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:34:58 [INFO] Page loaded
+2026-04-29 12:34:58 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:34:59 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:34:59 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:34:59 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:34:59 [INFO] TC01 passed: Enquiry form modal opened successfully
+2026-04-29 12:35:00 [INFO] === TC02: Full enquiry form submission ===
+2026-04-29 12:35:00 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:35:27 [INFO] Page loaded
+2026-04-29 12:35:27 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:35:27 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:35:27 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:35:28 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:35:28 [INFO] Filling Name: John Doe
+2026-04-29 12:35:28 [INFO] Filling Phone: 8169027578
+2026-04-29 12:35:28 [INFO] Clicking Send OTP button
+2026-04-29 12:35:46 [INFO] === TC03: Verify form title and subtitle ===
+2026-04-29 12:35:46 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:36:03 [INFO] Page loaded
+2026-04-29 12:36:03 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:36:03 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:36:03 [INFO] TC03 passed: Form title and subtitle verified
+2026-04-29 12:36:05 [INFO] === TC04: Verify all form fields are visible ===
+2026-04-29 12:36:05 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:36:39 [INFO] Page loaded
+2026-04-29 12:36:39 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:36:40 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:36:40 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:36:40 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:36:40 [INFO] TC04 passed: All form fields are visible
+2026-04-29 12:36:41 [INFO] === TC05: Verify WhatsApp checkbox toggle ===
+2026-04-29 12:36:41 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:36:51 [INFO] Page loaded
+2026-04-29 12:36:51 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:36:51 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:36:51 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:36:51 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:36:51 [INFO] WhatsApp checkbox — setting to: true
+2026-04-29 12:36:52 [INFO] WhatsApp checkbox checked
+2026-04-29 12:36:52 [INFO] WhatsApp checkbox is checked
+2026-04-29 12:36:52 [INFO] WhatsApp checkbox — setting to: false
+2026-04-29 12:36:52 [INFO] WhatsApp checkbox unchecked
+2026-04-29 12:36:52 [INFO] WhatsApp checkbox is unchecked
+2026-04-29 12:36:52 [INFO] TC05 passed: WhatsApp checkbox toggle works correctly
+2026-04-29 12:40:03 [INFO] === TC02: Full enquiry form submission ===
+2026-04-29 12:40:03 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:40:21 [INFO] Page loaded
+2026-04-29 12:40:21 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:40:22 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:40:22 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:40:22 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:40:22 [INFO] Filling Name: John Doe
+2026-04-29 12:40:23 [INFO] Filling Phone: 8169027578
+2026-04-29 12:40:23 [INFO] Clicking Send OTP button
+2026-04-29 12:42:17 [INFO] === TC01: Verify ENQUIRE CTA opens the modal ===
+2026-04-29 12:42:17 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:42:29 [INFO] Page loaded
+2026-04-29 12:42:29 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:42:30 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:42:30 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:42:30 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:42:30 [INFO] TC01 passed: Enquiry form modal opened successfully
+2026-04-29 12:42:32 [INFO] === TC02: Full enquiry form submission ===
+2026-04-29 12:42:32 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:42:48 [INFO] Page loaded
+2026-04-29 12:42:48 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:42:49 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:42:49 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:42:49 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:42:49 [INFO] Filling Name: John Doe
+2026-04-29 12:42:49 [INFO] Filling Phone: 8169027578
+2026-04-29 12:42:51 [INFO] OTP sent automatically after phone entry
+2026-04-29 12:42:51 [INFO] Filling OTP: 123456
+2026-04-29 12:42:52 [INFO] Filling Email: johndoe@example.com
+2026-04-29 12:42:52 [INFO] WhatsApp checkbox — setting to: true
+2026-04-29 12:42:52 [INFO] WhatsApp checkbox checked
+2026-04-29 12:42:52 [INFO] Waiting for Submit button to be enabled
+2026-04-29 12:42:54 [INFO] Clicking SUBMIT button
+2026-04-29 12:42:55 [INFO] Form submitted — response received
+2026-04-29 12:42:55 [INFO] Asserting form submission success
+2026-04-29 12:42:57 [INFO] Submit button hidden — form submitted successfully
+2026-04-29 12:42:57 [INFO] TC02 passed: Enquiry form submitted successfully
+2026-04-29 12:42:58 [INFO] === TC03: Verify form title and subtitle ===
+2026-04-29 12:42:58 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:43:14 [INFO] Page loaded
+2026-04-29 12:43:14 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:43:14 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:43:14 [INFO] TC03 passed: Form title and subtitle verified
+2026-04-29 12:43:16 [INFO] === TC04: Verify all form fields are visible ===
+2026-04-29 12:43:16 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:43:31 [INFO] Page loaded
+2026-04-29 12:43:31 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:43:32 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:43:32 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:43:32 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:43:33 [INFO] TC04 passed: All form fields are visible
+2026-04-29 12:43:34 [INFO] === TC05: Verify WhatsApp checkbox toggle ===
+2026-04-29 12:43:34 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-29 12:43:52 [INFO] Page loaded
+2026-04-29 12:43:52 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-29 12:43:53 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-29 12:43:53 [INFO] Asserting enquiry form modal is open
+2026-04-29 12:43:53 [INFO] Modal open — title: "Enquiry Form"
+2026-04-29 12:43:53 [INFO] WhatsApp checkbox — setting to: true
+2026-04-29 12:43:54 [INFO] WhatsApp checkbox checked
+2026-04-29 12:43:54 [INFO] WhatsApp checkbox is checked
+2026-04-29 12:43:54 [INFO] WhatsApp checkbox — setting to: false
+2026-04-29 12:43:54 [INFO] WhatsApp checkbox unchecked
+2026-04-29 12:43:54 [INFO] WhatsApp checkbox is unchecked
+2026-04-29 12:43:54 [INFO] TC05 passed: WhatsApp checkbox toggle works correctly

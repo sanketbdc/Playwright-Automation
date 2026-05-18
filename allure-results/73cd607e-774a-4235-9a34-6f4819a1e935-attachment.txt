@@ -1,0 +1,5 @@
+2026-04-30 11:20:33 [INFO] === TC17: City empty validation ===
+2026-04-30 11:20:33 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:20:45 [INFO] Cookies banner dismissed
+2026-04-30 11:20:45 [INFO] Expected error to contain: "Enter the name of your city."
+2026-04-30 11:20:45 [INFO] Actual error: "Enter the name of your city."

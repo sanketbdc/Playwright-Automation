@@ -1,0 +1,6 @@
+2026-04-30 11:21:03 [INFO] === TC02: City auto-suggestion validation ===
+2026-04-30 11:21:03 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:21:12 [INFO] Cookies banner dismissed
+2026-04-30 11:21:13 [INFO] Suggestions shown: 18
+2026-04-30 11:21:13 [INFO] First suggestion: "Aurangabad"
+2026-04-30 11:21:13 [INFO] City input after selection: "Aurangabad"

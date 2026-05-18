@@ -1,0 +1,5 @@
+2026-04-30 11:19:00 [INFO] === TC07: Name empty validation ===
+2026-04-30 11:19:00 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:19:08 [INFO] Cookies banner dismissed
+2026-04-30 11:19:08 [INFO] Expected error to contain: "Enter your full name."
+2026-04-30 11:19:08 [INFO] Actual error: "Enter your full name."

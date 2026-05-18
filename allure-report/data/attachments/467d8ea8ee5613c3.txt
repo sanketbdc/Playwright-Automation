@@ -1,0 +1,5 @@
+2026-04-30 11:19:16 [INFO] === TC09: Email empty validation ===
+2026-04-30 11:19:16 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:19:42 [INFO] Cookies banner dismissed
+2026-04-30 11:19:42 [INFO] Expected error to contain: "Enter your email address."
+2026-04-30 11:19:42 [INFO] Actual error: "Enter your email address."

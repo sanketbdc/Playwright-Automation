@@ -1,0 +1,7 @@
+2026-03-30 15:12:35 [INFO] Test start: #2 Invalid email format: "testgmailfd.com"
+2026-03-30 15:12:35 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-03-30 15:12:39 [INFO] Entering email: testgmailfd.com
+2026-03-30 15:12:39 [INFO] Entering password: Password1@
+2026-03-30 15:12:40 [INFO] Clicking on login CTA
+2026-03-30 15:12:40 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-03-30 15:12:40 [INFO] Test end: User is not logged in with invalid details

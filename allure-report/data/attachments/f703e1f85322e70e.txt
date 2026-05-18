@@ -1,0 +1,8 @@
+2026-04-30 11:22:24 [INFO] === TC04: Verify all form fields are visible ===
+2026-04-30 11:22:24 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-30 11:22:48 [INFO] Page loaded
+2026-04-30 11:22:48 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-30 11:22:49 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-30 11:22:49 [INFO] Asserting enquiry form modal is open
+2026-04-30 11:22:49 [INFO] Modal open — title: "Enquiry Form"
+2026-04-30 11:22:49 [INFO] TC04 passed: All form fields are visible

@@ -14,6 +14,7 @@ export default defineConfig({
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
     ['list'],
     ['./utils/excelReporter.js'],
+    ['allure-playwright', { outputFolder: 'allure-results' }],
   ],
 
   use: {

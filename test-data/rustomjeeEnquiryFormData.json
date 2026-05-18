@@ -1,0 +1,11 @@
+{
+  "name": "John Doe",
+  "phone": "8169027578",
+  "otp": "123456",
+  "email": "johndoe@example.com",
+  "whatsapp": true,
+  "pdpUrl": "https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/",
+  "expectedFormTitle": "Enquiry Form",
+  "expectedFormSubtitle": "Fill out the form for more details on Rustomjee Cliff Tower",
+  "expectedSuccessMessage": "After submitting your request, we will get in touch with you soon."
+}

@@ -1,0 +1,5 @@
+2026-04-30 11:21:24 [INFO] === TC07: Business Category hidden for Aerospace ===
+2026-04-30 11:21:24 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:21:32 [INFO] Cookies banner dismissed
+2026-04-30 11:21:33 [INFO] Business Unit selected: "Aerospace"
+2026-04-30 11:21:33 [INFO] Business Category dropdown is hidden as expected for Aerospace

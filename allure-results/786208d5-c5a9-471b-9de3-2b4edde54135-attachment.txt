@@ -1,0 +1,4 @@
+2026-04-30 11:21:14 [INFO] === TC04: Business Category dropdown validation ===
+2026-04-30 11:21:14 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:21:22 [INFO] Cookies banner dismissed
+2026-04-30 11:21:23 [INFO] Business Category selected: "Refrigerators"

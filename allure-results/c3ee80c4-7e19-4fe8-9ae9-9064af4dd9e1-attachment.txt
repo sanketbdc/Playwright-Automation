@@ -1,0 +1,19 @@
+2026-04-30 11:20:48 [INFO] === TC19: Submit form without optional fields ===
+2026-04-30 11:20:48 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:20:55 [INFO] Cookies banner dismissed
+2026-04-30 11:20:55 [INFO] Filling Name: John Doe
+2026-04-30 11:20:55 [INFO] Filling Email: johndoe@example.com
+2026-04-30 11:20:55 [INFO] Selecting Country Code: +91
+2026-04-30 11:20:56 [INFO] Filling Mobile: 9876543210
+2026-04-30 11:20:56 [INFO] Typing city: "Mum" — expecting suggestion: "Mumbai"
+2026-04-30 11:20:57 [INFO] First suggestion: "Mumbai"
+2026-04-30 11:20:57 [INFO] Selecting Business Unit: Home Appliances
+2026-04-30 11:20:57 [INFO] Business Unit dropdown is open
+2026-04-30 11:20:58 [INFO] Clicked Business Unit option: "Home Appliances"
+2026-04-30 11:20:58 [INFO] Selecting Business Category: Refrigerators
+2026-04-30 11:20:59 [INFO] Business Category dropdown is open
+2026-04-30 11:20:59 [INFO] Clicked Business Category option: "Refrigerators"
+2026-04-30 11:20:59 [INFO] Clicking Submit button
+2026-04-30 11:21:00 [INFO] Submit clicked and response received
+2026-04-30 11:21:00 [INFO] Asserting form submission success
+2026-04-30 11:21:02 [INFO] Form submitted successfully. Message: "Thank you for your interest."

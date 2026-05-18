@@ -19,6 +19,12 @@ const SUITE_CONFIG = {
     excelDir: path.join(__dirname, 'reports', 'geg'),
     text:     'Please find attached the GEG Enquiry Form test execution report:\n1. geg-report.zip — HTML report\n2. Excel report (.xlsx) — Summary, Test Results, Test Scenarios, Logs',
   },
+  rustomjee: {
+    subject:  'Playwright Execution Report — Rustomjee Cliff Tower',
+    htmlZip:  path.join(__dirname, 'rustomjee-report.zip'),
+    excelDir: path.join(__dirname, 'reports', 'rustomjee'),
+    text:     'Please find attached the Rustomjee Cliff Tower test execution report:\n1. rustomjee-report.zip — HTML report\n2. Excel report (.xlsx) — Summary, Test Results, Test Scenarios, Logs',
+  },
 };
 
 function getLatestExcelReport(dir) {

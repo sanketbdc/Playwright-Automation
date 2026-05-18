@@ -1,0 +1,6 @@
+2026-04-30 11:22:12 [INFO] === TC03: Verify form title and subtitle ===
+2026-04-30 11:22:12 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-30 11:22:34 [INFO] Page loaded
+2026-04-30 11:22:34 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-30 11:22:36 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-30 11:22:36 [INFO] TC03 passed: Form title and subtitle verified

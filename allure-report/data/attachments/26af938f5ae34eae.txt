@@ -1,0 +1,13 @@
+2026-04-30 11:21:12 [INFO] === TC03: Business Unit dropdown validation ===
+2026-04-30 11:21:12 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:21:20 [INFO] Cookies banner dismissed
+2026-04-30 11:21:21 [INFO] Option visible: "Security"
+2026-04-30 11:21:21 [INFO] Option visible: "Aerospace"
+2026-04-30 11:21:21 [INFO] Option visible: "Real Estate"
+2026-04-30 11:21:21 [INFO] Option visible: "Intralogistics"
+2026-04-30 11:21:21 [INFO] Option visible: "Home Appliances"
+2026-04-30 11:21:21 [INFO] Option visible: "Locks & Security"
+2026-04-30 11:21:21 [INFO] Option visible: "Advanced Engineering"
+2026-04-30 11:21:21 [INFO] Option visible: "Commercial Appliances"
+2026-04-30 11:21:21 [INFO] Option visible: "Furniture & fittings"
+2026-04-30 11:21:21 [INFO] Business Unit selected: "Home Appliances"

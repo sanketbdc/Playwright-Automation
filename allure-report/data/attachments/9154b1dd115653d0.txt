@@ -1,0 +1,6 @@
+2026-04-30 11:21:22 [INFO] === TC05: File attachment validation ===
+2026-04-30 11:21:22 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:21:29 [INFO] Cookies banner dismissed
+2026-04-30 11:21:29 [INFO] Attaching file: C:\PlaywrightAutomation\test-data\assets\test-upload.jpg
+2026-04-30 11:21:30 [INFO] File attached successfully
+2026-04-30 11:21:30 [INFO] Files attached: 1

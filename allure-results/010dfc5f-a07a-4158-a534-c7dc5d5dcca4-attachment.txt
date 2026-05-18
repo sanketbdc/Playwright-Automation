@@ -1,0 +1,6 @@
+2026-04-30 11:19:17 [INFO] === TC10: Email too short validation ===
+2026-04-30 11:19:17 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:19:42 [INFO] Cookies banner dismissed
+2026-04-30 11:19:42 [INFO] Filling Email: ab@c
+2026-04-30 11:19:42 [INFO] Expected error to contain: "Email address must be between 5-300 characters."
+2026-04-30 11:19:42 [INFO] Actual error: "Email address must be between 5-300 characters."

@@ -1,0 +1,6 @@
+2026-04-30 11:20:47 [INFO] === TC18: Message with invalid characters validation ===
+2026-04-30 11:20:47 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:20:54 [INFO] Cookies banner dismissed
+2026-04-30 11:20:54 [INFO] Filling Message
+2026-04-30 11:20:55 [INFO] Expected error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."
+2026-04-30 11:20:55 [INFO] Actual error: "Message must be letters, numbers, spaces, and . - ! ( ) , & and % characters are allowed."

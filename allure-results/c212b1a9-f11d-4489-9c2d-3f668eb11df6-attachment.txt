@@ -1,0 +1,6 @@
+2026-04-30 11:19:52 [INFO] === TC14: Mobile number empty ===
+2026-04-30 11:19:52 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:20:02 [INFO] Cookies banner dismissed
+2026-04-30 11:20:02 [INFO] Selecting Country Code: +91
+2026-04-30 11:20:03 [INFO] Expected error to contain: "Enter your mobile number."
+2026-04-30 11:20:03 [INFO] Actual error: "Enter your mobile number."

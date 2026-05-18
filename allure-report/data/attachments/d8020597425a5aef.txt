@@ -1,0 +1,8 @@
+2026-03-30 15:12:50 [INFO] Test start: #4 Invalid email format: "@gmail.com"
+2026-03-30 15:12:50 [INFO] Navigating to https://www.kokuyocamlin.com/camel/login
+2026-03-30 15:12:54 [INFO] Entering email: @gmail.com
+2026-03-30 15:12:55 [INFO] Entering password: Password1@
+2026-03-30 15:12:56 [INFO] Clicking on login CTA
+2026-03-30 15:12:57 [INFO] Assertion passed: Enter a valid email to continue. message is visible
+2026-03-30 15:12:57 [INFO] Test end: User is not logged in with invalid details
+2026-03-30 15:12:58 [INFO] Log file for this run: C:\PlaywrightAutomation\logs\2026-03-30.log

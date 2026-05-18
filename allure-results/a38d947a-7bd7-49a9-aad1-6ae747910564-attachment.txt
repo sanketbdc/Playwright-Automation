@@ -1,0 +1,6 @@
+2026-04-30 11:19:51 [INFO] === TC13: Email invalid format - missing username ===
+2026-04-30 11:19:51 [INFO] Navigating to enquiry form: https://www.godrejenterprises.com/inquiry
+2026-04-30 11:19:59 [INFO] Cookies banner dismissed
+2026-04-30 11:19:59 [INFO] Filling Email: @example.com
+2026-04-30 11:19:59 [INFO] Expected error to contain: "Enter a valid email address."
+2026-04-30 11:19:59 [INFO] Actual error: "Enter a valid email address."

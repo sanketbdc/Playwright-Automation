@@ -1,0 +1,8 @@
+2026-04-30 11:21:34 [INFO] === TC01: Verify ENQUIRE CTA opens the modal ===
+2026-04-30 11:21:34 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-30 11:22:08 [INFO] Page loaded
+2026-04-30 11:22:08 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-30 11:22:10 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-30 11:22:10 [INFO] Asserting enquiry form modal is open
+2026-04-30 11:22:10 [INFO] Modal open — title: "Enquiry Form"
+2026-04-30 11:22:10 [INFO] TC01 passed: Enquiry form modal opened successfully

@@ -1,0 +1,14 @@
+2026-04-30 11:22:37 [INFO] === TC05: Verify WhatsApp checkbox toggle ===
+2026-04-30 11:22:37 [INFO] Navigating to Rustomjee PDP: https://rustomjee-two.vercel.app/projects/residential/rustomjee-cliff-tower/
+2026-04-30 11:23:04 [INFO] Page loaded
+2026-04-30 11:23:04 [INFO] Clicking ENQUIRE CTA in PDP sub-navigation
+2026-04-30 11:23:04 [INFO] ENQUIRE CTA clicked — modal opened
+2026-04-30 11:23:04 [INFO] Asserting enquiry form modal is open
+2026-04-30 11:23:05 [INFO] Modal open — title: "Enquiry Form"
+2026-04-30 11:23:05 [INFO] WhatsApp checkbox — setting to: true
+2026-04-30 11:23:05 [INFO] WhatsApp checkbox checked
+2026-04-30 11:23:05 [INFO] WhatsApp checkbox is checked
+2026-04-30 11:23:05 [INFO] WhatsApp checkbox — setting to: false
+2026-04-30 11:23:06 [INFO] WhatsApp checkbox unchecked
+2026-04-30 11:23:06 [INFO] WhatsApp checkbox is unchecked
+2026-04-30 11:23:06 [INFO] TC05 passed: WhatsApp checkbox toggle works correctly

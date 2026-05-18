@@ -85,11 +85,12 @@ export class EnquiryFormPage {
   async goto(url: string): Promise<void> {
     logger.info(`Navigating to enquiry form: ${url}`);
     await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
-    // Use 'load' instead of 'networkidle' — more reliable on CI with ads/trackers
-    await this.page.waitForLoadState('load', { timeout: 30000 }).catch(() => {});
+    // Wait directly for the form to be visible instead of waiting for page load state
+    // This is more reliable on CI where ads/trackers slow down load events
+    await this.nameInput.waitFor({ state: 'visible', timeout: 60000 });
     // Dismiss cookies banner using the button inside the banner, not the link
     const cookiesBanner = this.page.locator('div.ui-cookies-alert');
-    if (await cookiesBanner.isVisible({ timeout: 5000 }).catch(() => false)) {
+    if (await cookiesBanner.isVisible({ timeout: 3000 }).catch(() => false)) {
       await this.page.locator('div.ui-cookies-alert button').click();
       await cookiesBanner.waitFor({ state: 'hidden', timeout: 5000 }).catch(() => {});
       logger.info('Cookies banner dismissed');

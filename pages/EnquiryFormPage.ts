@@ -235,7 +235,7 @@ export class EnquiryFormPage {
     await Promise.all([
       this.page.waitForResponse(
         res => res.request().method() === 'POST' && res.status() < 500,
-        { timeout: 30000 }
+        { timeout: process.env.CI ? 60000 : 30000 }
       ),
       this.submitButton.click(),
     ]);

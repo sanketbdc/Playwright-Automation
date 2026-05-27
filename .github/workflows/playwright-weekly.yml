@@ -92,6 +92,8 @@ jobs:
         env:
           CI: true
           SUITE: geg
+          TEST_ENV: prod
+          HEADLESS: true
 
       - name: Zip GEG HTML report
         if: always()

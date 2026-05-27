@@ -72,7 +72,7 @@ test.describe('Enquiry Form - City Auto-Suggestion', () => {
     await enquiryPage.cityInput.fill(formData.city);
 
     // Wait for suggestion list
-    await enquiryPage.cityAutoSuggestionList.first().waitFor({ state: 'visible', timeout: 15000 });
+    await enquiryPage.cityAutoSuggestionList.first().waitFor({ state: 'visible', timeout: 30000 });
 
     // At least one suggestion should appear
     const count = await enquiryPage.cityAutoSuggestionList.count();

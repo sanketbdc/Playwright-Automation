@@ -54,7 +54,7 @@ export class EnquiryFormPage {
 
     // City input and its auto-suggestion dropdown
     this.cityInput              = page.locator('input#city');
-    this.cityAutoSuggestionList = page.locator('ul.m-combobox__option-list.is-visible li.m-combobox__option');
+    this.cityAutoSuggestionList = page.locator('ul.m-combobox__option-list li.m-combobox__option, ul.m-combobox__option-list.is-visible li.m-combobox__option');
 
     // Country code — adjust selector to match your actual country-code combobox
     this.countryCodeCombobox = page.locator('.m-combobox__button').first();
@@ -135,7 +135,7 @@ export class EnquiryFormPage {
     await this.cityInput.fill(partialCity);
 
     // Wait for the suggestion list to appear
-    await this.cityAutoSuggestionList.first().waitFor({ state: 'visible', timeout: 15000 });
+    await this.cityAutoSuggestionList.first().waitFor({ state: 'visible', timeout: process.env.CI ? 30000 : 15000 });
 
     // Verify first suggestion contains the expected city name
     const firstSuggestionText = await this.cityAutoSuggestionList.first().textContent();

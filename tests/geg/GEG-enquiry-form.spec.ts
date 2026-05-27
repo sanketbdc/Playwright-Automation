@@ -6,7 +6,7 @@ import { logger } from '../../utils/logger';
 import formData from '../../test-data/GEGEnquiryformdata.json';
 
 // ── Replace with your actual enquiry form URL ──────────────────────────────
-const FORM_URL = 'https://www.godrejenterprises.com/inquiry'; // ← update this
+const FORM_URL = 'https://www.godrejenterprises.com/inquiry?byPassMemcache=856165'; // ← update this
 
 // ══════════════════════════════════════════════════════════════════════════════
 // Happy-Path — Full form submission

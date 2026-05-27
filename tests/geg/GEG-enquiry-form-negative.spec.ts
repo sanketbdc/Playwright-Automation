@@ -5,7 +5,7 @@ import { EnquiryFormPage } from '../../pages/EnquiryFormPage';
 import { logger } from '../../utils/logger';
 import negativeData from '../../test-data/GEGenquiryFormNegativeData.json';
 
-const FORM_URL = 'https://www.godrejenterprises.com/inquiry';
+const FORM_URL = 'https://www.godrejenterprises.com/inquiry?byPassMemcache=665151516';
 
 // ══════════════════════════════════════════════════════════════════════════════
 // Name Field Validation

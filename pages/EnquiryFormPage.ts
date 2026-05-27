@@ -85,6 +85,7 @@ export class EnquiryFormPage {
   async goto(url: string): Promise<void> {
     logger.info(`Navigating to enquiry form: ${url}`);
     await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
+    logger.info(`Page loaded — URL: ${this.page.url()} | Title: ${await this.page.title()}`);
     await this.nameInput.waitFor({ state: 'visible', timeout: 90000 });
     const cookiesBanner = this.page.locator('div.ui-cookies-alert');
     if (await cookiesBanner.isVisible({ timeout: 5000 }).catch(() => false)) {

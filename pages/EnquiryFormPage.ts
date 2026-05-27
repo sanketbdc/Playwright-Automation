@@ -54,7 +54,7 @@ export class EnquiryFormPage {
 
     // City input and its auto-suggestion dropdown
     this.cityInput              = page.locator('input#city');
-    this.cityAutoSuggestionList = page.locator('ul.m-combobox__option-list li.m-combobox__option, ul.m-combobox__option-list.is-visible li.m-combobox__option');
+    this.cityAutoSuggestionList = page.locator('input#city').locator('xpath=following::ul[contains(@class,"m-combobox__option-list")]//li[contains(@class,"m-combobox__option")]');
 
     // Country code — adjust selector to match your actual country-code combobox
     this.countryCodeCombobox = page.locator('.m-combobox__button').first();

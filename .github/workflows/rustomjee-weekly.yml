@@ -1,0 +1,60 @@
+name: Rustomjee Weekly Run
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  rustomjee-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Run Rustomjee tests
+        run: npx playwright test tests/rustomjee/
+        continue-on-error: true
+        env:
+          CI: true
+          SUITE: rustomjee
+
+      - name: Zip Rustomjee HTML report
+        if: always()
+        run: zip -r rustomjee-report.zip playwright-report
+
+      - name: Send Rustomjee Email
+        if: always()
+        run: node sendReport.js --suite=rustomjee
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+
+      - name: Upload Rustomjee HTML artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rustomjee-html-report
+          path: playwright-report/
+
+      - name: Upload Rustomjee Excel artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rustomjee-excel-report
+          path: reports/rustomjee/*.xlsx

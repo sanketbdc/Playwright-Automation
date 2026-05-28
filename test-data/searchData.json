@@ -1,0 +1,54 @@
+{
+  "baseUrl": "https://www.rustomjee.com",
+  "validQueries": {
+    "projectName": "Thane",
+    "projectName2": "33Fifteen",
+    "projectName3": "Ocean Vista"
+  },
+  "categorySpecificQueries": {
+    "_comment": "Keywords verified on live https://rustomjee.com — tabs render only when that category has ≥1 hit",
+    "residentialOnly": "Goregaon",
+    "villaOnly": "Belle Vue Kasara",
+    "blogOnly": "why homebuyers are choosing",
+    "newsOnly": "Keystone Realtors targets"
+  },
+  "zeroResultQuery": "xyznotfound12345",
+  "edgeCases": {
+    "whitespaceOnly": "   ",
+    "specialChars": "@#!%&*",
+    "longString": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "mixedCase": "gOrEgAoN"
+  },
+  "popularSearchCards": {
+    "card0": {
+      "label": "Rustomjee 33Fifteen Mumbai",
+      "expectedUrlFragment": "33fifteen"
+    },
+    "card1": {
+      "label": "Rustomjee Goregaon Mumbai",
+      "expectedUrlFragment": "goregaon"
+    },
+    "card2": {
+      "label": "Ocean Vista Versova Mumbai",
+      "expectedUrlFragment": "rustomjee-ocean-vista"
+    }
+  },
+  "quickLinks": {
+    "contactUs": {
+      "label": "Contact Us",
+      "expectedUrlFragment": "contact"
+    },
+    "featuredProjects": {
+      "label": "Featured Projects",
+      "expectedUrlFragment": "residential"
+    },
+    "blog": {
+      "label": "Blog",
+      "expectedUrlFragment": "blog"
+    },
+    "news": {
+      "label": "News",
+      "expectedUrlFragment": "newsroom"
+    }
+  }
+}

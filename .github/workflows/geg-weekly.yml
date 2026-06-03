@@ -36,10 +36,6 @@ jobs:
           TEST_ENV: prod
           HEADLESS: true
 
-      - name: Zip GEG HTML report
-        if: always()
-        run: zip -r geg-report.zip playwright-report
-
       - name: Send GEG Email
         if: always()
         run: node sendReport.js --suite=geg

@@ -34,10 +34,6 @@ jobs:
           CI: true
           SUITE: camel
 
-      - name: Zip Camel HTML report
-        if: always()
-        run: zip -r camel-report.zip playwright-report
-
       - name: Send Camel Email
         if: always()
         run: node sendReport.js --suite=camel

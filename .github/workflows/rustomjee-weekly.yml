@@ -34,10 +34,6 @@ jobs:
           CI: true
           SUITE: rustomjee
 
-      - name: Zip Rustomjee HTML report
-        if: always()
-        run: zip -r rustomjee-report.zip playwright-report
-
       - name: Send Rustomjee Email
         if: always()
         run: node sendReport.js --suite=rustomjee

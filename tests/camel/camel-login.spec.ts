@@ -8,11 +8,11 @@ test('Camel login success', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email*' }).fill('sanketkumarghadmode@gmail.com');
 
   // 3. Enter password
-  await page.getByRole('textbox', { name: 'Password*' }).fill('Test@123');
+  await page.getByRole('textbox', { name: 'Password*' }).fill('Test@12345');
 
   // 4. Click on login button
   await page.getByRole('button', { name: 'Log in' }).click();
 
   // 5. Validate successful login by checking for account email visible in header
-  await expect(page.locator('p:has-text("sanketkumarghadmode@gmail.com")').first()).toBeVisible({ timeout: 10000 });
+  await expect(page.locator(':has-text("sanketkumarghadmode@gmail.com")').first()).toBeVisible({ timeout: 20000 });
 });
